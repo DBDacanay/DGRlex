@@ -17,9 +17,8 @@
     "phone": "1-770-736-8031 x56442",
     "website": "6.3.1.5 - Dog",
     "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
+      "name": "Tłı̨ daı̨gè.",
+      "catchPhrase": "He untied the dog.",
     }
   },
   {

@@ -18,8 +18,8 @@
     "website": "hildegard.org",
     "website": "6.3.1.5 - Dog",
     "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
+      "name": "Tłı̨ daı̨gè.",
+      "catchPhrase": "He untied the dog.",
       "bs": "synergize scalable supply-chains"
     }
   },

@@ -18,8 +18,9 @@
     "website": "hildegard.org",
     "website": "6.3.1.5 - Dog",
     "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
     }
   },
   {

@@ -4,23 +4,10 @@
     "name": "tłı̨",
     "username": "dog",
     "email": "noun",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
     "website": "6.3.1.5 - Dog",
     "company": {
       "name": "Tłı̨ daı̨gè.",
       "catchPhrase": "He untied the dog.",
-      "bs": "synergize scalable supply-chains"
     }
   },
   {

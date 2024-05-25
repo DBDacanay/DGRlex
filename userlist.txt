@@ -1,7 +1,6 @@
 [
   {
     "id": 1,
-@@ -4,23 +4,10 @@
     "name": "tłı̨",
     "username": "dog",
     "email": "noun",

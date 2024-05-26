@@ -12,6 +12,17 @@
   },
   {
     "id": 1,
+    "name": "ts'edǫ",
+    "username": "drink",
+    "email": "verb",
+    "website": "5.2.2.7 - Drink",
+    "company": {
+      "name": "Libò wet'à lıdı̀ ts'edǫ.",
+      "catchPhrase": "We drink tea from a mug."
+    }
+  },
+  {
+    "id": 1,
     "name": "mòlaezǫǫ",
     "username": "black person",
     "email": "noun",

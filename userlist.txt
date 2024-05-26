@@ -38,6 +38,7 @@
     "username": "fish guts",
     "email": "noun",
     "website": "1.6.2.3 - Parts of a fish",
+    "image": "łıwet’sıì.bmp",
     "company": {
       "name": "",
       "catchPhrase": ""

@@ -4,8 +4,6 @@
     "name": "tłı̨",
     "username": "dog",
     "email": "noun",
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
     "website": "6.3.1.5 - Dog",
     "company": {
       "name": "Tłı̨ daı̨gè.",
@@ -17,8 +15,6 @@
     "name": "mòlaezǫǫ",
     "username": "black person",
     "email": "noun",
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
     "website": "9.7.1.4 - Tribal names",
     "seealso": "mǫ̀lazǫ̀a",
     "company": {

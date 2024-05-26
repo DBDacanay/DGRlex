@@ -5,6 +5,7 @@
     "username": "dog",
     "email": "noun",
     "website": "6.3.1.5 - Dog",
+    "recording": "tłı̨.mp3",
     "company": {
       "name": "Tłı̨ daı̨gè.",
       "catchPhrase": "He untied the dog."
@@ -27,6 +28,7 @@
     "username": "glass; window; window pane; windshield",
     "email": "noun",
     "website": "6.6.2.5 - Drink",
+    "recording": "edza.mp3",
     "company": {
       "name": "zakak'ekòa wets'ǫ edza",
       "catchPhrase": "snowmobile windshield"

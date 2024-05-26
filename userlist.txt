@@ -23,6 +23,17 @@
   },
   {
     "id": 1,
+    "name": "edza",
+    "username": "glass; window; window pane; windshield",
+    "email": "noun",
+    "website": "6.6.2.5 - Drink",
+    "company": {
+      "name": "zakak'ekòa wets'ǫ edza",
+      "catchPhrase": "snowmobile windshield"
+    }
+  },
+  {
+    "id": 1,
     "name": "mòlaezǫǫ",
     "username": "black person",
     "email": "noun",

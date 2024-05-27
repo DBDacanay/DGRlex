@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "edza",
+    "name": "tłı̨",
     "username": "dog",
     "email": "noun",
     "website": "6.3.1.5 - Dog",

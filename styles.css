@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    background: rgb(232, 232, 232);
+    background-image: url('circles-light.png');
+
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    width: 70px;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.titlecard {
+    display: row;
+    font-size: 1.8rem;
+    font-family: "roboto", sans-serif;
+    color: rgb(91, 65, 255);
+    height: 50px;
+    min-width: 1fr;
+    position: relative;
+    bottom: -18px;
+    left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchBox {
+    display: flex;
+}
+
+.searchContainer {
+    display: flex;
+    font-family: "roboto", sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+    background: white;
+    height: 40px;
+    width: 600px;
+    border-radius: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+}
+
+.searchBox {
+  background: rgb(236, 236, 236);
+  background-image: none;
+}
+
+.searchBar {
+    font-size: 2rem;
+    font-family: "roboto", sans-serif;
+    align-items: right;
+    font-size: 1.5rem;
+    gap: .25rem;
+    height: 30px;
+    width: 570px;
+    margin-left: 5px;
+    background: white;
+    background-image: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.keyboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.05rem;
+    margin-top: 1rem;
+  }
+  
+  .keyboard > .btn{
+    font-size: 2rem;
+    width: 40px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-width: 0.5px;
+    background-image: none;
+  }
+
+.data {
+    width: 73%;
+    border-radius: 3px;
+    height: 92vh;
+    overflow-y: auto;
+}
+
+.top {
+    height: 60px;
+    border-radius: 3px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header {
+    height: 200px;
+    border-radius: 3px;
+    background-color: #333;
+    margin: 3vh 0px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    width: 100%;
+
+}
+
+.box {
+    margin: 1px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill);
+    border: 2px solid #777;
+    border-radius: 16px;
+    border-width: 0.5px;
+    padding: 15px;
+    width: 600px;
+    background-color: white;
+    max-width: 600px;
+    background-image: none;
+    width: 100%;
+}
+.img-box {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-image: none;
+}
+
+.material-symbols-outlined {
+    background-image: none; 
+}
+
+.headword {
+    background-color: white;
+    font-size: 2.2rem;
+    font-family: "roboto", sans-serif;
+    color:black;
+    position: relative;
+    background-image: none;    
+    width: auto;
+    max-width: 600px;
+}
+
+.speech {
+    width: 100px;
+    height: 35px;
+    margin-left: -0.7rem;
+    background-color: #33333300;
+    position: relative;
+    top: 4.5px;
+    background-image: none;
+   }
+ 
+   audio::-webkit-media-controls-panel {
+     background-color: rgb(255, 255, 255);
+   }
+ 
+   audio::-webkit-media-controls-play-button {
+     background-color: rgb(117, 100, 226, 0.392);
+     color: white;
+     border-radius: 50%;
+   }
+   
+   audio::-webkit-media-controls-play-button:hover {
+     background-color: rgba(117, 100, 226, 0.178);
+   }
+ 
+   audio::-webkit-media-controls-timeline {
+     visibility: hidden;
+   }
+ 
+   audio::-webkit-media-controls-mute-button {
+     display: none !important;
+   }
+   audio::-webkit-media-controls-volume-slider {
+     visibility:hidden;
+   }
+
+   .hide {
+    display: none;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #777;
+    border-radius: 4px;
+    margin-bottom: 12px;
+   }
+   .exitbutton {
+    position: relative;
+    left: 90%;
+    width: 20px;
+   }
+
+   .noteButtons {
+    position: relative;
+    display:row;
+    align-items: right;
+    left: 90%;
+    bottom: 50%;
+    position: relative;
+    height: 1px;
+   }
+
+   .imagebutton {
+    position: relative;
+    font-size: 0.8rem;
+    border: 0px;
+    left: 90%;
+    top:-920%;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    background-image: none;
+  }
+
+  .imagebutton:hover {
+    color: grey;
+    cursor: pointer;
+  }
+
+  .sampleimage {
+    position: relative;
+    left: 60%;
+  }
+  .culturebutton {
+    position: relative;
+    font-size: 0.8rem;
+    left: 83%;
+    top:-1000%;
+    border: 0px;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    background-image: none;
+  }
+  
+  .culturebutton:hover {
+    color: grey;
+    cursor: pointer;
+  }
+
+  .contextLabel {
+    font-style: italic;
+    font-size: 16px;
+  }
+  .culturalNoteText {
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  .culturebutton:focus + .hide{
+    display: block;
+  }
+
+  .imagebutton:focus + .hide1 {
+    display: block;
+  }
+
+  .d-none { 
+    display: none; 
+}
+
+  .modal {
+    margin: 1px;
+    display: fixed;
+    grid-template-columns: repeat(auto-fill);
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #777;
+    border-radius: 16px;
+    border-width: 0.5px;
+    padding: 15px;
+    width: 600px;
+    background-color: white;
+    max-width: 600px;
+    background-image: none;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .modal img {
+    height: 400px;
+    width: 600px;
+  }
+  
+  .modal-inner {
+    display: row;
+    align-items: center;
+  }
+  
+  .modal > .modal-inner > .closeModal {
+    position: relative;
+    display: column;
+    height: 50px;
+    top: 10px;
+  }
+
+  .displayImage {
+    max-width: 570px;
+    max-height: 400px;
+  }
+
+  .material-symbols-outlined {
+    background-color: white;
+  }
+
+.pos {
+    font-size: .8rem;
+    font-family: "roboto", sans-serif;
+    color: #777;
+    background-color: white;
+    margin-bottom: 0px;
+    background-image: none;
+}
+
+.semdom {
+    font-size: .8rem;
+    font-family: "roboto", sans-serif;
+    color: #777;
+    background-color: white;
+    margin-left: 16px;
+    background-image: none;
+}
+
+.semdom:hover + .hide1 {
+  display: none;
+}
+
+.definition {
+    background-color: white;
+    color: black;
+    margin-top: 12px;
+    background-image: none;
+    min-height: 0;
+}
+
+.alternateForm {
+  background-color: white;
+  background-image: none;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.alternateForm:empty {
+  display:none;
+}
+
+.sentenceDivider {
+    font-size: 1rem;
+    margin-top: 20px;
+    background: white;
+    min-height: 0;
+}
+
+.sentenceDivider:empty {
+  margin:0;
+}
+
+.dgrExample {
+    margin-top:12px;
+    background-color: white;
+    font-weight: bold;
+    font-style: italic;
+    background-image: none;
+    min-height: 0;
+}
+
+.dgrExample:empty {
+  margin:0;
+}
+
+.engExample {
+    background-color: white;
+    font-size: .85rem;
+    color: black;
+    background-image: none;
+    min-height: 0;
+    margin-bottom: 12px;
+}
+
+.engExample:empty {
+  margin:0;
+}
+
+.paradigm {
+    width: 100%;
+    font-size: 100rem;
+    min-height: 0;
+    background-image: none;
+    background-color: white;
+    width: 100%;
+}
+
+.paradigm:empty {
+  display:none;
+}
+
+.paradigmTitle {
+    min-height: 0;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgrey;
+    width: auto;
+}
+
+.paradigmHeader {
+  text-align: center;
+  font-size: 20rem;
+}
+
+.images {
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2 {
+    font-family: "roboto", sans-serif;
+    color: #777;
+}
+
+.btn:hover {
+    background-color: lightgrey;
+}
+::-webkit-scrollbar {
+    display: none;
+}

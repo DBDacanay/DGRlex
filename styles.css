@@ -163,6 +163,7 @@ input {
   font-family: "roboto", sans-serif;
   color: midnightblue;
   position: relative;
+  background-image: none;    
   width: auto;
   max-width: 600px;
   margin-bottom: 15px;
@@ -170,6 +171,7 @@ input {
 
 .welcomeText {
   background-color: white;
+  background-image: none;    
   margin-bottom: 10px;
 }
 

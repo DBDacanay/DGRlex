@@ -175,6 +175,11 @@ input {
   margin-bottom: 10px;
 }
 
+.welcomeLink {
+  background-color: white;
+  background-image: none;    
+}
+
 .box {
     margin: 1px;
     display: grid;

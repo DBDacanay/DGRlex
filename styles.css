@@ -81,6 +81,61 @@ input {
     background: none;
 }
 
+.switchbutton {
+    justify-content: center;
+    height: 25px;
+    border-radius: 4px;
+    border-width: 0.5px;
+    border-color: lightgrey;
+    background-image: none;
+}
+
+.switchbutton:hover {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.switchbutton:active {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.switchbutton:focus {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.bothButton {
+  justify-content: center;
+  height: 25px;
+  border-radius: 4px;
+  border-width: 0.5px;
+  border-color: lightgrey;
+  background-image: none;
+  margin-right: 6px;
+}
+
+.bothButton:hover {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.special {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.bothButton:focus-within {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
 .keyboard{
     display: flex;
     align-items: center;

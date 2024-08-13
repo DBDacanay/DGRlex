@@ -9,6 +9,14 @@
 
 }
 
+.fullBackground {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .logo {
     display: flex;
     justify-content: left;
@@ -38,6 +46,7 @@
 
 .searchBox {
     display: flex;
+    overflow: auto;
 }
 
 .searchContainer {
@@ -60,6 +69,7 @@
 .searchBox {
   background: rgb(236, 236, 236);
   background-image: none;
+  
 }
 
 .searchBar {
@@ -605,7 +615,42 @@ h2 {
 
 .btn:hover {
     background-color: lightgrey;
+    cursor: pointer;
 }
-::-webkit-scrollbar {
-    display: none;
+
+.btn:active {
+  border-color: darkgrey;
+  background-color: rgba(169, 169, 169, 0.511);
+  cursor: pointer;
+}
+
+.siteFooter {
+  display: flex;
+  position: relative;
+  clear: both;
+  height: 60px;
+  margin-top: auto;
+  justify-content: right;
+  background: rgb(236, 236, 236);
+}
+
+.footerHeader {
+  display: flex;
+  position: relative;
+  clear: both;
+  margin-top: 300px;
+  border-radius: 14px;
+  justify-content: left;
+  background: rgb(236, 236, 236);
+}
+
+.copyrightNotice {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  margin-left: 1.5%;
+  align-items: left;
+  background: rgb(236, 236, 236);
+  color: rgba(47, 79, 79, 0.5);
+  font-size: 0.95rem;
+
 }

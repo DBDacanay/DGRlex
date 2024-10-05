@@ -186,6 +186,13 @@ input {
   cursor: pointer;
 }
 
+.special1 {
+  border-color: darkgrey;
+  border-width: 3px;
+  background-color: rgba(169, 169, 169, 0.434);
+  cursor: pointer;
+}
+
 .bothButton:focus-within {
   border-color: darkgrey;
   border-width: 3px;
@@ -225,12 +232,158 @@ input {
   background-color: lightgrey;
 }
 
+.searchMenu {
+  margin-top: 100px;
+  width: 600px;
+  line-height: 30px;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: none;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: grey;
+  position: relative;
+}
+
+.searchMenu:hover {
+  border-color: darkgrey;
+  border-width: 2px;
+  background-color: lightgrey;
+  cursor:pointer;
+}
+
+.semanticSearch {
+  display: block;
+  width: 400px;
+  border-radius: 4px;
+  border-color: lightgrey;
+  background-image: none;
+  align-items:center;
+}
+
+.semanticSearch:hover {
+  cursor:pointer;
+  background-color: lightgrey;
+}
+
+.semanticSearch:active {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.semanticSearch:focus {
+  border-color: darkgrey;
+  background-color: rgba(169, 169, 169, 0.434);
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.semanticSearch1 {
+  display: block;
+  width: 380px;
+  border-radius: 4px;
+  border-color: lightgrey;
+  background-image: none;
+}
+
+.semanticSearch1:hover {
+  cursor:pointer;
+  background-color: lightgrey;
+}
+
+.semanticSearch1:active {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.semanticSearch1:focus {
+  border-color: darkgrey;
+  background-color: rgba(169, 169, 169, 0.434);
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.semanticSearch2 {
+  display: block;
+  width: 360px;
+  border-radius: 4px;
+  border-color: lightgrey;
+  background-image: none;
+}
+
+.semanticSearch2:hover {
+  cursor:pointer;
+  background-color: lightgrey;
+}
+
+.semanticSearch2:active {
+  border-color: darkgrey;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.semanticSearch2:focus {
+  border-color: darkgrey;
+  background-color: rgba(169, 169, 169, 0.434);
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.semanticDomainButtonWrapper {
+  position: relative;
+  margin-top: 10px;
+  width: 200px;
+  margin-right:200px;
+}
+
+.semExpand {
+  position: absolute;
+  width: 20px;
+  border-color: lightgrey;
+  border-radius: 4px;
+  background-image: none;
+  background-color: rgba(211, 211, 211, 0.205);
+
+}
+
+.semExpand:hover {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.522);
+
+}
+
+.semOne {
+  position: relative;
+}
+
+.semTwo {
+  display:block
+}
+
+.advancedSearch {
+  top: 80px;
+  right: 0;
+  width: 600px;
+  display: none;
+  background-color: rgb(236, 236, 236);
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 .keyboard{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.05rem;
-    margin-top: 95px;
+    margin-top: 20px;
     border-color: black;
     border-radius: 15px;
 
@@ -285,7 +438,6 @@ input {
     align-items: center;
     grid-gap: 20px;
     width: 100%;
-
 }
 
 .welcomeBox {

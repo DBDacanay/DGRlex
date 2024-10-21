@@ -1007,3 +1007,10 @@ border-color: darkgrey;
 border-width: 3px;
 cursor: pointer;
 }
+
+.bibliographyHeader {
+  background-image:none;
+  background-color:white;
+  margin-top: 10px;
+}
+

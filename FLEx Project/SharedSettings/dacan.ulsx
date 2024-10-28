@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<UserLexiconSettings>
+  <WritingSystems>
+    <WritingSystem id="en">
+      <LocalKeyboard>en-US_US_US</LocalKeyboard>
+      <KnownKeyboards>
+        <KnownKeyboard>basic_kbddv</KnownKeyboard>
+        <KnownKeyboard>basic_kbduk</KnownKeyboard>
+        <KnownKeyboard>basic_kbdus</KnownKeyboard>
+        <KnownKeyboard>basic_kbdusa</KnownKeyboard>
+        <KnownKeyboard>en-US_US_US</KnownKeyboard>
+      </KnownKeyboards>
+      <DefaultFontName>Charis SIL</DefaultFontName>
+    </WritingSystem>
+    <WritingSystem id="dgr">
+      <LocalKeyboard>en-US_US_US</LocalKeyboard>
+      <KnownKeyboards>
+        <KnownKeyboard>fv_tlicho_yatii</KnownKeyboard>
+        <KnownKeyboard>indigenous_nt</KnownKeyboard>
+        <KnownKeyboard>en-US_US_US</KnownKeyboard>
+      </KnownKeyboards>
+      <DefaultFontName>Charis SIL</DefaultFontName>
+    </WritingSystem>
+    <WritingSystem id="dgr-Zxxx-x-audio">
+      <LocalKeyboard>en-US_US_US</LocalKeyboard>
+      <KnownKeyboards>
+        <KnownKeyboard>fv_tlicho_yatii</KnownKeyboard>
+        <KnownKeyboard>indigenous_nt</KnownKeyboard>
+        <KnownKeyboard>en-US_US_US</KnownKeyboard>
+      </KnownKeyboards>
+      <DefaultFontName>Charis SIL</DefaultFontName>
+      <IsGraphiteEnabled>false</IsGraphiteEnabled>
+    </WritingSystem>
+  </WritingSystems>
+</UserLexiconSettings>

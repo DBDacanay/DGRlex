@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WritingSystemChangeLog
+	Version="1">
+	<Changes>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.1.25 (apparent build date: 29-Feb-2024)"
+			TimeStamp="2024-04-29T06:38:39Z">
+			<Id>en</Id>
+		</Add>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.1.25 (apparent build date: 29-Feb-2024)"
+			TimeStamp="2024-04-29T06:38:40Z">
+			<Id>dgr</Id>
+		</Add>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.1.25 (apparent build date: 29-Feb-2024)"
+			TimeStamp="2024-04-29T07:07:34Z">
+			<Id>dgr-Zxxx-x-audio</Id>
+		</Add>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.1.25 (apparent build date: 29-Feb-2024)"
+			TimeStamp="2024-05-03T02:27:11Z">
+			<Id>dgr</Id>
+		</Add>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.1.25 (apparent build date: 29-Feb-2024)"
+			TimeStamp="2024-05-03T02:58:12Z">
+			<Id>dgr</Id>
+		</Add>
+	</Changes>
+</WritingSystemChangeLog>

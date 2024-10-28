@@ -1,0 +1,60 @@
+﻿<LayoutInventory>
+  <layout class="LexEntry" type="detail" name="Normal" version="25">
+    <part ref="ChangeHandler" />
+    <part label="Lexeme Form" ref="LexemeForm" />
+    <part label="Citation Form" ref="CitationFormAllV" />
+    <part ref="DialectLabelsEntry" visibility="ifdata" />
+    <part ref="ComplexFormEntries" visibility="always" />
+    <part ref="EntryRefs" param="Normal" visibility="ifdata" />
+    <part ref="EntryRefsGhostComponents" visibility="always" />
+    <part ref="EntryRefsGhostVariantOf" visibility="never" />
+    <part ref="Pronunciations" param="Normal" visibility="ifdata" />
+    <part ref="Etymologies" param="Normal" visibility="ifdata" />
+    <part ref="CommentAllA" />
+    <part ref="LiteralMeaningAllA" visibility="always" />
+    <!-- Only for Subentries. -->
+    <part ref="BibliographyAllA" visibility="ifdata" />
+    <part ref="RestrictionsAllA" visibility="ifdata" />
+    <part ref="SummaryDefinitionAllA" visibility="ifdata" />
+    <part ref="CurrentLexReferences" visibility="ifdata" />
+    <!-- Special part to indicate where custom fields should be inserted at.  Handled in Common.Framework.DetailControls.DataTree -->
+    <part ref="_CustomFieldPlaceholder" customFields="here" />
+    <part ref="ImportResidue" label="Import Residue" visibility="ifdata" />
+    <part ref="DateCreatedAllA" visibility="never" />
+    <part ref="DateModifiedAllA" visibility="never" />
+    <part ref="Messages" visibility="always" />
+    <part ref="Senses" param="Normal" expansion="expanded">
+      <part ref="HeavySummary">
+        <indent>
+          <part ref="EncyclopedicInfoAllA" visibility="always" />
+          <part ref="ScientificName" visibility="ifdata" />
+        </indent>
+      </part>
+    </part>
+    <part ref="VariantFormsSection" expansion="expanded" label="Variants" menu="mnuDataTree-VariantForms" hotlinks="mnuDataTree-VariantForms-Hotlinks">
+      <indent>
+        <part ref="VariantForms" />
+      </indent>
+    </part>
+    <part ref="AlternateFormsSection" expansion="expanded" label="Allomorphs" menu="mnuDataTree-AlternateForms" hotlinks="mnuDataTree-AlternateForms-Hotlinks">
+      <indent>
+        <part ref="AlternateForms" param="Normal" />
+      </indent>
+    </part>
+    <part ref="GrammaticalFunctionsSection" label="Grammatical Info. Details" menu="mnuDataTree-Help" hotlinks="mnuDataTree-Help">
+      <indent>
+        <part ref="MorphoSyntaxAnalyses" param="Normal" />
+      </indent>
+    </part>
+    <part ref="PublicationSection" label="Publication Settings" menu="mnuDataTree-Help" hotlinks="mnuDataTree-Help">
+      <indent>
+        <part ref="PublishIn" visibility="always" />
+        <part ref="ShowMainEntryIn" label="Show As Headword In" visibility="always" />
+        <part ref="EntryRefs" param="Publication" visibility="ifdata" />
+        <part ref="ShowMinorEntry" />
+        <part ref="Subentries" visibility="ifdata" />
+        <part ref="VisibleComplexFormEntries" visibility="ifdata" />
+      </indent>
+    </part>
+  </layout>
+</LayoutInventory>

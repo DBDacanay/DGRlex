@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ProjectLexiconSettings projectSharing="false">
+  <WritingSystems addToSldr="true">
+    <WritingSystem id="en">
+      <Abbreviation>Eng</Abbreviation>
+      <LanguageName>English</LanguageName>
+      <SystemCollation />
+    </WritingSystem>
+    <WritingSystem id="dgr">
+      <Abbreviation>Dog</Abbreviation>
+      <LanguageName>Dogrib</LanguageName>
+      <SpellCheckingId>dgr</SpellCheckingId>
+      <SystemCollation />
+    </WritingSystem>
+    <WritingSystem id="dgr-Zxxx-x-audio">
+      <Abbreviation>Dog</Abbreviation>
+      <LanguageName>Dogrib</LanguageName>
+      <SpellCheckingId>dgr</SpellCheckingId>
+    </WritingSystem>
+  </WritingSystems>
+</ProjectLexiconSettings>

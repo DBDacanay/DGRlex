@@ -56,14 +56,14 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>db$local$bulkEditEntriesOrSenses_Delete_TabPageSettings</name>
-    <value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;DeleteTabPageSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;TabPageName&gt;Delete&lt;/TabPageName&gt;&lt;TargetFieldName&gt;Entries (Rows)&lt;/TargetFieldName&gt;&lt;/DeleteTabPageSettings&gt;</value>
+    <name>db$local$lexiconEdit_lexentryList_Column_7_Width</name>
+    <value xsi:type="xsd:int">64</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>db$local$lexiconEdit_lexentryList_Column_7_Width</name>
-    <value xsi:type="xsd:int">64</value>
+    <name>db$local$bulkEditEntriesOrSenses_Delete_TabPageSettings</name>
+    <value xsi:type="xsd:string">&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;DeleteTabPageSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;TabPageName&gt;Delete&lt;/TabPageName&gt;&lt;TargetFieldName&gt;Entries (Rows)&lt;/TargetFieldName&gt;&lt;/DeleteTabPageSettings&gt;</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -79,7 +79,7 @@
   </Property>
   <Property>
     <name>db$local$lexiconEdit_lexentryList_Column_5_Width</name>
-    <value xsi:type="xsd:int">151</value>
+    <value xsi:type="xsd:int">155</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -176,7 +176,7 @@
   </Property>
   <Property>
     <name>db$local$lexiconEdit_lexentryList_Column_4_Width</name>
-    <value xsi:type="xsd:int">126</value>
+    <value xsi:type="xsd:int">153</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -565,7 +565,7 @@
   </Property>
   <Property>
     <name>db$local$lexiconEdit_lexentryList_Column_6_Width</name>
-    <value xsi:type="xsd:int">102</value>
+    <value xsi:type="xsd:int">111</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -650,7 +650,7 @@
   </Property>
   <Property>
     <name>db$local$SemanticDomainList-Index</name>
-    <value xsi:type="xsd:int">193</value>
+    <value xsi:type="xsd:int">1049</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -685,7 +685,7 @@
   </Property>
   <Property>
     <name>db$local$entries-Index</name>
-    <value xsi:type="xsd:int">5511</value>
+    <value xsi:type="xsd:int">10921</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>

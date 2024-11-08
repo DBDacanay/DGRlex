@@ -11,4 +11,14 @@
 			date="2024-05-01T01:56:29-06:00"
 			guid="21555fd3-30da-4255-9b2e-3cafa767659f">Does the sentence 'nemǫ wek’oòchı̀ wegǫhɂa weèsı̨.' also work?</message>
 	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=f0206e80-8382-486f-92f2-f207a90a7595&amp;tag=&amp;id=f0206e80-8382-486f-92f2-f207a90a7595&amp;label=ts'et'ı̀ılè"
+		guid="56db1bd8-4695-446a-b17a-b1f958482e1f">
+		<message
+			author="dacan"
+			status=""
+			date="2024-11-06T12:09:25-07:00"
+			guid="83e20d26-85f7-4d67-b26e-014b6fb1443b">Should this be ts'et'ı̀ıłè?</message>
+	</annotation>
 </notes>

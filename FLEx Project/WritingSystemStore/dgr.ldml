@@ -2,7 +2,7 @@
 <ldml>
   <identity>
     <version number="$Revision$" />
-    <generation date="2024-10-09T17:57:11Z" />
+    <generation date="2024-11-06T19:29:13Z" />
     <language type="dgr" />
     <special xmlns:sil="urn://www.sil.org/ldml/0.1">
       <sil:identity revid="515be572af4b1d1b9fd53ea1ec4593912159ea0d" defaultRegion="CA" script="Latn" draft="generated" />

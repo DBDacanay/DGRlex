@@ -24,11 +24,11 @@
     <i class = material-icons style="font-size:48px;margin-right:20px;margin-left:20px;margin-top:15px;background-image:none;user-select:none" onclick= showSidebar()>menu</i>
 </div>
 <ul class = "sidebar" style = "display:none">
-    <a href = "index.html">Home</a>
-    <a href = "aboutpage.html">About the dictionary</a>
-    <a href = "contactform.html">Suggest a new word</a>
-    <a href = "bibliography.html">Sources</a>
-    <a href = "helppage.html">Help</a>
+    <a href = "./">Home</a>
+    <a href = "./about">About the dictionary</a>
+    <a href = "./contact">Suggest a new word</a>
+    <a href = "./bibliography">Sources</a>
+    <a href = "./help">Help</a>
 </ul>
 <body class="fullBackground">
 
@@ -37,23 +37,28 @@
     <div class="keyboard">
 
       </div>
-    <div class="container">
-        <div id="root"></div>
-        <div class = "box" id = "welcomeBox" style = 'margin-top:80px'>
-            <p class = "welcomeHeader"> About this dictionary</p> 
-            <p class = "welcomeText"> The Tłı̨chǫ Online Dictionary is a bilingual dictionary of Tłı̨chǫ and English.</p>
-            <p class = "welcomeText"> It has been constructed to assist both fluent speakers and learners of the language to access
-                Tłı̨chǫ vocabulary online, as well as to serve as a repository for general language information.</p>
-            <p class = "welcomeText">To facilitate this, the Tłı̨chǫ Online Dictionary has many novel features to assist the user in finding relevant entries. 
-                You can read about how to use these features, and how to use the dictionary more generally, <a class = welcomeLink href = helppage.html>here</a>.</p>
-            <p class = "welcomeText"> This dictionary contains over 8500 entries, provided by speakers from across Tłı̨chǫ lands. 
-                Most of these entries come from the 1996 print edition of 
-                <a class = welcomeLink href = https://www.tlicho.ca/sites/default/files/A_Dogrib_Dictionary.pdf>Tłı̨chǫ Yatıı̀ Enı̨htł’è - Dogrib Dictionary</a>,
-                however, Tłı̨chǫ words and phrases from a wide variety of other sources have also been incorporated into this dictionary.
-                A full list of the sources used may be found <a class = welcomeLink href = https://www.tlicho.ca/sites/default/files/A_Dogrib_Dictionary.pdf>here</a>.
-            <p class = "welcomeText">Just as Tłı̨chǫ is a living language, the Tłı̨chǫ Online Dictionary is a living document. 
-                We are constantly adding new entries, updating definitions, and providing new supplementary information, and welcome any additional feedback.
-                You can suggest new entries here, or send us an email at abcdefg @ gmail.com.</p>
+    <div class="contact-container" style = 'margin-top:80px'>
+        <form action="https://api.web3forms.com/submit" method="POST" class = "contact-left">
+            <div class ="contact-left-title">
+                <h2 class = "boxTitle">Suggest a new word</h2>
+            </div>
+            <input type="hidden" name="access_key" value="44979c91-bb79-4eb9-b61f-339643a3f398">
+            <hr class = "boxTitleLine">
+            <h1 class = "fieldTitle">What is your name?</h1>
+            <input type = "text" name = "name" placeholder = "Your name" class = "contact-inputs" required>
+            <h1 class = "fieldTitle">Where are you from?</h1>
+            <input type = "text" name = "community" placeholder = "Your community" class = "contact-inputs" required>
+            <h1 class = "fieldTitle">What is the word/phrase in Tłı̨chǫ?</h1>
+            <input type = "text" name = "dgrWord" placeholder = "Tłı̨chǫ word" class = "contact-inputs" required>
+            <h1 class = "fieldTitle">What does it mean in English?</h1>
+            <input type = "text" name = "engWord" placeholder = "English translation" class = "contact-inputs" required>
+            <h1 class = "fieldTitle">Further Information (i.e. example sentences, usage notes)</h1>
+            <textarea name = "message" placeholder = "Your message" class="contact-inputs" rows = "5" cols = "61" required></textarea>
+            <button type="submit" class = "submit">Submit</button>
+
+        </form>
+        <div class = "contact-right">
+            
         </div>
     </div>
 
@@ -63,7 +68,7 @@
         <p class = copyrightNotice> </p>
         <p class = copyrightNotice> </p>
     </footer>
-    
+</body>
 <script>
     function showSidebar(){
         const sidebar = document.querySelector('.sidebar')
@@ -74,3 +79,4 @@
         }
     }
 </script>
+</html>

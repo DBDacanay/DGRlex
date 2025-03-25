@@ -1153,3 +1153,6 @@ cursor: pointer;
   margin-top: 10px;
 }
 
+.romanInput {
+  text-wrap:pretty;
+}

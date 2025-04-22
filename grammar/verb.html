@@ -12,7 +12,7 @@
 
 <div class = "searchBox">
     <!-- <img class = "logo" src="tlichologo.png"></img> -->
-    <a class = "logoTextAnchor" target = "_self" href = "index.html"><img class = "logoText" src="navbarlogo.png"></a>
+    <a class = "logoTextAnchor" target = "_self" href = "../index.html"><img class = "logoText" src="navbarlogo.png"></a>
     <p class = "titleText">Tłı̨chǫ Online Dictionary</p>
     <div class = "searchContainer" style = "visibility:hidden">
         <input class = "searchBar" placeholder = "Search in English or Tłı̨chǫ" type = "text" id="searchBar" name="searchBar" data-search></input>
@@ -24,11 +24,13 @@
     <i class = material-icons style="font-size:48px;margin-right:20px;margin-left:20px;margin-top:15px;background-image:none;user-select:none" onclick= showSidebar()>menu</i>
 </div>
 <ul class = "sidebar" style = "display:none">
-    <a href = "./">Home</a>
-    <a href = "./about">About the dictionary</a>
-    <a href = "./contact">Suggest a new word</a>
-    <a href = "./bibliography">Sources</a>
-    <a href = "./help">Help</a>
+    <a href = "../index">Home</a>
+    <a href = "../about">About the dictionary</a>
+    <a href = "./">Grammar</a>
+    <a href = "../pronunciation">Pronunciation</a>
+    <a href = "../contact">Suggest a new word</a>
+    <a href = "../bibliography">Sources</a>
+    <a href = "../help">Help</a>
 </ul>
 <body class="fullBackground">
 
@@ -39,12 +41,75 @@
       </div>
     <div class="container">
         <div id="root"></div>
-        <div class = "box" id = "welcomeBox" style = 'margin-top:80px;margin-bottom:80px'>
+        <div class = "box" id = "welcomeBox" style = 'margin-top:80px;margin-bottom:80px;max-width:900px'>
             <p class = "welcomeHeader"> UNDER CONSTRUCTION</p> 
             <p class = "welcomeHeader"> Verbs</p> 
-            <p class = "welcomeText"> Verbs are often defined as 'action words'; words used to actions () or occurrences (). For example:</p>
-            <p class = "welcomeText"> However, in Tłı̨chǫ, verbs are also used to describe states of being, qualities, and characteristics. For example:</p>
+            <p class = "welcomeText"> Verbs in Tłı̨chǫ are words used to describe actions and states of being.</p>
             <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Tłı̨chǫ verbs may be split into three basic parts; the disjunct, the conjunct, and the stem. For example:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> The stem always comes at the end of the verb, and contains the very most basic information about the action or state of being described by a verb.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> The meaning of the stem, which is usually very broad, is then made more specific by the disjunct.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Together, the disjunct and stem make up what is called the ‘verb theme’; this verb theme contains all of the information necessary to understand the action or state being described by the verb.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> The conjunct occurs between the disjunct and stem. Unlike the disjunct and stem, which describe the type of action taking place, the conjunct describes who is performing that action. For example:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Some verbs in Tłı̨chǫ consist of only a conjunct and stem, with no disjunct. These are referred to in the dictionary as ‘bare verbs’:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> In contrast, the conjunct is mandatory; every verb when used in actual speech has a conjunct even though that conjunct is sometimes blank:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> For some verb themes, particularly those describing landscapes or highly abstract states of being, the conjunct is always blank. In the dictionary, these are called impersonal verbs:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> In general, the conjunct serves to communicate three basic pieces of information about the verb theme; these are person, number, and aspect. Each of the following is explained below.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> ‘Person’ describes the perspective of who is taking part in an event or action. In both Tłı̨chǫ and English, there are three possible ‘persons’; these are ‘first person’ (the one who is speaking), ‘second person’ (the one who is being spoken to), and ‘third person’ (anybody else aside from the person speaking and the person being spoken to):</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> The ‘person’ of a verb is communicated entirely through the conjunct; the stem and disjunct do not change to indicate person.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Number refers to how many people are involved in the action or event being described. In English, there are two possible ‘numbers’; singular (meaning, one) and plural (meaning, more than one). In Tłı̨chǫ verbs, there are three possible numbers; singular (meaning, one), dual (meaning, exactly two), and plural (meaning, more than two). In both Tłı̨chǫ and English, person and number are generally combined together. For instance, ‘first person singular’ describes a first person perspective (that is, whoever is speaking) when only one person is speaking; thus, ‘I’. By contrast, ‘first person plural’ describes the first person perspective when multiple people are speaking; thus, ‘we’:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Likewise, the conjunct in a verb communicates both the person and the number of whoever is doing the verb in question. For example:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> As shown above, each verb has nine possible forms for person and number combination. However, the second and third person dual are almost always identical to the second and third person plural. Therefore, in practice, there are seven possible person-number combinations for each verb.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Most verb stems stay the same, regardless of number. However, some verb stems have different forms for singular, dual, and plural.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Note above that the change in verb stems is only reacting to number, and not person; while -tı̨ is used for singular and dual subjects and -zhe is used for plural subjects, it does not matter whether those subjects are first, second, or third person.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Due to person and number being marked on verbs in the conjunct, it is not generally necessary to use pronouns in Tłı̨chǫ when describing who is performing an action, as this information is already contained in the conjunct. However, pronouns can be used in order to more strongly emphasise the performer of an action, if such emphasis is necessary.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Aspect describes the state of completion of an action. In Tłı̨chǫ, there are three possible aspects; the imperfective (which describes actions that are incomplete or ongoing), the perfective (which describes actions that have already been completed), and the optative (which describes actions that have not yet been started):</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> The imperfective is the most commonly used aspect, and is used for most verbs describing events in the present. Verbs in the dictionary are always listed by default in their imperfective forms. The perfective is the second most common. In a distant third place is the optative; although it is certainly still used, particularly by older speakers, the optative is much rarer than the imperfective and perfective, and many fluent speakers simply use the imperfective in cases where the optative might traditionally have been used.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> It is important to keep in mind that aspect is not the same thing as tense. Tense describes when an event is occurring relative to current time; the three options for tense in Tłı̨chǫ are past tense (which describes events that took place before the current time), present tense (which describes events which are taking place at the current moment), and future tense (which describes events that will take place after the current time). These tenses are marked in Tłı̨chǫ by particles which occur after the verb; ı̨lè for past tense, nothing for present tense, and ha for future tense. In contrast, aspect only describes how complete an action is, and says nothing about when it took place relative to the current time. For instance, the imperfective aspect may describe events in the past, present, or future, so long as those events were/are/will be ongoing or incomplete:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> As the above example demonstrates, although it may be tempting to think of the imperfective as the ‘present tense’ and the perfective as the ‘past tense’, this would be an inaccurate oversimplification. Instead, we should consider them as distinct from tense; the imperfective describes incomplete or ongoing events, regardless of whether they are past, present, or future, and the perfective describes completed events, regardless of whether they are past, present, or future.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> The aspect of a verb is marked in the conjunct and the stem. The conjunct marks person, number, and aspect, all at once. Each verb has three sets of the seven combinations of person and number described above; one set for the Imperfective aspect, one for the Perfective aspect, and one for the Optative.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> The verb stem also changes depending on aspect; however, exactly how this change is less consistent than the change in the conjunct. Sometimes, the tone of the stem vowel is switched; if the imperfective stem has a low tone, the perfective stem will have a high tone, or vice versa.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> In these cases, the optative stem is sometimes the same as the perfective stem and other times the same as the imperfective stem. This must simply be memorised for different stems.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Sometimes, the vowel in the perfective stem is completely different from the vowel in the imperfective stem; usually, switching from a, e, or ı in the imperfective to o in the perfective, with the optative stem (usually) being the same as the imperfective. However, as with the tone shifts, this change in vowel only happens with some verb stems, and not others; therefore, this, too, must be learned through memorisation.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> Finally, for some stems, the same form is used for the imperfective, the perfective, and the optative, with only the conjunct being used to differentiate between the three:</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> In the dictionary, verbs are listed by default in their first person plural imperfective form, with some exceptions for impersonal verbs and for stems that only accept singular subjects, which are listed in their third person singular imperfective form.</p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+            <p class = "welcomeText"> </p>
+
+
 
         </div>
     </div>

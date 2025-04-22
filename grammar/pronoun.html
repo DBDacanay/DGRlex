@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/e8fa2e31b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Tłı̨chǫ Online Dictionary</title>
+    <link rel="icon" type="image/x-icon" href="tlichologo1.1-removebg-preview.png">
+</head>
+
+<div class = "searchBox">
+    <!-- <img class = "logo" src="tlichologo.png"></img> -->
+    <a class = "logoTextAnchor" target = "_self" href = "../index.html"><img class = "logoText" src="../navbarlogo.png"></a>
+    <p class = "titleText">Tłı̨chǫ Online Dictionary</p>
+    <div class = "searchContainer" style = "visibility:hidden">
+        <input class = "searchBar" placeholder = "Search in English or Tłı̨chǫ" type = "text" id="searchBar" name="searchBar" data-search></input>
+        <button class = "switchbutton" id = "dgrButton" onclick = "searchLanguage = 'dgr'; searchBar.placeholder = 'Search in Tłı̨chǫ'">Tłı̨chǫ</button>
+        <button class = "switchbutton" id = "engButton" onclick = "searchLanguage = 'eng'; searchBar.placeholder = 'Search in English'">English</button>
+        <button class = "bothButton" id = "both_button" onclick = "searchLanguage = 'both'; searchBar.placeholder = 'Search in English or Tłı̨chǫ'">Both</button>
+    </div>
+    <p class = "titleText" style = "visibility:hidden"></p>
+    <i class = material-icons style="font-size:48px;margin-right:20px;margin-left:20px;margin-top:15px;background-image:none;user-select:none" onclick= showSidebar()>menu</i>
+</div>
+<ul class = "sidebar" style = "display:none">
+    <a href = "./">Home</a>
+    <a href = "./about">About the dictionary</a>
+    <a href = "./contact">Suggest a new word</a>
+    <a href = "./bibliography">Sources</a>
+    <a href = "./help">Help</a>
+</ul>
+<body class="fullBackground">
+
+
+    <hr>
+    <div class="keyboard">
+
+      </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class = "box" id = "welcomeBox" style = 'margin-top:80px;margin-bottom:80px;max-width:900px'>
+            <p class = "welcomeHeader"> UNDER CONSTRUCTION</p> 
+            <p class = "welcomeHeader"> Pronouns</p> 
+            <p class = "welcomeText"> Pronouns are words used either to replace nouns, generally to refer to specific individuals or objects in a discussion where identities of those individual(s) or object(s) are already known, and therefore do not need to be explicitly stated or repeated. For example:</p>
+            <p class = "welcomeText"> </p>    
+                
+            <p class = "welcomeText"> In this sentence, eyı (‘him/her; that one’) is a pronoun, and refers to ‘the man who made us suffer’. Since this man has already been mentioned earlier in the sentence, it is not necessary to repeat his full description a second time. As such, the next time he is mentioned, eyı is used to refer to him.</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> The basic pronouns in Tłı̨chǫ are as follows:</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> In Tłı̨chǫ, there is no gender distinction in pronouns; ededı̨ (‘he, she’) can be used to refer to men or women.</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> For ededı̨ specifically, there is also no number distinction; ededı̨ can be used to refer to a single person (‘he, she’) or a group of people (‘they’). For example:</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> However, unlike in English, there is a distinction in number between nı̨ (‘you’, referring to a single person’) and naxı̨ (‘you, y’all’, referring to a group of people):</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> Naxı̨ can also be used for the first person dual (that is, ‘the two of us’); however, this is not ambiguous, as conjugation on the verb indicates whether naxı̨ refers to the second person plural or first person dual.</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> In English, verbs almost always need to be accompanied by either a noun or a pronoun in order to indicate who is performing the action. However, in Tłı̨chǫ, this information is already indicated by the verb itself (through the conjunct); as a result, pronouns are much less commonly used in Tłı̨chǫ than they are in English:</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> When pronouns are used, it is typically either to increase the emphasis on who is performing a verb, or to identify someone without using a verb at all. For example:</p>
+            <p class = "welcomeText"> </p>
+
+            <p class = "welcomeText"> </p>
+
+        </div>
+    </div>
+
+    <footer class = 'siteFooter' background-color = 'blue'>
+        <hr class = footerHeader>
+        <p class = copyrightNotice>© Copyright 2024</p>
+        <p class = copyrightNotice> </p>
+        <p class = copyrightNotice> </p>
+    </footer>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        if (sidebar.style.display == 'none') {
+            sidebar.style.display = 'flex'
+        } else {
+            sidebar.style.display = 'none'
+        }
+    }
+</script>

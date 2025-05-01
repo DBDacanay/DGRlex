@@ -1156,3 +1156,33 @@ cursor: pointer;
 .romanInput {
   text-wrap:pretty;
 }
+
+.dgrInterlinearExample {
+  margin-left:50px;
+  background-image:none;
+  background-color:white;
+  font-weight: bold;
+  font-style: italic;
+}
+.engInterlinearExample {
+  margin-left:50px;
+  margin-bottom:15px;
+  background-image:none;
+  background-color:white;
+}
+
+.tableOfContents {
+  background-image:none;
+  background-color:white;
+}
+.tableOfContentsHeader {
+  margin-top:10px;
+  margin-bottom:10px;
+  background-image:none;
+  background-color:white;
+}
+.tableOfContentsSubheader {
+  margin-bottom:5px;
+  background-image:none;
+  background-color:white;
+}

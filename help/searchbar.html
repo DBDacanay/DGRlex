@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/e8fa2e31b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Tłı̨chǫ Online Dictionary</title>
+    <link rel="icon" type="image/x-icon" href="../tlichologo1.1-removebg-preview.png">
+</head>
+
+<div class = "searchBox">
+    <!-- <img class = "logo" src="tlichologo.png"></img> -->
+    <a class = "logoTextAnchor" target = "_self" href = "../index.html"><img class = "logoText" src="../navbarlogo.png"></a>
+    <p class = "titleText">Tłı̨chǫ Online Dictionary</p>
+    <div class = "searchContainer" style = "visibility:hidden">
+        <input class = "searchBar" placeholder = "Search in English or Tłı̨chǫ" type = "text" id="searchBar" name="searchBar" data-search></input>
+        <button class = "switchbutton" id = "dgrButton" onclick = "searchLanguage = 'dgr'; searchBar.placeholder = 'Search in Tłı̨chǫ'">Tłı̨chǫ</button>
+        <button class = "switchbutton" id = "engButton" onclick = "searchLanguage = 'eng'; searchBar.placeholder = 'Search in English'">English</button>
+        <button class = "bothButton" id = "both_button" onclick = "searchLanguage = 'both'; searchBar.placeholder = 'Search in English or Tłı̨chǫ'">Both</button>
+    </div>
+    <p class = "titleText" style = "visibility:hidden"></p>
+    <i class = material-icons style="font-size:48px;margin-right:20px;margin-left:20px;margin-top:15px;background-image:none;user-select:none" onclick= showSidebar()>menu</i>
+</div>
+<ul class = "sidebar" style = "display:none">
+    <a href = "../">Home</a>
+    <a href = "../about">About the dictionary</a>
+    <a href = "../grammar">Grammar</a>
+    <a href = "../pronunciation">Pronunciation</a>
+    <a href = "../contact">Suggest a new word</a>
+    <a href = "../bibliography">Sources</a>
+    <a href = "./">Help</a>
+</ul>
+<body class="fullBackground">
+
+
+    <hr>
+    <div class="keyboard">
+      </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class = "box" id = "welcomeBox" style = 'margin-top:80px;margin-bottom:80px;max-width:900px'>
+            <p class = "welcomeHeader"> Help</p>
+
+            <p class = "welcomeHeader"> Searching the Dictionary</p>
+            <p class = "welcomeText"> The searchbar for the dictionary is located in the centre of the main page, near the top of the screen.</p> 
+            
+            <div class = "searchContainer">
+                <input class = "searchBar" placeholder = "Search in English or Tłı̨chǫ" type = "text" id="searchBar" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+
+            <p class = "welcomeText"> You can search the dictionary in Tłı̨chǫ or English; by default, the dictionary will return all entries which contain your search query in either the Tłı̨chǫ word or the English definition. For example, entering 'tam' will return entries such as tamı̨̀ ('net') and tambeh ('scissors'), as well as dıwe ('tamarack') and tsı̨̀ts'ehwhı ('contaminate'). You can also specify a search language using the language buttons in the right-hand corner of the searchbar. By selecting English, only words with your search query in the definition will be returned, and by selecting Tłı̨chǫ, only words with your search query in the English word will be returned. Selecting 'Both' will return the searchbar to its default setting.</p>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "tam" readonly="readonly" type = "text" id="searchBar" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">dıwe  
+                    <span class = "material-symbols-outlined" id = "playButton">
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">1.5.1 Tree</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: N/A</span>                
+                </u>
+                <p class = "definition">tamarack</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">tambeh  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">6.7.1 Cutting tool</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Marie Louise Bouvier White</span>                
+                </u>
+                <p class = "definition">knife; scissors</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">tamı̨̀  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">6.4.5.3 Fishing equipment </u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Marie Louise Bouvier White</span>                
+                </u>
+                <p class = "definition">fishnet</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px; margin-bottom:20px">
+                <p class= "headword">tsı̨̀ts'ehwhı  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">4.3.4.1 Do evil to</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Harriet Paul</span>                
+                </u>
+                <p class = "definition">contaminate</p>
+            </div>
+            
+
+            <p class = "welcomeText"> When displaying search results, the dictionary will prioritise displaying exact matches over partial matches. For example, if the query 'horn' is entered, entries that contain the exact word 'horn' (i.e. edè ('horn')) will be displayed before entries which contain the character sequence 'horn' as part of a larger word (i.e. edaghoò ('thorn')). Aside from this, entries are displayed in alphabetical order; first, exact matches are listed in alphabetical order, and then partial matches are listed in alphabetical order. All alphabetisation occurs according the first letter in the Tłı̨chǫ word.
+            </p>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "horn" readonly="readonly" type = "text" id="searchBar" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">edè  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">1.6.2 Parts of an animal</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Marie Louise Bouvier White</span>                
+                </u>
+                <p class = "definition">antler; horn; ice chisel</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:20px">
+                <p class= "headword">edaghoò   
+                    <span class = "material-symbols-outlined" id = "playButton">
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">1.5.3 Grass, herb, vine</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: N/A</span>                
+                </u>
+                <p class = "definition">horn</p>
+            </div>
+
+            <p class = "welcomeText"> To search only for exact matches, excluding all partial matches, you can enclose your search query in double quotes (""). For example, while the search query ewò normally returns over 60 entries (i.e. daèhtewò ('mattress'), ewòhjıh ('hide mitten'), etc.), the search query "ewò" only returns the entry ewò. </p>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "ewò" readonly="readonly" type = "text" id="searchBar" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            
+            <div class = "box" id = "entryNumberBox" style = "display:block; margin-top:20px">
+                <p class = "entryNumber" style = "background-image:none;margin-top:-10px">Displaying 62 entries</p> 
+            </div>
+
+            <div class='box' style = "margin-left:auto;margin-right:auto">
+                <p class= "headword">ewò  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">6.3.7 Animal products; 6.6.4.3 Working with leather</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Harriet Paul</span>                
+                </u>
+                <p class = "definition">caribou hide</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">daèhtewò  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">5.1.1.3 Bed</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Rosa Mantla</span>                
+                </u>
+                <p class = "definition">mattress; bed-spread; bed linens; sheet</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">dechı̨tèwò  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">6.5.2.3 Floor </u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Marie Louise Bouvier White</span>                
+                </u>
+                <p class = "definition">floor covering; rug; linoleum</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px; margin-bottom:20px">
+                <p class= "headword">edewò  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">1.6.2 Parts of an animal </u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Marie Louise Bouvier White</span>                
+                </u>
+                <p class = "definition">antler velvet</p>
+            </div>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "&quot;ewò&quot;" readonly="readonly" type = "text" id="searchBar" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            <div class = "box" id = "entryNumberBox" style = "display:block; margin-top:20px"">
+                <p class = "entryNumber" style = "background-image:none;margin-top:-10px">Displaying 1 entry</p> 
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-bottom:20px">
+                <p class= "headword">ewò  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">6.3.7 Animal products; 6.6.4.3 Working with leather </u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Harriet Paul</span>                
+                </u>
+                <p class = "definition">caribou hide</p>
+            </div>
+           
+            <p class = "welcomeText"> For some common English words, the dictionary has also been programmed to prioritise certain pre-selected entries, especially for English words which appear in the definitions of many different entries. For example, the English word fish occurs in over 130 entries in the dictionary, and, if listed in alphabetical order, the single best translation for the word 'fish' would only occur about halfway down the list. As such, the dictionary has preprogrammed instructions to return the entry 'łıwe' as the top search result whenever 'fish' is entered as a search query. These pre-selected entries are known as 'keywords'. If an English keyword is entered as a search, the dictionary will first return the corresponding Tłı̨chǫ entry, then all exact matches in alphabetical order, then all partial matches in alphabetical order.</p>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "fish" readonly="readonly" type = "text" id="searchBar" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">łıwe  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">1.6.1.5 Fish</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from:  Mary Adele Mackenzie</span>                
+                </u>
+                <p class = "definition">fish</p>
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px">
+                <p class= "headword">dahlı    
+                    <span class = "material-symbols-outlined" id = "playButton">
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">6.4.5.3 Fishing equipment </u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: N/A</span>                
+                </u>
+                <p class = "definition">floats for fish nets</p>
+
+            </div>
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:20px">
+                <p class= "headword">dahzòò   
+                    <span class = "material-symbols-outlined" id = "playButton">
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">6.4.5.3 Fishing equipment</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: N/A</span>                
+                </u>
+                <p class = "definition">hooked stick for fish net</p>
+            </div>
+            
+            <p class = "welcomeText"> Many entries in the dictionary have multiple acceptable pronunciation variants, and accordingly multiple possible spellings (see Section X). Entering any of the possible pronunciation variants for an entry as a search query will return the main entry. For example, many fluent speakers pronounce the word jı̀ewà ('blueberry') as dzı̀ewà. Although the dictionary lists the form jı̀ewà as the headword for this entry, entering dzı̀ewà as a search query will return the relevant entry the same as if jı̀ewà was entered.</p>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "dzı̀ewà" readonly="readonly" type = "text" id="searchBar" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px;margin-bottom:20px">
+                <p class= "headword">jı̀ewà  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined"></span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">5.2.3.1 Food from plants; 1.5.3 Grass, herb, vine</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Marie Louise Bouvier White</span>                
+                </u>
+                <p class = "definition">blueberry</p>
+                <i class = "alternateForm">Also pronounced: dzı̀ewà </i> 
+            </div>
+
+            <p class = "welcomeText"> The dictionary will automatically return entries matching your search query while you type; there is no need to press 'enter' to input your search. To prevent slowdown, the minimum length for a search query is three characters. However, it is possible to search for words shorter than three characters by specifying an exact search with double quotes ("").</p>
+            <p class = "welcomeText"> The dictionary is able to recognise search queries in Tłı̨chǫ even if they are not spelled in exactly the same as in their entries. You can omit diacritic markers (that is, nasals and low tones) and click markers (') and the search query will still be recognised; for example, the search query "kabatsoo" will still return the entry k'àbatsǫ̀ǫ̀ ('ptarmigan droppings'), even though none of the nasal markers, low tone markers, or click markers were included. You can also use the regular, English "i" instead of the Tłı̨chǫ dotless "ı" in search queries; for example, the search query "goli" will still return the result golı ('chunks of ice'), despite not using the dotless ı. Similarly, the regular English "l" can be used instead of the Tłı̨chǫ barred ł; for example, the search query "liwe" will still return łıwe ('fish'), despite using neither the barred ł nor the dotless ı.</p>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "liwe" readonly="readonly" type = "text" id="searchBar2" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            
+            <div class='box' style = "margin-left:auto;margin-right:auto;margin-top:10px; margin-bottom:20px">
+                <p class= "headword">łıwe  
+                    <span class = "material-symbols-outlined" id = "playButton">volume_up
+                    </span>
+                </p>
+                <button class = "imagebutton" id = "imagebutton">
+                    <span class="material-symbols-outlined">photo_camera</span>
+                </button>
+                <button class = "culturebutton"> 
+                    <span class="material-symbols-outlined">library_books</span>
+                </button>
+                <div class = "hide" tabindex = "0">
+                    <u class = "contextLabel">Additional Context</u>
+                    <p class = "culturalNoteText"></p>
+                </div>
+                <u class = "pos">noun
+                    <u class = "semdom">1.6.1.5 Fish</u>
+                    <span class = "source">Dogrib Dictionary (1996)</span>
+                    <span class = "speaker">Audio from: Harriet Paul</span>                
+                </u>
+                <p class = "definition">trout (Ln. Salvelinus namaycush)</p>
+            </div>
+
+            <p class = "welcomeText"> It should be noted that, while the dictionary can still recognise Tłı̨chǫ search queries without all of the relevant diacritics, the ordering of search results is generally better when queries are written 'correctly' (that is, with all diacritics).</p>
+            <p class = "welcomeText"> A small, built-in keyboard with all characters unique to the Tłı̨chǫ alphabet is located just below the 'Search by Topic' button. Pressing any of the buttons on it will add the relevant character to whatever is already typed in the searchbar.</p>
+
+            <div class = "searchContainer" style = 'margin-bottom:0px'>
+                <input class = "searchBar" placeholder = "Search in English or Tłı̨chǫ" type = "text" id="searchBar1" name="searchBar" data-search></input>
+                <button class = "switchbutton" id = "dgrButton">Tłı̨chǫ</button>
+                <button class = "switchbutton" id = "engButton">English</button>
+                <button class = "bothButton" id = "both_button">Both</button>
+            </div>
+            
+            <div class="keyboard" style = "background-image:none;background-color:white; margin-bottom:20px">
+                <button class="btn" onclick = "searchBar1.value += 'ɂ'">ɂ</button>
+                <button class="btn" onclick = "searchBar1.value += 'à'">à</button>
+                <button class="btn" onclick = "searchBar1.value += 'ą'">ą</button>
+                <button class="btn" onclick = "searchBar1.value += 'ą̀'">ą̀</button>
+                <button class="btn" onclick = "searchBar1.value += 'è'">è</button>
+                <button class="btn" onclick = "searchBar1.value += 'ę'">ę</button>
+                <button class="btn" onclick = "searchBar1.value += 'ę̀'">ę̀</button>
+                <button class="btn" onclick = "searchBar1.value += 'ı'">ı</button>
+                <button class="btn" onclick = "searchBar1.value += 'ı̀'">ı̀</button>
+                <button class="btn" onclick = "searchBar1.value += 'ı̨'">ı̨</button>
+                <button class="btn" onclick = "searchBar1.value += 'ı̨̀'">ı̨̀</button>
+                <button class="btn" onclick = "searchBar1.value += 'ł'">ł</button>
+                <button class="btn" onclick = "searchBar1.value += 'ò'">ò</button>
+                <button class="btn" onclick = "searchBar1.value += 'ǫ'">ǫ</button>
+                <button class="btn" onclick = "searchBar1.value += 'ǫ̀'">ǫ̀</button>
+            </div>
+    </div>
+
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        if (sidebar.style.display == 'none') {
+            sidebar.style.display = 'flex'
+        } else {
+            sidebar.style.display = 'none'
+        }
+    }
+
+    const buttons = document.getElementById('.btn')
+    buttons.forEach(btn =>{
+    btn.addEventListener('click', e => {
+        console.log('button-push')
+        searchInput.value += btn.textContent
+        })
+    })
+
+</script>

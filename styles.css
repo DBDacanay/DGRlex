@@ -680,6 +680,7 @@ input {
     position: relative;
     left: 60%;
   }
+
   .culturebutton {
     position: relative;
     font-size: 0.8rem;
@@ -691,8 +692,25 @@ input {
     background-color: white;
     background-image: none;
   }
-  
+
   .culturebutton:hover {
+    color: grey;
+    cursor: pointer;
+  }
+
+  .fakeculturebutton {
+    position: relative;
+    font-size: 0.8rem;
+    left: 83%;
+    top:-1000%;
+    border: 0px;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    background-image: none;
+  }
+  
+  .fakeculturebutton:hover {
     color: grey;
     cursor: pointer;
   }
@@ -1190,4 +1208,14 @@ cursor: pointer;
 .converterLabel {
   background-image:none;
   background-color:white;
+}
+
+.guideNumbers {
+  background-image:none;
+  background-color:white;
+  font-weight:bold;
+}
+
+.searchBar2::placeholder {
+  color: black;
 }

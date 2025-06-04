@@ -727,11 +727,7 @@ input {
     font-style: italic;
     font-size: 15px;
   }
-
-  .culturebutton:focus + .hide{
-    display: block;
-  }
-
+  
   .imagebutton:focus + .hide1 {
     display: block;
   }
@@ -794,10 +790,20 @@ input {
     max-width: 560px;
 }
 
-.poslink {
+.entryBoxLink {
   font-size: .8rem;
   font-family: "roboto", sans-serif;
   color: #777;
+  background-color: white;
+  margin-bottom: 0px;
+  background-image: none;
+  max-width: 560px;
+}
+
+.entryBoxLink:hover {
+  font-size: .8rem;
+  font-family: "roboto", sans-serif;
+  color: black;
   background-color: white;
   margin-bottom: 0px;
   background-image: none;
@@ -1172,6 +1178,7 @@ cursor: pointer;
 .bibliographyHeader {
   background-image:none;
   background-color:white;
+  scroll-margin-top: 100px !important;
   margin-top: 10px;
 }
 

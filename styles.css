@@ -6,7 +6,6 @@
     font-size: 18px;
     background: rgb(232, 232, 232);
     background-image: url('https://raw.githubusercontent.com/DBDacanay/DGRlex/main/backgroundpattern.png');
-
 }
 
 .fullBackground {
@@ -24,7 +23,6 @@
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     background-color: transparent;
-
 }
 
 .container {
@@ -72,6 +70,7 @@
   background-color: transparent;
 
 }
+
 .material-icons {
   opacity:80%;
   color: rgb(73, 73, 73);
@@ -111,7 +110,6 @@
 .searchBox {
   background: rgb(236, 236, 236);
   background-image: none;
-  
 }
 
 .searchBar {
@@ -125,16 +123,6 @@
     margin-left: 5px;
     background: white;
     background-image: none;
-}
-
-.homepageLink {
-  width: 71.5%;
-}
-
-input {
-    border: none;
-    outline: none;
-    background: none;
 }
 
 .switchbutton {
@@ -372,13 +360,11 @@ input {
   border-radius: 4px;
   background-image: none;
   background-color: rgba(211, 211, 211, 0.205);
-
 }
 
 .semExpand:hover {
   cursor: pointer;
   background-color: rgba(211, 211, 211, 0.522);
-
 }
 
 .semOne {
@@ -407,7 +393,6 @@ input {
   padding: 5px;
 }
 
-
 .advancedSearch {
   top: 80px;
   right: 0;
@@ -422,7 +407,6 @@ input {
   margin-left: auto;
 }
 
-
 .keyboard{
     display: flex;
     align-items: center;
@@ -431,7 +415,6 @@ input {
     margin-top: 20px;
     border-color: black;
     border-radius: 15px;
-
   }
   
   .keyboard > .btn{
@@ -447,23 +430,6 @@ input {
     scroll-margin-top: 100px;
   }
 
-.data {
-    width: 73%;
-    border-radius: 3px;
-    height: 92vh;
-    overflow-y: auto;
-}
-
-.top {
-    height: 60px;
-    border-radius: 3px;
-    background-color: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-}
-
 .header {
     height: 200px;
     border-radius: 3px;
@@ -474,12 +440,13 @@ input {
     align-items: center;
     justify-content: center;
 }
+
 .header p {
     font-size: 40px;
     font-weight: bold;
     color: white;
-    
 }
+
 #root {
     display: flex;
     flex-direction: column;
@@ -561,16 +528,6 @@ input {
   color:grey;
 }
 
-.img-box {
-    width: 100%;
-    height: 176px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    background-image: none;
-}
-
 .material-symbols-outlined {
     background-image: none; 
 }
@@ -586,84 +543,60 @@ input {
     max-width: 600px;
 }
 
-.speech {
-    width: 100px;
-    height: 35px;
-    margin-left: -0.7rem;
-    background-color: #33333300;
-    position: relative;
-    top: 4.5px;
-    background-image: none;
-   }
-
 #playButton {
-  color: grey;  
-  font-size: 30px;
-  background-color: rgba(255, 255, 255, 0);
+    color: grey;  
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 #playButton:hover {
-  color: darkgrey;  
-  cursor: pointer;
+    color: darkgrey;  
+    cursor: pointer;
 }
 
 #playButtonEmpty {
-  color: grey;  
-  font-size: 30px;
-  opacity: 50%;
-  background-color: rgba(255, 255, 255, 0);
+    color: grey;  
+    font-size: 30px;
+    opacity: 50%;
+    background-color: rgba(255, 255, 255, 0);
 }
 
-   audio::-webkit-media-controls-panel {
-     background-color: rgb(255, 255, 255);
-   }
+audio::-webkit-media-controls-panel {
+    background-color: rgb(255, 255, 255);
+}
  
-   audio::-webkit-media-controls-play-button {
-     background-color: rgb(117, 100, 226, 0.392);
-     color: white;
-     border-radius: 50%;
-   }
+audio::-webkit-media-controls-play-button {
+    background-color: rgb(117, 100, 226, 0.392);
+    color: white;
+    border-radius: 50%;
+}
    
-   audio::-webkit-media-controls-play-button:hover {
-     background-color: rgba(117, 100, 226, 0.178);
-   }
+audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(117, 100, 226, 0.178);
+}
  
-   audio::-webkit-media-controls-timeline {
-     visibility: hidden;
-   }
+audio::-webkit-media-controls-timeline {
+    visibility: hidden;
+}
  
-   audio::-webkit-media-controls-mute-button {
-     display: none !important;
-   }
-   audio::-webkit-media-controls-volume-slider {
-     visibility:hidden;
-   }
+audio::-webkit-media-controls-mute-button {
+    display: none !important;
+}
 
-   .hide {
+audio::-webkit-media-controls-volume-slider {
+    visibility:hidden;
+}
+
+.hide {
     display: none;
     border-style: dashed;
     border-width: 1px;
     border-color: #777;
     border-radius: 4px;
     margin-bottom: 12px;
-   }
-   .exitbutton {
-    position: relative;
-    left: 90%;
-    width: 20px;
-   }
+}
 
-   .noteButtons {
-    position: relative;
-    display:row;
-    align-items: right;
-    left: 90%;
-    bottom: 50%;
-    position: relative;
-    height: 1px;
-   }
-
-   .imagebutton {
+.imagebutton {
     position: relative;
     font-size: 0.8rem;
     border: 0px;
@@ -673,112 +606,52 @@ input {
     height: 5px;
     background-color: white;
     background-image: none;
-  }
-
-  .imagebutton:hover {
-    color: grey;
-    cursor: pointer;
-  }
-
-  .sampleimage {
-    position: relative;
-    left: 60%;
-  }
-
-  .culturebutton {
-    position: relative;
-    font-size: 0.8rem;
-    left: 83%;
-    top:-1000%;
-    border: 0px;
-    width: 50px;
-    height: 5px;
-    background-color: white;
-    background-image: none;
-  }
-
-  .culturebutton:hover {
-    color: grey;
-    cursor: pointer;
-  }
-
-  .fakeculturebutton {
-    position: relative;
-    font-size: 0.8rem;
-    left: 83%;
-    top:-1000%;
-    border: 0px;
-    width: 50px;
-    height: 5px;
-    background-color: white;
-    background-image: none;
-  }
-  
-  .fakeculturebutton:hover {
-    color: grey;
-    cursor: pointer;
-  }
-
-  .contextLabel {
-    font-style: italic;
-    font-size: 16px;
-  }
-  .culturalNoteText {
-    font-style: italic;
-    font-size: 15px;
-  }
-  
-  .imagebutton:focus + .hide1 {
-    display: block;
-  }
-
-  .d-none { 
-    display: none; 
 }
 
-  .modal {
-    margin: 1px;
-    display: fixed;
-    grid-template-columns: repeat(auto-fill);
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #777;
-    border-radius: 16px;
-    border-width: 0.5px;
-    padding: 15px;
-    width: 600px;
-    background-color: white;
-    max-width: 600px;
-    background-image: none;
-    width: 100%;
-    margin: auto;
-  }
-  
-  .modal img {
-    height: 400px;
-    width: 600px;
-  }
-  
-  .modal-inner {
-    display: row;
-    align-items: center;
-  }
-  
-  .modal > .modal-inner > .closeModal {
-    position: relative;
-    display: column;
-    height: 50px;
-    top: 10px;
-  }
+.imagebutton:hover {
+    color: grey;
+    cursor: pointer;
+}
 
-  .displayImage {
+.culturebutton {
+    position: relative;
+    font-size: 0.8rem;
+    left: 83%;
+    top:-1000%;
+    border: 0px;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    background-image: none;
+}
+
+.culturebutton:hover {
+    color: grey;
+    cursor: pointer;
+}
+  
+.contextLabel {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.culturalNoteText {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.imagebutton:focus + .hide1 {
+    display: block;
+}
+
+.displayImage {
     max-width: 570px;
     max-height: 400px;
-  }
+}
 
-  .material-symbols-outlined {
+.material-symbols-outlined {
     background-color: white;
-  }
+}
 
 .pos {
     font-size: .8rem;
@@ -831,18 +704,6 @@ input {
   background-color: white;
   background-image: none;
   text-decoration: none;
-}
-
-.hide2 {
-  display: none;
-  font-size: .8rem;
-  font-family: "roboto", sans-serif;
-  color: #777;
-  background-color: white;
-}
-
-#source:hover + .hide2 {
-  display: block;
 }
 
 .speaker {
@@ -969,18 +830,6 @@ input {
   background-color: white;
 }
 
-.images {
-    max-height: 90%;
-    max-width: 90%;
-    object-fit: cover;
-    object-position: center;
-}
-
-h2 {
-    font-family: "roboto", sans-serif;
-    color: #777;
-}
-
 .btn:hover {
     background-color: lightgrey;
     cursor: pointer;
@@ -1035,7 +884,6 @@ cursor: pointer;
   text-align: center;
   margin-bottom: 10px;
   background-image: none;
-
 }
 
 .pronunciationExplanation {
@@ -1080,7 +928,6 @@ cursor: pointer;
   background: rgb(236, 236, 236);
   color: rgba(47, 79, 79, 0.5);
   font-size: 0.95rem;
-
 }
 
 .contact-container {
@@ -1127,6 +974,7 @@ color: rgba(0, 0, 0, 0.867);
 background-color: white;
 background-image: none;
 }
+
 .contact-inputs {
 display:flex;
 border: 2px solid #777;
@@ -1145,6 +993,7 @@ border-color: darkgrey;
 margin-left: 10%;
 align-items: right;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -1193,6 +1042,7 @@ cursor: pointer;
   font-weight: bold;
   font-style: italic;
 }
+
 .engInterlinearExample {
   margin-left:50px;
   margin-bottom:15px;
@@ -1204,12 +1054,14 @@ cursor: pointer;
   background-image:none;
   background-color:white;
 }
+
 .tableOfContentsHeader {
   margin-top:10px;
   margin-bottom:10px;
   background-image:none;
   background-color:white;
 }
+
 .tableOfContentsSubheader {
   margin-bottom:5px;
   background-image:none;

@@ -28,6 +28,8 @@
         <indent>
           <part ref="EncyclopedicInfoAllA" visibility="always" />
           <part ref="ScientificName" visibility="ifdata" />
+          <part ref="SemanticDomains" visibility="always" />
+          <part ref="Status" visibility="always" />
         </indent>
       </part>
     </part>

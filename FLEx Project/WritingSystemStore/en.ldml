@@ -2,7 +2,7 @@
 <ldml>
   <identity>
     <version number="$Revision$" />
-    <generation date="2024-05-01T03:06:14Z" />
+    <generation date="2025-05-05T19:45:53Z" />
     <language type="en" />
     <special xmlns:sil="urn://www.sil.org/ldml/0.1">
       <sil:identity revid="515be572af4b1d1b9fd53ea1ec4593912159ea0d" source="cldr" defaultRegion="US" script="Latn" />
@@ -27363,18 +27363,6 @@
   </metadata>
   <special xmlns:sil="urn://www.sil.org/ldml/0.1">
     <sil:external-resources>
-      <sil:kbd id="basic_kbddv" type="kmp">
-        <sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbddv/download/kmp</sil:url>
-      </sil:kbd>
-      <sil:kbd id="basic_kbduk" type="kmp">
-        <sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbduk/download/kmp</sil:url>
-      </sil:kbd>
-      <sil:kbd id="basic_kbdus" type="kmp">
-        <sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdus/download/kmp</sil:url>
-      </sil:kbd>
-      <sil:kbd id="basic_kbdusa" type="kmp">
-        <sil:url draft="generated">https://keyman.com/go/keyboard/basic_kbdusa/download/kmp</sil:url>
-      </sil:kbd>
       <sil:sampletext type="udhr">
         <sil:url>https://unicode.org/udhr/d/udhr_eng.txt</sil:url>
       </sil:sampletext>
@@ -27387,6 +27375,18 @@
       <sil:font name="Noto Serif" types="default">
         <sil:url>https://github.com/googlefonts/noto-fonts/raw/main/hinted/ttf/NotoSerif/NotoSerif-Regular.ttf</sil:url>
       </sil:font>
+      <sil:kbd id="basic_kbddv" type="kmp">
+        <sil:url>https://keyman.com/go/keyboard/basic_kbddv/download/kmp</sil:url>
+      </sil:kbd>
+      <sil:kbd id="basic_kbduk" type="kmp">
+        <sil:url>https://keyman.com/go/keyboard/basic_kbduk/download/kmp</sil:url>
+      </sil:kbd>
+      <sil:kbd id="basic_kbdus" type="kmp">
+        <sil:url>https://keyman.com/go/keyboard/basic_kbdus/download/kmp</sil:url>
+      </sil:kbd>
+      <sil:kbd id="basic_kbdusa" type="kmp">
+        <sil:url>https://keyman.com/go/keyboard/basic_kbdusa/download/kmp</sil:url>
+      </sil:kbd>
     </sil:external-resources>
   </special>
 </ldml>

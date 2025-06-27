@@ -1,0 +1,26 @@
+Version: 9.2.9.1031   2025-06-03  (64 bit): Configuration was found in need of migration. - 2025 Jun 24 10:06:59
+Migrating Hybrid configuration 'Hybrid (complex forms as main entries and mini subentries)' from version 25 to 26.
+    Unable to migrate Main Entry: no migration instructions for version 25
+    Unable to migrate Minor Entry (Variants): no migration instructions for version 25
+    Unable to migrate MainEntrySubsenses: no migration instructions for version 25
+    Unable to migrate MainEntrySubentries: no migration instructions for version 25
+    Migrated to version 26
+Version: 9.2.9.1031   2025-06-03  (64 bit): Configuration was found in need of migration. - 2025 Jun 24 10:06:59
+Migrating Lexeme configuration 'Lexeme-based (complex forms as main entries)' from version 25 to 26.
+    Unable to migrate Main Entry: no migration instructions for version 25
+    Unable to migrate Minor Entry (Variants): no migration instructions for version 25
+    Unable to migrate MainEntrySubsenses: no migration instructions for version 25
+    Migrated to version 26
+Version: 9.2.9.1031   2025-06-03  (64 bit): Configuration was found in need of migration. - 2025 Jun 24 10:06:59
+Migrating Root configuration 'Root-based (complex forms as subentries)' from version 25 to 26.
+    Unable to migrate Main Entry: no migration instructions for version 25
+    Unable to migrate Minor Entry (Complex Forms): no migration instructions for version 25
+    Unable to migrate Minor Entry (Variants): no migration instructions for version 25
+    Unable to migrate MainEntrySubsenses: no migration instructions for version 25
+    Unable to migrate MainEntrySubentries: no migration instructions for version 25
+    Migrated to version 26
+Version: 9.2.9.1031   2025-06-03  (64 bit): Configuration was found in need of migration. - 2025 Jun 24 10:06:59
+Migrating Reversal configuration 'English' from version 25 to 26.
+    Unable to migrate Reversal Entry: no migration instructions for version 25
+    Unable to migrate AllReversalSubentries: no migration instructions for version 25
+    Migrated to version 26

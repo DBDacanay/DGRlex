@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Hybrid (complex forms as main entries and mini subentries)" version="25" lastModified="2024-07-05" allPublications="true" isRootBased="false">
+<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Hybrid (complex forms as main entries and mini subentries)" version="26" lastModified="2025-06-24" allPublications="true" isRootBased="false">
   <ConfigurationItem name="Main Entry" isEnabled="true" style="Dictionary-Normal" styleType="paragraph" field="LexEntry" cssClassNameOverride="entry">
     <ListTypeOptions list="complex">
       <Option id="a0000000-dd15-4a03-9032-b40faaa9a754" isEnabled="true" />
@@ -10,6 +10,7 @@
       <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
       <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
       <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+      <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
     </ListTypeOptions>
     <ConfigurationItem name="Headword" isEnabled="true" style="Dictionary-Headword" before="" between=" " after=" " field="MLHeadWord" cssClassNameOverride="mainheadword">
       <WritingSystemOptions writingSystemType="vernacular" displayWSAbreviation="false">
@@ -408,6 +409,7 @@
           <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+          <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-POS" before=" " between=" " after="" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -597,6 +599,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -829,6 +832,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ReferenceItem>MainEntrySubentries</ReferenceItem>
       </ConfigurationItem>
@@ -861,6 +865,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Reverse Abbreviation" isEnabled="true" between=" " field="ReverseAbbr">
@@ -1147,6 +1152,7 @@
           <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+          <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-POS" before="" between=" " after="" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1241,6 +1247,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="a0000000-dd15-4a03-9032-b40faaa9a754" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -1359,6 +1366,7 @@
         <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+        <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
       </ComplexFormOptions>
       <ReferenceItem>MainEntrySubentries</ReferenceItem>
     </ConfigurationItem>
@@ -1811,6 +1819,7 @@
           <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+          <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-POS" before=" " between=" " after="" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2000,6 +2009,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -2430,6 +2440,7 @@
         <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+        <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
       </ListTypeOptions>
       <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-POS" before="" between=" " after="" field="OwnerType" subField="Abbreviation">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2524,6 +2535,7 @@
         <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+        <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
       </ComplexFormOptions>
       <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
         <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -2813,6 +2825,7 @@
           <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+          <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-POS" before=" " between=" " after="" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -3002,6 +3015,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -3234,6 +3248,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ReferenceItem>MainEntrySubentries</ReferenceItem>
       </ConfigurationItem>
@@ -3654,6 +3669,7 @@
             <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
             <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
             <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+            <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
           </ListTypeOptions>
           <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-POS" before=" " between=" " after="" field="OwnerType" subField="Abbreviation">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4015,6 +4031,7 @@
             <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
             <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
             <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+            <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
           </ComplexFormOptions>
           <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
             <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -4294,6 +4311,7 @@
           <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+          <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-POS" before="" between=" " after="" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4388,6 +4406,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="a0000000-dd15-4a03-9032-b40faaa9a754" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" style="Dictionary-POS" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -4524,6 +4543,7 @@
           <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
+          <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
         </ComplexFormOptions>
         <ReferenceItem>MainEntrySubentries</ReferenceItem>
       </ConfigurationItem>

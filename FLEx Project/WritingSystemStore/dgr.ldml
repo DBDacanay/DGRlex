@@ -2,7 +2,7 @@
 <ldml>
   <identity>
     <version number="$Revision$" />
-    <generation date="2024-11-06T19:29:13Z" />
+    <generation date="2025-06-14T18:08:33Z" />
     <language type="dgr" />
     <special xmlns:sil="urn://www.sil.org/ldml/0.1">
       <sil:identity revid="515be572af4b1d1b9fd53ea1ec4593912159ea0d" defaultRegion="CA" script="Latn" draft="generated" />
@@ -73,10 +73,10 @@
       <parseLenient sample="-">[\--/]</parseLenient>
       <parseLenient sample=":">[\:∶︓﹕：]</parseLenient>
     </parseLenients>
-    <exemplarCharacters>[a-hj-z\u00E0\u00E8\u00EC\u00F2\u0105\u0119\u0131\u0142\u01EB\u0242\u0294{\u0105\u0300}{\u0119\u0300}{\u012F\u0300}{\u0131\u0328}{\u01EB\u0300}]</exemplarCharacters>
+    <exemplarCharacters>['A-Za-z\u00E0\u00E8\u00EC\u00F2\u0105\u0119\u0131\u0142\u01EB\u0242\u0294{\u0105\u0300}{\u0119\u0300}{\u012F\u0300}{\u0131\u0328}{\u01EB\u0300}]</exemplarCharacters>
     <exemplarCharacters type="auxiliary">[]</exemplarCharacters>
     <exemplarCharacters type="index">[A-Z\u00C0\u00C8\u00CC\u00D2\u0104\u0118\u012E\u0141\u01EA\u0241\u0294{\u0104\u0300}{\u0118\u0300}{\u012E\u0300}{\u01EA\u0300}]</exemplarCharacters>
-    <exemplarCharacters type="punctuation">[!'-),-.\:;?\u2014\u2018\u2019\u201C\u201D]</exemplarCharacters>
+    <exemplarCharacters type="punctuation">[!(),-.\:;?\u2014\u201C\u201D]</exemplarCharacters>
     <special xmlns:sil="urn://www.sil.org/ldml/0.1">
       <sil:exemplarCharacters type="numbers">[%+-.0-9\u2011\u2030]</sil:exemplarCharacters>
     </special>

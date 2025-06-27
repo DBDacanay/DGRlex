@@ -2,7 +2,7 @@
 <ldml>
   <identity>
     <version number="$Revision$" />
-    <generation date="2024-04-29T07:07:34Z" />
+    <generation date="2025-06-24T16:06:52Z" />
     <language type="dgr" />
     <script type="Zxxx" />
     <variant type="x-audio" />
@@ -20,10 +20,6 @@
     </special>
   </characters>
   <delimiters>
-    <quotationStart>“</quotationStart>
-    <quotationEnd>”</quotationEnd>
-    <alternateQuotationStart>‘</alternateQuotationStart>
-    <alternateQuotationEnd>’</alternateQuotationEnd>
     <special xmlns:sil="urn://www.sil.org/ldml/0.1">
       <sil:matched-pairs>
         <sil:matched-pair open="(" close=")" paraClose="false" />
@@ -116,6 +112,10 @@
         <sil:quotation open="“" close="”" continue="“" level="3" />
       </sil:quotation-marks>
     </special>
+    <quotationStart>“</quotationStart>
+    <quotationEnd>”</quotationEnd>
+    <alternateQuotationStart>‘</alternateQuotationStart>
+    <alternateQuotationEnd>’</alternateQuotationEnd>
   </delimiters>
   <layout>
     <orientation>
@@ -1432,6 +1432,12 @@
       <sil:font name="Noto Serif" types="default">
         <sil:url>https://github.com/googlefonts/noto-fonts/raw/main/hinted/ttf/NotoSerif/NotoSerif-Regular.ttf</sil:url>
       </sil:font>
+      <sil:kbd id="fv_tlicho_yatii" type="kmp">
+        <sil:url>https://keyman.com/go/keyboard/fv_tlicho_yatii/download/kmp</sil:url>
+      </sil:kbd>
+      <sil:kbd id="indigenous_nt" type="kmp">
+        <sil:url>https://keyman.com/go/keyboard/indigenous_nt/download/kmp</sil:url>
+      </sil:kbd>
     </sil:external-resources>
   </special>
 </ldml>

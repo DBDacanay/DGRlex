@@ -345,27 +345,6 @@ a.dgr-Zxxx-x-audio{
 .entry> .minimallexreferences .minimallexreference> .ownertype_abbreviation> span{
 		font-style:italic;
 	}
-.entry> .minimallexreferences .minimallexreference> .ownertype_name> span[lang|="en"]{
-		font-style:italic;
-	}
-.entry> .minimallexreferences .minimallexreference> .ownertype_name> span span[lang|="en"]{
-		font-style:italic;
-	}
-.entry> .minimallexreferences .minimallexreference> .ownertype_name> span span[lang|="dgr"]{
-		font-style:italic;
-	}
-.entry> .minimallexreferences .minimallexreference> .ownertype_name> span span[lang|="dgr-Zxxx-x-audio"]{
-		font-style:italic;
-	}
-.entry> .minimallexreferences .minimallexreference> .ownertype_name> .ownertype_nam+ .ownertype_nam:before{
-		content:' ';
-	}
-.entry> .minimallexreferences .minimallexreference> .ownertype_name> span:last-child:after{
-		content:':';
-	}
-.entry> .minimallexreferences .minimallexreference> .ownertype_name> span{
-		font-style:italic;
-	}
 .entry> .minimallexreferences .minimallexreference> .configtargets> .configtarget+ .configtarget:before{
 		content:', ';
 	}
@@ -2321,7 +2300,7 @@ a.dgr-Zxxx-x-audio{
 	}
 .mainentrysubsenses .mainentrysubsense> .extendednotecontents .extendednotecontent{
 		text-indent:0pt;
-		margin-left:0pt;
+		margin-left:-12pt;
 		flex-line-height:12pt;
 		line-height:12pt;
 		padding-bottom:6pt;
@@ -2330,7 +2309,7 @@ a.dgr-Zxxx-x-audio{
 	}
 .mainentrysubsenses .mainentrysubsense> .extendednotecontents .extendednotecontent{
 		text-indent:0pt;
-		margin-left:0pt;
+		margin-left:-12pt;
 		flex-line-height:12pt;
 		line-height:12pt;
 		padding-bottom:6pt;

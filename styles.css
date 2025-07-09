@@ -613,6 +613,99 @@ audio::-webkit-media-controls-volume-slider {
     cursor: pointer;
 }
 
+/* Image popup start */
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.imagePopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  background-image: none;
+  width: 600px;
+  height: 400px;
+  max-width: 80%;
+}
+
+.imagePopup.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.imagePopupImage {
+  width: 500px;
+  display: block;
+  margin: auto;
+
+}
+.modal-header {
+  position: absolute;
+  width: 599px;
+  padding: 10px 15px;
+  display: block;
+  justify-content: space-between;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  align-items: center;
+  background-color: lightgray;
+  background-image: none;
+  bottom: 0;
+}
+
+.modal-header .imagePopupCaption {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: lightgray;
+  background-image: none;
+}
+
+.modal-header #imagePopupSource {
+  background-color: lightgray;
+  background-image: none;
+}
+
+.close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  margin-left: 560px;
+  margin-top: 5px;
+  color: grey;
+
+}
+
+.close-button:hover {
+  color: darkgrey;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(2px);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 0.7;
+  pointer-events: all;
+}
+
+/* Image popup end */
+
 .culturebutton {
     position: relative;
     font-size: 0.8rem;

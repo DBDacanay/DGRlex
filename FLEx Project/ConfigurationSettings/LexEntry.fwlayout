@@ -30,6 +30,7 @@
           <part ref="ScientificName" visibility="ifdata" />
           <part ref="SemanticDomains" visibility="always" />
           <part ref="Status" visibility="always" />
+          <part ref="ReversalEntries" visibility="always" />
         </indent>
       </part>
     </part>

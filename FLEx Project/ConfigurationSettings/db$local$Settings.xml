@@ -104,7 +104,7 @@
   </Property>
   <Property>
     <name>db$local$SemanticDomainList-Index</name>
-    <value xsi:type="xsd:int">1477</value>
+    <value xsi:type="xsd:int">540</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1109,6 +1109,7 @@
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSlicePartName</name>
+    <value xsi:type="xsd:string">LexExampleSentence-Detail-Reference</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1969,7 +1970,7 @@
   </Property>
   <Property>
     <name>db$local$entries-Index</name>
-    <value xsi:type="xsd:int">6373</value>
+    <value xsi:type="xsd:int">7942</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2763,7 +2764,7 @@
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q43="http://microsoft.com/wsdl/types/" xsi:type="q43:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q43="http://microsoft.com/wsdl/types/" xsi:type="q43:guid">14411263-80d3-47fe-9be3-908a9bb606c2</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>

@@ -26,9 +26,9 @@
     <WritingSystem id="dgr-Zxxx-x-audio">
       <LocalKeyboard>en-US_US_US</LocalKeyboard>
       <KnownKeyboards>
-        <KnownKeyboard>en-US_US_US</KnownKeyboard>
         <KnownKeyboard>fv_tlicho_yatii</KnownKeyboard>
         <KnownKeyboard>indigenous_nt</KnownKeyboard>
+        <KnownKeyboard>en-US_US_US</KnownKeyboard>
       </KnownKeyboards>
       <DefaultFontName>Charis SIL</DefaultFontName>
       <IsGraphiteEnabled>false</IsGraphiteEnabled>

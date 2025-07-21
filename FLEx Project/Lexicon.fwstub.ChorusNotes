@@ -891,4 +891,54 @@ Andrew Gon</message>
 			date="2025-06-26T16:18:56-06:00"
 			guid="1c27f7c1-dc40-4ad8-964d-8d6d8be65b95">Joe Erasmus</message>
 	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=05e1ac46-5ebb-405f-a89e-d5e8bf56ff7f&amp;tag=&amp;id=05e1ac46-5ebb-405f-a89e-d5e8bf56ff7f&amp;label=Dǫgǫ̀ą"
+		guid="f699f037-ad90-4218-bdf5-a99809fcbc42">
+		<message
+			author="dacan"
+			status=""
+			date="2025-06-27T17:44:24-06:00"
+			guid="4c8b7618-a007-4b70-a2ef-902bcf10258b">A cousin of Treeva Richardson</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=162c039c-ae00-425e-be8e-ef489d479fc0&amp;tag=&amp;id=162c039c-ae00-425e-be8e-ef489d479fc0&amp;label=Monı̀dzı̨ą"
+		guid="2b33bc9a-86c4-4280-8634-3c5abe6ee18c">
+		<message
+			author="dacan"
+			status=""
+			date="2025-06-30T12:58:42-06:00"
+			guid="11650fbb-19b8-429e-a596-a7aadf6dc2fa">A childhood nickname of Treeva Richardson of Behchokǫ̀</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=bc40a948-fbbb-43b5-93b0-5a777ce16e7c&amp;tag=&amp;id=bc40a948-fbbb-43b5-93b0-5a777ce16e7c&amp;label=Kw'ahtık'èa"
+		guid="9a370122-43e1-4aeb-8fb8-0d36f879b3f2">
+		<message
+			author="dacan"
+			status=""
+			date="2025-06-30T13:45:31-06:00"
+			guid="f6e87eb1-ac5b-4c06-8b80-096a926f6be3">Mike Simpson's grandfather, a man from Whatı̀</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=8e914233-875a-4336-89eb-93710635a063&amp;tag=&amp;id=8e914233-875a-4336-89eb-93710635a063&amp;label=Behchotà"
+		guid="0a5ff02d-f628-443a-aac7-2a990a6614ab">
+		<message
+			author="dacan"
+			status=""
+			date="2025-06-30T13:48:08-06:00"
+			guid="493a2612-f6ef-4374-893d-c289c99b1507">Andrew Zoe, the paternal great uncle of Mike Simpson</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=1b2b096c-2ac0-406e-9125-8fe7bd815b3e&amp;tag=&amp;id=1b2b096c-2ac0-406e-9125-8fe7bd815b3e&amp;label=T'aakw'ı"
+		guid="e0995915-d3fd-4c56-986e-40b56d4f3c30">
+		<message
+			author="dacan"
+			status=""
+			date="2025-07-02T12:27:44-06:00"
+			guid="7b989039-d2b4-4fdc-88c6-607d26dd469e">Celine Eyakfwo of Wekweètı̀</message>
+	</annotation>
 </notes>

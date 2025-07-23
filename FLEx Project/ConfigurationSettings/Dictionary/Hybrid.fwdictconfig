@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Hybrid (complex forms as main entries and mini subentries)" version="26" lastModified="2025-06-24" allPublications="true" isRootBased="false">
+<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Hybrid (complex forms as main entries and mini subentries)" version="26" lastModified="2025-07-21" allPublications="true" isRootBased="false">
   <ConfigurationItem name="Main Entry" isEnabled="true" style="Dictionary-Normal" styleType="paragraph" field="LexEntry" cssClassNameOverride="entry">
     <ListTypeOptions list="complex">
       <Option id="a0000000-dd15-4a03-9032-b40faaa9a754" isEnabled="true" />
@@ -202,7 +202,7 @@
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Primary Entry References" isEnabled="false" hideCustomFields="true" before=" (" between=", " after=")" field="PrimaryEntryRefs">
-          <ConfigurationItem name="Type" isEnabled="true" style="Dictionary-POS" between="," after=" " field="EntryTypes" cssClassNameOverride="entrytypes">
+          <ConfigurationItem name="Type" isEnabled="false" style="Dictionary-POS" between="," after=" " field="EntryTypes" cssClassNameOverride="entrytypes">
             <ConfigurationItem name="Reverse Abbreviation" isEnabled="true" between=" " field="ReverseAbbr">
               <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
                 <Option id="analysis" isEnabled="true" />
@@ -216,7 +216,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
-          <ConfigurationItem name="Primary Entry(s)" isEnabled="true" before=" " between=", " field="ConfigReferencedEntries" cssClassNameOverride="referencedentries">
+          <ConfigurationItem name="Primary Entry(s)" isEnabled="false" before=" " between=", " field="ConfigReferencedEntries" cssClassNameOverride="referencedentries">
             <ConfigurationItem name="Referenced Headword" isEnabled="true" style="Dictionary-CrossReferences" after="" field="HeadWordRef" cssClassNameOverride="headword">
               <WritingSystemOptions writingSystemType="vernacular" displayWSAbreviation="false">
                 <Option id="vernacular" isEnabled="true" />
@@ -246,7 +246,7 @@
         </WritingSystemOptions>
       </ConfigurationItem>
     </ConfigurationItem>
-    <ConfigurationItem name="Senses" isEnabled="true" before=" " between="  " after="" field="SensesOS" cssClassNameOverride="senses">
+    <ConfigurationItem name="Senses" isEnabled="true" styleType="character" before=" " between="  " after="" field="SensesOS" cssClassNameOverride="senses">
       <SenseOptions numberStyle="Dictionary-SenseNumber" numberBefore="" numberingStyle="%d" numberAfter=". " numberSingleSense="false" showSingleGramInfoFirst="true" displayEachSenseInParagraph="false" displayFirstSenseInline="false" />
       <ConfigurationItem name="Grammatical Info." isEnabled="true" style="Dictionary-POS" before="" between="" after="  " field="MorphoSyntaxAnalysisRA" cssClassNameOverride="morphosyntaxanalysis">
         <ConfigurationItem name="Gram Info (Name)" isEnabled="false" before="" between=" " after="" field="InterlinearNameTSS" cssClassNameOverride="graminfoname" />
@@ -1366,7 +1366,7 @@
         <Option id="35cee792-74c8-444e-a9b7-ed0461d4d3b7" isEnabled="true" />
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
-        <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+        <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="false" />
       </ComplexFormOptions>
       <ReferenceItem>MainEntrySubentries</ReferenceItem>
     </ConfigurationItem>
@@ -1656,7 +1656,7 @@
         <Option id="en" isEnabled="false" />
       </WritingSystemOptions>
     </ConfigurationItem>
-    <ConfigurationItem name="Senses" isEnabled="true" before=" " between="  " after="" field="SensesOS" cssClassNameOverride="senses">
+    <ConfigurationItem name="Senses" isEnabled="true" styleType="character" before=" " between="  " after="" field="SensesOS" cssClassNameOverride="senses">
       <SenseOptions numberStyle="Dictionary-SenseNumber" numberBefore="" numberingStyle="%d" numberAfter=". " numberSingleSense="false" showSingleGramInfoFirst="true" displayEachSenseInParagraph="false" displayFirstSenseInline="false" />
       <ConfigurationItem name="Grammatical Info." isEnabled="true" style="Dictionary-POS" before="" between="" after="  " field="MorphoSyntaxAnalysisRA" cssClassNameOverride="morphosyntaxanalysis">
         <ConfigurationItem name="Gram Info (Name)" isEnabled="false" before="" between=" " after="" field="InterlinearNameTSS" cssClassNameOverride="graminfoname" />
@@ -2525,7 +2525,7 @@
         </ConfigurationItem>
       </ConfigurationItem>
     </ConfigurationItem>
-    <ConfigurationItem name="Referenced Complex Forms" isEnabled="false" before=" " between=", " after="" field="VisibleComplexFormBackRefs">
+    <ConfigurationItem name="Referenced Complex Forms" isEnabled="false" styleType="character" before=" " between=", " after="" field="VisibleComplexFormBackRefs">
       <ComplexFormOptions list="complex" displayEachComplexFormInParagraph="false">
         <Option id="a0000000-dd15-4a03-9032-b40faaa9a754" isEnabled="true" />
         <Option id="1f6ae209-141a-40db-983c-bee93af0ca3c" isEnabled="true" />
@@ -4553,4 +4553,5 @@
     <Publication>Main Dictionary</Publication>
   </Publications>
   <HomographConfiguration showHwNumInReversalCrossRef="true" showHwNumInCrossRef="true" showHwNumber="true" showSenseNumberReversal="true" showSenseNumber="true" homographNumberBefore="false" customHomographNumbers="" homographWritingSystem="" />
+  <Pictures alignment="right" width="1" height="1" />
 </DictionaryConfiguration>

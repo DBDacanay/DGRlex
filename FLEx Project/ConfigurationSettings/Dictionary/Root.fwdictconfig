@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Root-based (complex forms as subentries)" version="26" lastModified="2025-06-24" allPublications="true" isRootBased="true">
+<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Root-based (complex forms as subentries)" version="26" lastModified="2025-07-21" allPublications="true" isRootBased="true">
   <ConfigurationItem name="Main Entry" isEnabled="true" style="Dictionary-Normal" styleType="paragraph" field="LexEntry" cssClassNameOverride="entry">
     <ConfigurationItem name="Headword" isEnabled="true" style="Dictionary-Headword" between=" " after=" " field="MLHeadWord" cssClassNameOverride="mainheadword">
       <WritingSystemOptions writingSystemType="vernacular" displayWSAbreviation="false">
@@ -5448,4 +5448,5 @@
     <Publication>Main Dictionary</Publication>
   </Publications>
   <HomographConfiguration showHwNumInReversalCrossRef="true" showHwNumInCrossRef="true" showHwNumber="true" showSenseNumberReversal="true" showSenseNumber="true" homographNumberBefore="false" customHomographNumbers="" homographWritingSystem="" />
+  <Pictures alignment="right" width="1" height="1" />
 </DictionaryConfiguration>

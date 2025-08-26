@@ -151,13 +151,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandfgIrJsm0EU6lg7CfCFZbFQ==</name>
+    <name>expand5huKsbjsu0u2p+g2x9oB+A==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand5huKsbjsu0u2p+g2x9oB+A==</name>
+    <name>expandfgIrJsm0EU6lg7CfCFZbFQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -2755,13 +2755,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandrxFfp0T890aKUaTY35hGFw==</name>
+    <name>expandwVnCKez070Ck/RcMUpFBzw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandwVnCKez070Ck/RcMUpFBzw==</name>
+    <name>expandrxFfp0T890aKUaTY35hGFw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -3901,6 +3901,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandJ6ubYkCCP0W2RD7n5ada6w==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandWR5dKzkmlU25YZ3LUpNN0g==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -4273,6 +4279,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandjlfXJg1I1k6+7zsZziCliw==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandshRfdSMEmEqnuUHOQ8xC6w==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -4369,13 +4381,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand0LHlMzAo7U2PdxFsJ5zOUg==</name>
+    <name>expandqJQFYc2pSE2fe2TFKdmQUQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandqJQFYc2pSE2fe2TFKdmQUQ==</name>
+    <name>expand0LHlMzAo7U2PdxFsJ5zOUg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -5395,13 +5407,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandgWfByvDkLEK5CQhftIwVYA==</name>
+    <name>expand91St6ltqnE6ulcW/UBGgvg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand91St6ltqnE6ulcW/UBGgvg==</name>
+    <name>expandgWfByvDkLEK5CQhftIwVYA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -5974,6 +5986,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expand/BmUBEWKGEWqjKs40CwgEQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandnj9MssfMoU+xTnjzAOjtTg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -5992,13 +6010,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand4pgstnUAZEOVZ9RLM3Fatg==</name>
+    <name>expandIMIvK5ohS02nYu78bZvE0Q==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandIMIvK5ohS02nYu78bZvE0Q==</name>
+    <name>expand4pgstnUAZEOVZ9RLM3Fatg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -10837,6 +10855,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>ShowFailingItems-notebookDocument</name>
+    <value xsi:type="xsd:boolean">false</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandtcbcefvjUEig3vVURxDL+w==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -11761,6 +11785,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandQXRjdInLZkW6BSniXmD55g==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expand1QqMPTvAi0yLjnHegWrbkw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -12163,13 +12193,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandtG67jYaERE+HRTj1ciOr3Q==</name>
+    <name>expandycEEkggQ8EyqzM12WfR/Bw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandycEEkggQ8EyqzM12WfR/Bw==</name>
+    <name>expandtG67jYaERE+HRTj1ciOr3Q==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -13564,6 +13594,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandprF9bIStGkeK/zZIZPxIfg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandg2dXjVieg0uRWw2OnBk0XQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -13660,13 +13696,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandJ202efcLdEC9K8+cn0Wv6g==</name>
+    <name>expandUa6I27Lk6UWRaiZvoxBG7Q==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandUa6I27Lk6UWRaiZvoxBG7Q==</name>
+    <name>expandJ202efcLdEC9K8+cn0Wv6g==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -14525,6 +14561,12 @@
   </Property>
   <Property>
     <name>expanddPqw/P0h9UiDQp5Y80yrwA==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expand8KJevI0dukCTmJMAQ1AFag==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -17866,6 +17908,11 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>ConstChartColWidthsd84772d9-b547-44c2-a18e-30df425af809</name>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandMEAaE8Lm0k+7ApMIBRhLBQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -18665,6 +18712,12 @@
   </Property>
   <Property>
     <name>expandijzcAigHx0GFHzNxMEViCw==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandIYxOFoW0n06y+SNI3TWS4g==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -19967,6 +20020,12 @@
   </Property>
   <Property>
     <name>expand9niFFtHZhECa16rhB1jN5g==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expands41EiekAZkKhy5qJ05zqag==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -21617,6 +21676,12 @@
   </Property>
   <Property>
     <name>expandyPV1c3s81UG1vpWzOnmQ+w==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandkTlOxGRw7kKAKW9iECEWOg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -23289,13 +23354,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandq0zMqRSRP0Km8+8hubt4zA==</name>
+    <name>expand+FXFGySZVESltX4TUsnoHA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand+FXFGySZVESltX4TUsnoHA==</name>
+    <name>expandq0zMqRSRP0Km8+8hubt4zA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -24801,6 +24866,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandauJWKqhbqEqFbF2vEqRAoA==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandpzc1IYO47EKyrUrIoXHO9A==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -25371,13 +25442,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandpbvUI/zKqEy4HHJrFVDAyg==</name>
+    <name>expandYTsMJS2XRk+Wpqji0FJgNg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandYTsMJS2XRk+Wpqji0FJgNg==</name>
+    <name>expandpbvUI/zKqEy4HHJrFVDAyg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -27873,6 +27944,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandVQndRmrC2kaknGiLmHA7bA==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandiCA/+4OlmkadFge6f/BIhQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -28203,13 +28280,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandpIyKViRBdEe485AeQwgECA==</name>
+    <name>expandemtp6JDjNUqjD+SkxsA2dA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandemtp6JDjNUqjD+SkxsA2dA==</name>
+    <name>expandpIyKViRBdEe485AeQwgECA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -30186,13 +30263,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandjUL6pZjfskioFKEvEIvWTw==</name>
+    <name>expandgfPRq309y0yJuGGcmaQabw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandgfPRq309y0yJuGGcmaQabw==</name>
+    <name>expandjUL6pZjfskioFKEvEIvWTw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -30390,13 +30467,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>RecordClerk-DelayedGenreAssignment</name>
+    <name>expand49owvG9CWUGL5PpdeRfojQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand49owvG9CWUGL5PpdeRfojQ==</name>
-    <value xsi:type="xsd:boolean">true</value>
+    <name>RecordClerk-DelayedGenreAssignment</name>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -30731,13 +30808,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand2oKSw3231UqEin7kuTgykA==</name>
+    <name>expandMqVs43iZpkO+SaUozVV4Ng==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandMqVs43iZpkO+SaUozVV4Ng==</name>
+    <name>expand2oKSw3231UqEin7kuTgykA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -32675,6 +32752,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandy1SUAsPyX0C0Son4v/IeZg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expand54m3MhY0rUOL95wf8ekaAw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -33263,6 +33346,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandVrF386FgH0Gwi+pEULsHKQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandsbLFsJqs40OE+fUEaxo6Bg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -33390,6 +33479,12 @@
   </Property>
   <Property>
     <name>expandImNj02QjiEanLrh0d8zvPQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandBwNNlrpJ1kKthErcmjxlVA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -34313,13 +34408,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandU5Tb2F1ysESVBlVAAxaITg==</name>
+    <name>expand45E7vk0Y7UKPTwScKqzLPw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expand45E7vk0Y7UKPTwScKqzLPw==</name>
+    <name>expandU5Tb2F1ysESVBlVAAxaITg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -38723,13 +38818,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandv4MhabZFMEmVroZJVK7oqQ==</name>
+    <name>expandgqcLB/5DhUG7g1U3F3V9Xw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandgqcLB/5DhUG7g1U3F3V9Xw==</name>
+    <name>expandv4MhabZFMEmVroZJVK7oqQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -39336,6 +39431,12 @@
   </Property>
   <Property>
     <name>expand+r6CrEaNPEaACP8Fkiby2Q==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expanduaT93qJRck6pA3oesNXcHg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -40997,6 +41098,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandyrgkySddCUuOiFUboylFcA==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandGkT3wf0dNEa9Cg4fqfvpeQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -41807,6 +41914,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>MultiPaneSplitterDistance_textsWords_concordance_WordsAndOccurrencesMultiPane</name>
+    <value xsi:type="xsd:int">653</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expanddsfrl00la0eDlXGjVxHNTQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -42299,6 +42412,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expand+WO3RfxLM06giU6hpXlyQA==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandUq030YMswUWQwvzV3aIdlA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -42437,13 +42556,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandCOKTifC0KUeIX39EwD0aIQ==</name>
+    <name>expandcg1uLkHMUU2x0XtyhR20pw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandcg1uLkHMUU2x0XtyhR20pw==</name>
+    <name>expandCOKTifC0KUeIX39EwD0aIQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -43097,6 +43216,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expand2qpPdT2qMECKJubp0XxvWw==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandleszjjNRjUG+lFipbwjLJw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -43241,12 +43366,6 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandDALAOXUdJEyuKorpam/I2Q==</name>
-    <value xsi:type="xsd:boolean">true</value>
-    <doPersist>true</doPersist>
-    <doDispose>false</doDispose>
-  </Property>
-  <Property>
     <name>expandmUaYs534GkuNWVspOlISNw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -43254,6 +43373,12 @@
   </Property>
   <Property>
     <name>expandE4ndgSqQ1kStNFGHs6qccQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandDALAOXUdJEyuKorpam/I2Q==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -44153,6 +44278,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandl7dzE7PiHE2PPnLwOHTZeQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandVZXZkaQmo0mAnqrm44lFUw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -44370,6 +44501,12 @@
   </Property>
   <Property>
     <name>expand+pyZTjDeYkqAAeQA68Qj3A==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandrtgghVB9lkGcfQokYJUfzw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -47147,13 +47284,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandXF+kIEQOUU+dSv5yQP7i/g==</name>
+    <name>expandtnn1e+avgUKTQnupqUTYRg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandtnn1e+avgUKTQnupqUTYRg==</name>
+    <name>expandXF+kIEQOUU+dSv5yQP7i/g==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -47237,13 +47374,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandmkNKCDSOHkqr5KoLlO+ACw==</name>
+    <name>expandtRsOzBQyfUaWeqj174ixdA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandtRsOzBQyfUaWeqj174ixdA==</name>
+    <name>expandmkNKCDSOHkqr5KoLlO+ACw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -48566,13 +48703,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandibDlrHHcAEqzHIdmIxEfGw==</name>
+    <name>expandPC9N2ygRMkmgjhWQ4H2w2A==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandPC9N2ygRMkmgjhWQ4H2w2A==</name>
+    <name>expandibDlrHHcAEqzHIdmIxEfGw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -48603,6 +48740,12 @@
   </Property>
   <Property>
     <name>expandiBJS7ll20kyWYuFoCP+nRg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandlLHk2TArwE2N28kI9Hb6ZQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -48824,13 +48967,13 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandXU4ecfR3wUeRnwmHcNLQ5A==</name>
+    <name>expandpuM8pIeInEqgwDAVJoDvEQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>expandpuM8pIeInEqgwDAVJoDvEQ==</name>
+    <name>expandXU4ecfR3wUeRnwmHcNLQ5A==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -48849,6 +48992,12 @@
   </Property>
   <Property>
     <name>expandNSGzMEug4U6GOpVZ841LlQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandqD02w7cE8UKWs4LHQ0AfWQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -49899,6 +50048,12 @@
   </Property>
   <Property>
     <name>expandjOPnrSyuY0+hT1asOGXq7g==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expand1gP1W3L7VEiu72FeVJvIFA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -53441,6 +53596,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandaX69i0vjJUG4IppJMfHNlg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandaZW5N7P85ES+2i8blUlwqg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -54929,6 +55090,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandJv0eEl9oNUWB6UguAGN2Dg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandl8fDRPDo7UeVTUPqtzhVJg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -55332,6 +55499,12 @@
   </Property>
   <Property>
     <name>expand8HMIvqGTuUaa+njObeogsg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandp4CtGtGegEaS0NNYW6dnQg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -55949,6 +56122,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expand9h6Sd4N6HUuOWOyJbo+llQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandx3K9l7rABU6f8advFnz58g==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -56400,6 +56579,12 @@
   </Property>
   <Property>
     <name>expandySUhyTLS90SSy1eqobMvHg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandp9hIW8nLdUmaOclweowUYQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -56965,8 +57150,8 @@
   <Property>
     <name>windowLocation</name>
     <value xsi:type="Point">
-      <X>0</X>
-      <Y>0</Y>
+      <X>118</X>
+      <Y>11</Y>
     </value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -58422,6 +58607,12 @@
   </Property>
   <Property>
     <name>expandt1B/5QPT4EGQYZFdPqKj2Q==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandbG9b/ys0fUC9c2IeHsE0HQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -60611,6 +60802,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandOBgPVD73l0mOfNvnzD5qkw==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandJ15FtjBnO0ihhV6h8d7tCQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -62021,6 +62218,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandR95lm6v0T0K3/rCZTXwhfg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandXx3Q7Dc/cUqQcDeYkWyRBA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -62645,7 +62848,18 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>NotebookPublicationLayout</name>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expand/nNOmQZhtEKGFL2AT0Q9nw==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expand5uFPo9ZQzkynxWrH7f2UqA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -63042,6 +63256,12 @@
   </Property>
   <Property>
     <name>expandP4py4GxjrEmqbKDfYBmS5g==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandKa9+0n3hZkOmVDCFXGEumQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -66761,6 +66981,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expand8KOn+zzrDk6JBOZ4l6IP9w==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandp21wlnbN+kSieB1MPBCi/g==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -68956,6 +69182,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandRBu0shFiJkm9MqfPiQhcag==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expanddmyciS4+N0aawWt1yPdAWA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -70006,6 +70238,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>MultiPaneSplitterDistance_textsWords_interlinearEdit_EditViewTextsMultiPane</name>
+    <value xsi:type="xsd:int">174</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandQRR5QNOQfke25jpJ6kdecA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -70985,6 +71223,12 @@
   </Property>
   <Property>
     <name>expandWmDhaUWzf0WrsFvjgp/vFQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandeJVTOyfFYk+Y5fQG1YK8Kg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -73154,6 +73398,12 @@
   </Property>
   <Property>
     <name>expandzXxVLQM4dkuGfKq7UoNrMg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandVedzPc+eLk60uJhqKe80bQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -79416,6 +79666,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandCYp146K2RU2UIXIZxYwdQw==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandnhIsSklSJkmnMJisvvn0dA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -80162,7 +80418,7 @@
   <Property>
     <name>windowSize</name>
     <value xsi:type="Size">
-      <Width>1536</Width>
+      <Width>1017</Width>
       <Height>864</Height>
     </value>
     <doPersist>true</doPersist>
@@ -82011,6 +82267,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandDg/kxGHiUUGbzLB413BFtQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expand9t3Jlj5yCEKt+zY1sHnHyg==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -82420,6 +82682,12 @@
   </Property>
   <Property>
     <name>expandirVTkqlRoEm+noVCqQ5iEQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandvLOrFHiwVUKliihyvFPEzQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -84177,6 +84445,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expand3BPSAgO6DkK9uWn0RtHcHQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expand+OMti8NjR0iFi3FHZEJmrQ==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -84279,6 +84553,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandXod0TVxg30SGnZ3uAmyXXg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandM0A9GKpw+kCjVRhEZNO51w==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -84304,6 +84584,12 @@
   </Property>
   <Property>
     <name>expandQBnywdT6HU2GW00w3oORCA==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandHb9LBRYHb0W7VaAmsUvLnw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -89064,6 +89350,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>expandYbgzT59hxkaBxROrGgrPZg==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>expandNKGmnnUgIkutQZQzZW8Yaw==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
@@ -90451,7 +90743,7 @@
   </Property>
   <Property>
     <name>InterlinearTab</name>
-    <value xsi:type="xsd:string">TaggingView</value>
+    <value xsi:type="xsd:string">RawText</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -91873,6 +92165,12 @@
   </Property>
   <Property>
     <name>expandVr9AoGtIW0yd9KSVwqyorQ==</name>
+    <value xsi:type="xsd:boolean">true</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>expandXDNzgEriVE2QoNKMcuNVMA==</name>
     <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>

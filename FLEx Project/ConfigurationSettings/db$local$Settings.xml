@@ -63,6 +63,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>db$local$notebookBrowse_RecordsList_Column_7_Width</name>
+    <value xsi:type="xsd:int">-1</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>db$local$PhonologicalRuleEdit_PhonologicalRuleList_Column_0_Width</name>
     <value xsi:type="xsd:int">-1</value>
     <doPersist>true</doPersist>
@@ -145,7 +151,7 @@
   </Property>
   <Property>
     <name>db$local$InitialArea</name>
-    <value xsi:type="xsd:string">lexicon</value>
+    <value xsi:type="xsd:string">textsWords</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -215,7 +221,7 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--CharBeginOffset</name>
-    <value xsi:type="xsd:int">616</value>
+    <value xsi:type="xsd:int">138</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -250,7 +256,7 @@
   </Property>
   <Property>
     <name>db$local$OccurrencesOfSelectedUnit-Index</name>
-    <value xsi:type="xsd:int">4</value>
+    <value xsi:type="xsd:int">1</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -371,7 +377,7 @@
   </Property>
   <Property>
     <name>db$local$ConcordanceMatchDiacritics</name>
-    <value xsi:type="xsd:boolean">false</value>
+    <value xsi:type="xsd:boolean">true</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -570,7 +576,7 @@
   </Property>
   <Property>
     <name>db$local$concordance_wordOccurrenceList_Column_0_Width</name>
-    <value xsi:type="xsd:int">80</value>
+    <value xsi:type="xsd:int">81</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -644,7 +650,6 @@
   </Property>
   <Property>
     <name>db$local$grammar$posEdit$CurrentSlicePartName</name>
-    <value xsi:type="xsd:string">CmPossibility-Detail-DescriptionAllA</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -702,6 +707,11 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>db$local$notebookBrowse_RecordsList_ColumnList</name>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>db$local$CmPossibilityList.Status_sorter</name>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -724,8 +734,14 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
-    <name>db$local$complexConcordance_wordOccurrenceList_Column_0_Width</name>
+    <name>db$local$notebookBrowse_RecordsList_Column_0_Width</name>
     <value xsi:type="xsd:int">-1</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>db$local$complexConcordance_wordOccurrenceList_Column_0_Width</name>
+    <value xsi:type="xsd:int">76</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -849,6 +865,7 @@
   </Property>
   <Property>
     <name>db$local$InterlinConfig_v3_Edit_Interlinearizer</name>
+    <value xsi:type="xsd:string">EditableInterlinLineChoices_v3,5062001%vern in para%True,103%vern in para%True,5112004%best analysis%True,5112003%best analysis%True,5060001%en%True,5059003%best analysis%True,-61%en%True</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -900,7 +917,7 @@
   </Property>
   <Property>
     <name>db$local$complexConcordance_wordOccurrenceList_Column_1_Width</name>
-    <value xsi:type="xsd:int">-1</value>
+    <value xsi:type="xsd:int">553</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1039,6 +1056,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>db$local$notebookBrowse_RecordsList_Column_5_Width</name>
+    <value xsi:type="xsd:int">-1</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>db$local$EducationList-Index</name>
     <value xsi:type="xsd:int">0</value>
     <doPersist>true</doPersist>
@@ -1119,6 +1142,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>db$local$notebookBrowse_RecordsList_Column_6_Width</name>
+    <value xsi:type="xsd:int">-1</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>db$local$FsFeatureSystem.Features_sorter</name>
     <value xsi:type="xsd:string">&lt;sorter assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.GenRecordSorter"&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.StringFinderCompare"&gt;&lt;finder assemblyPath="XMLViews.dll" class="SIL.FieldWorks.Common.Controls.LayoutFinder" layout="Kind"&gt;&lt;column label="Kind" width="10%" layout="Kind" /&gt;&lt;/finder&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.WritingSystemComparer" ws="en" /&gt;&lt;/comparer&gt;&lt;/sorter&gt;</value>
     <doPersist>true</doPersist>
@@ -1126,6 +1155,7 @@
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSlicePartName</name>
+    <value xsi:type="xsd:string">MoForm-Detail-AsLexemeForm</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1291,7 +1321,7 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--IndexOfParagraph</name>
-    <value xsi:type="xsd:int">2</value>
+    <value xsi:type="xsd:int">421</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1373,7 +1403,7 @@
   </Property>
   <Property>
     <name>db$local$WordformInventory.Wordforms_sortName</name>
-    <value xsi:type="xsd:string">Form</value>
+    <value xsi:type="xsd:string">Number in Corpus</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1402,7 +1432,7 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--CharEndOffset</name>
-    <value xsi:type="xsd:int">620</value>
+    <value xsi:type="xsd:int">144</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1424,7 +1454,7 @@
   </Property>
   <Property>
     <name>db$local$ConcordanceLine</name>
-    <value xsi:type="xsd:string">kBaseline</value>
+    <value xsi:type="xsd:string">kFreeTranslation</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1502,6 +1532,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>db$local$notebookBrowse_RecordsList_Column_1_Width</name>
+    <value xsi:type="xsd:int">-1</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>db$local$lexiconEdit_lexentryList_Column_5_Width</name>
     <value xsi:type="xsd:int">155</value>
     <doPersist>true</doPersist>
@@ -1554,7 +1590,7 @@
   </Property>
   <Property>
     <name>db$local$concordanceWords-Index</name>
-    <value xsi:type="xsd:int">23</value>
+    <value xsi:type="xsd:int">8713</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1565,6 +1601,11 @@
   </Property>
   <Property>
     <name>db$local$CmPossibilityList.UsageTypes_sortName</name>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>db$local$notebook$notebookDocument$CurrentSlicePartName</name>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1581,6 +1622,12 @@
   </Property>
   <Property>
     <name>db$local$CmPossibilityList.Locations_filter</name>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>db$local$notebookBrowse_RecordsList_Column_2_Width</name>
+    <value xsi:type="xsd:int">-1</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1603,6 +1650,12 @@
   </Property>
   <Property>
     <name>db$local$concordance_wordOccurrenceList_ColumnList</name>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
+    <name>db$local$notebookBrowse_RecordsList_Column_3_Width</name>
+    <value xsi:type="xsd:int">-1</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1762,7 +1815,7 @@
   </Property>
   <Property>
     <name>db$local$WordformInventory.Wordforms_sorter</name>
-    <value xsi:type="xsd:string">&lt;sorter assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.GenRecordSorter"&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.StringFinderCompare"&gt;&lt;finder assemblyPath="XMLViews.dll" class="SIL.FieldWorks.Common.Controls.LayoutFinder" layout=""&gt;&lt;column label="Form" width="80000" ws="$ws=vernacular" transduce="WfiWordform.Form" cansortbylength="true" editif="!FormIsUsedWithWs"&gt;&lt;string field="Form" ws="$ws=vernacular" /&gt;&lt;/column&gt;&lt;/finder&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.WritingSystemComparer" ws="dgr" /&gt;&lt;/comparer&gt;&lt;/sorter&gt;</value>
+    <value xsi:type="xsd:string">&lt;sorter assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.GenRecordSorter"&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.StringFinderCompare"&gt;&lt;finder assemblyPath="XMLViews.dll" class="SIL.FieldWorks.Common.Controls.IntCompareFinder" layout=""&gt;&lt;column label="Number in Corpus" width="75000" sortType="integer" blankPossible="false"&gt;&lt;int field="OccurrenceCount" /&gt;&lt;/column&gt;&lt;/finder&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.ReverseComparer"&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.WritingSystemComparer" ws="en" /&gt;&lt;/comparer&gt;&lt;/comparer&gt;&lt;/sorter&gt;</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1810,7 +1863,7 @@
   </Property>
   <Property>
     <name>db$local$ToolForAreaNamed_textsWords</name>
-    <value xsi:type="xsd:string">corpusStatistics</value>
+    <value xsi:type="xsd:string">interlinearEdit</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1831,7 +1884,7 @@
   </Property>
   <Property>
     <name>db$local$ConcordanceWs</name>
-    <value xsi:type="xsd:string">dgr</value>
+    <value xsi:type="xsd:string">en</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1939,6 +1992,12 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>db$local$notebook$notebookDocument$CurrentSliceObjectGuid</name>
+    <value xmlns:q24="http://microsoft.com/wsdl/types/" xsi:type="q24:guid">00000000-0000-0000-0000-000000000000</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>db$local$CmPossibilityList.VariantEntryTypes_filter</name>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
@@ -1957,7 +2016,7 @@
   </Property>
   <Property>
     <name>db$local$lists$semanticDomainEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q24="http://microsoft.com/wsdl/types/" xsi:type="q24:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q25="http://microsoft.com/wsdl/types/" xsi:type="q25:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2009,7 +2068,7 @@
   </Property>
   <Property>
     <name>db$local$entries-Index</name>
-    <value xsi:type="xsd:int">8</value>
+    <value xsi:type="xsd:int">13</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2025,8 +2084,14 @@
     <doDispose>false</doDispose>
   </Property>
   <Property>
+    <name>db$local$notebookBrowse_RecordsList_Column_4_Width</name>
+    <value xsi:type="xsd:int">-1</value>
+    <doPersist>true</doPersist>
+    <doDispose>false</doDispose>
+  </Property>
+  <Property>
     <name>db$local$lists$statusEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q25="http://microsoft.com/wsdl/types/" xsi:type="q25:guid">df80920c-65eb-4eeb-b8d5-ab07e6bfc845</value>
+    <value xmlns:q26="http://microsoft.com/wsdl/types/" xsi:type="q26:guid">df80920c-65eb-4eeb-b8d5-ab07e6bfc845</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2066,7 +2131,7 @@
   </Property>
   <Property>
     <name>db$local$textsWords$interlinearEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q26="http://microsoft.com/wsdl/types/" xsi:type="q26:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q27="http://microsoft.com/wsdl/types/" xsi:type="q27:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2078,7 +2143,7 @@
   </Property>
   <Property>
     <name>db$local$lists$usageTypeEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q27="http://microsoft.com/wsdl/types/" xsi:type="q27:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q28="http://microsoft.com/wsdl/types/" xsi:type="q28:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2112,13 +2177,13 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--IndexOfRecord</name>
-    <value xsi:type="xsd:int">1</value>
+    <value xsi:type="xsd:int">57</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$lists$peopleEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q28="http://microsoft.com/wsdl/types/" xsi:type="q28:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q29="http://microsoft.com/wsdl/types/" xsi:type="q29:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2163,7 +2228,7 @@
   </Property>
   <Property>
     <name>db$local$lists$roleEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q29="http://microsoft.com/wsdl/types/" xsi:type="q29:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q30="http://microsoft.com/wsdl/types/" xsi:type="q30:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2191,7 +2256,7 @@
   </Property>
   <Property>
     <name>db$local$grammar$featuresAdvancedEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q30="http://microsoft.com/wsdl/types/" xsi:type="q30:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q31="http://microsoft.com/wsdl/types/" xsi:type="q31:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2256,7 +2321,7 @@
   </Property>
   <Property>
     <name>db$local$lists$confidenceEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q31="http://microsoft.com/wsdl/types/" xsi:type="q31:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q32="http://microsoft.com/wsdl/types/" xsi:type="q32:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2267,19 +2332,19 @@
   </Property>
   <Property>
     <name>db$local$ConcordanceText</name>
-    <value xsi:type="xsd:string">dè</value>
+    <value xsi:type="xsd:string">stole</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$interlinearTexts-Index</name>
-    <value xsi:type="xsd:int">1</value>
+    <value xsi:type="xsd:int">57</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$lists$dialectsListEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q32="http://microsoft.com/wsdl/types/" xsi:type="q32:guid">4954b4e8-d1c1-4b24-bac4-e3d5a739d5e2</value>
+    <value xmlns:q33="http://microsoft.com/wsdl/types/" xsi:type="q33:guid">4954b4e8-d1c1-4b24-bac4-e3d5a739d5e2</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2297,7 +2362,7 @@
   </Property>
   <Property>
     <name>db$local$grammar$PhonologicalRuleEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q33="http://microsoft.com/wsdl/types/" xsi:type="q33:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q34="http://microsoft.com/wsdl/types/" xsi:type="q34:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2401,7 +2466,7 @@
   </Property>
   <Property>
     <name>db$local$concordance_wordOccurrenceList_Column_1_Width</name>
-    <value xsi:type="xsd:int">437</value>
+    <value xsi:type="xsd:int">358</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2429,7 +2494,7 @@
   </Property>
   <Property>
     <name>db$local$LangProject.InterestingTexts_sorter</name>
-    <value xsi:type="xsd:string">&lt;sorter assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.GenRecordSorter"&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.StringFinderCompare"&gt;&lt;finder assemblyPath="XMLViews.dll" class="SIL.FieldWorks.Common.Controls.LayoutFinder" layout=""&gt;&lt;column label="Title" width="144000" chooserFilter="special"&gt;&lt;dynamicloaderinfo assemblyPath="ITextDll.dll" class="SIL.FieldWorks.IText.TextsFilterItem" /&gt;&lt;string field="Title" ws="$ws=best vernoranal" /&gt;&lt;/column&gt;&lt;/finder&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.WritingSystemComparer" ws="en" /&gt;&lt;/comparer&gt;&lt;/sorter&gt;</value>
+    <value xsi:type="xsd:string">&lt;sorter assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.GenRecordSorter"&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.StringFinderCompare"&gt;&lt;finder assemblyPath="XMLViews.dll" class="SIL.FieldWorks.Common.Controls.LayoutFinder" layout=""&gt;&lt;column label="Title" width="144000" chooserFilter="special"&gt;&lt;dynamicloaderinfo assemblyPath="ITextDll.dll" class="SIL.FieldWorks.IText.TextsFilterItem" /&gt;&lt;string field="Title" ws="$ws=best vernoranal" /&gt;&lt;/column&gt;&lt;/finder&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.ReverseComparer"&gt;&lt;comparer assemblyPath="Filters.dll" class="SIL.FieldWorks.Filters.WritingSystemComparer" ws="en" /&gt;&lt;/comparer&gt;&lt;/comparer&gt;&lt;/sorter&gt;</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2440,7 +2505,7 @@
   </Property>
   <Property>
     <name>db$local$lists$restrictionsEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q34="http://microsoft.com/wsdl/types/" xsi:type="q34:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q35="http://microsoft.com/wsdl/types/" xsi:type="q35:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2452,7 +2517,7 @@
   </Property>
   <Property>
     <name>db$local$lists$textMarkupTagsEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q35="http://microsoft.com/wsdl/types/" xsi:type="q35:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q36="http://microsoft.com/wsdl/types/" xsi:type="q36:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2479,7 +2544,7 @@
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconClassifiedDictionary$CurrentSliceObjectGuid</name>
-    <value xmlns:q36="http://microsoft.com/wsdl/types/" xsi:type="q36:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q37="http://microsoft.com/wsdl/types/" xsi:type="q37:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2513,7 +2578,7 @@
   </Property>
   <Property>
     <name>db$local$grammar$phonemeEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q37="http://microsoft.com/wsdl/types/" xsi:type="q37:guid">79050e77-0e09-477f-b325-947c35284651</value>
+    <value xmlns:q38="http://microsoft.com/wsdl/types/" xsi:type="q38:guid">79050e77-0e09-477f-b325-947c35284651</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2566,13 +2631,13 @@
   </Property>
   <Property>
     <name>db$local$lists$timeOfDayEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q38="http://microsoft.com/wsdl/types/" xsi:type="q38:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q39="http://microsoft.com/wsdl/types/" xsi:type="q39:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$grammar$posEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q39="http://microsoft.com/wsdl/types/" xsi:type="q39:guid">6015121b-5c20-40bc-b370-0c5cf27d359f</value>
+    <value xmlns:q40="http://microsoft.com/wsdl/types/" xsi:type="q40:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2588,7 +2653,7 @@
   </Property>
   <Property>
     <name>db$local$textsWords$Analyses$CurrentSliceObjectGuid</name>
-    <value xmlns:q40="http://microsoft.com/wsdl/types/" xsi:type="q40:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q41="http://microsoft.com/wsdl/types/" xsi:type="q41:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2774,13 +2839,13 @@
   </Property>
   <Property>
     <name>db$local$lists$recTypeEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q41="http://microsoft.com/wsdl/types/" xsi:type="q41:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q42="http://microsoft.com/wsdl/types/" xsi:type="q42:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$lexicon$rapidDataEntry$CurrentSliceObjectGuid</name>
-    <value xmlns:q42="http://microsoft.com/wsdl/types/" xsi:type="q42:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q43="http://microsoft.com/wsdl/types/" xsi:type="q43:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2810,7 +2875,7 @@
   </Property>
   <Property>
     <name>db$local$textsWords$concordance$CurrentSliceObjectGuid</name>
-    <value xmlns:q43="http://microsoft.com/wsdl/types/" xsi:type="q43:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q44="http://microsoft.com/wsdl/types/" xsi:type="q44:guid">00000000-0000-0000-0000-000000000000</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2822,7 +2887,7 @@
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q44="http://microsoft.com/wsdl/types/" xsi:type="q44:guid">00000000-0000-0000-0000-000000000000</value>
+    <value xmlns:q45="http://microsoft.com/wsdl/types/" xsi:type="q45:guid">2a56e26a-5ba8-4aa8-856c-5daf12a440a0</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>

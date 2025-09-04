@@ -941,4 +941,44 @@ Andrew Gon</message>
 			date="2025-07-02T12:27:44-06:00"
 			guid="7b989039-d2b4-4fdc-88c6-607d26dd469e">Celine Eyakfwo of Wekweètı̀</message>
 	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=d2a964b6-6acb-4fdc-ad8a-3ce3210560cd&amp;tag=&amp;id=d2a964b6-6acb-4fdc-ad8a-3ce3210560cd&amp;label=Wızǫǫ̀"
+		guid="318ce5f1-708c-4ac5-a9fd-4177db1013ef">
+		<message
+			author="dacan"
+			status=""
+			date="2025-09-03T16:30:53-06:00"
+			guid="a99c5108-350a-4d9e-8682-fccfa86c14d1">Gilbert Simpson of Fort Simpson, grandfather of Frederick Simpson</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=c9898a5f-9eec-4dc2-89b3-475001ec3235&amp;tag=&amp;id=c9898a5f-9eec-4dc2-89b3-475001ec3235&amp;label=Enǫ̀hba"
+		guid="53637ba0-ea52-40f4-ad5c-d99455c470bb">
+		<message
+			author="dacan"
+			status=""
+			date="2025-09-03T16:39:06-06:00"
+			guid="7cec8e8a-9e4e-4643-a7b7-37dcfea2e2d1">Marie Simpson, wife of Gilbert Simpson</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=2abf6277-3fd3-4328-9c16-f6088e2b2ad1&amp;tag=&amp;id=2abf6277-3fd3-4328-9c16-f6088e2b2ad1&amp;label=Tsàwòdèa"
+		guid="4a6461a1-4e77-444a-bb3c-77218fcc18fe">
+		<message
+			author="dacan"
+			status=""
+			date="2025-09-03T16:41:24-06:00"
+			guid="85ebfab9-fcbd-4f03-8d94-7b8c01e17837">Jimmy Simpson, a relative of Frederick Simpson</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=90b0c0e5-73f3-407f-abcc-710bf9614bef&amp;tag=&amp;id=90b0c0e5-73f3-407f-abcc-710bf9614bef&amp;label=Seehtso"
+		guid="97ae491b-1c97-4294-b795-43abb7a06f9a">
+		<message
+			author="dacan"
+			status=""
+			date="2025-09-03T16:46:09-06:00"
+			guid="7d4e83b2-7c00-4590-83b5-7bdde5c3910d">Frederick Simpson's grandmother's brother</message>
+	</annotation>
 </notes>

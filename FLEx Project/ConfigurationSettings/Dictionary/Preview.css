@@ -90,11 +90,14 @@ a.dgr-Zxxx-x-audio{
 .entry .senses:before{
 	content:' ';
 }
+.entry .senses:after{
+	content:' ';
+}
 .entry .senses > .sensecontent .sensenumber{
 	font-weight:bold;
 }
 .entry .senses > .sensecontent .sensenumber:after{
-	content:'. ';
+	content:') ';
 }
 .entry .senses .morphosyntaxanalysis:after{
 	content:'  ';
@@ -126,9 +129,6 @@ a.dgr-Zxxx-x-audio{
 .entry .senses .examplescontents .example> .exampl+ .exampl:before{
 	content:' ';
 }
-.entry .senses .examplescontents .example> span:last-child:after{
-	content:' ';
-}
 .entry .senses .examplescontents .example> span[lang='dgr']{
 	font-style:italic;
 }
@@ -150,60 +150,60 @@ a.dgr-Zxxx-x-audio{
 .entry .senses .examplescontents .translationcontents .translation> .translatio+ .translatio:before{
 	content:' ';
 }
-.entry .grouping_referencessection{
-	text-indent:0pt;
-	margin-left:0pt;
-	flex-line-height:12pt;
-	line-height:12pt;
-	padding-bottom:6pt;
-	padding-right:21pt;
-	display:block;
-}
-.entry .grouping_referencessection .variantformentrybackrefs> .variantformentrybackref + .variantformentrybackref:before{
-	content:';';
-}
-.entry .grouping_referencessection .variantformentrybackrefs:before{
+.entry .senses .examplescontents .translationcontents .translation> span:first-child:before{
 	content:' ';
 }
-.entry .grouping_referencessection .variantformentrybackrefs:after{
+.entry .senses .semanticdomains> .semanticdomain + .semanticdomain:before{
+	content:'; ';
+}
+.entry .senses .semanticdomains:before{
 	content:' ';
 }
-.entry .grouping_referencessection .variantformentrybackrefs .headword> .headwor+ .headwor:before{
+.entry .senses .semanticdomains .abbreviation> .abbreviatio+ .abbreviatio:before{
+	content:' ';
+}
+.entry .senses .semanticdomains .abbreviation> span:last-child:after{
+	content:' - ';
+}
+.entry .senses .semanticdomains .name> .nam+ .nam:before{
+	content:' ';
+}
+.entry .visiblecomplexformbackrefs> .visiblecomplexformbackref + .visiblecomplexformbackref:before{
 	content:', ';
 }
-.entry .grouping_referencessection .variantformentrybackrefs .headword> span:first-child:before{
+.entry .visiblecomplexformbackrefs:before{
+	content:'  ';
+}
+.entry .visiblecomplexformbackrefs .headword> .headwor+ .headwor:before{
 	content:' ';
 }
-.entry .grouping_referencessection .variantformentrybackrefs .headword> span[lang='dgr']{
+.entry .visiblecomplexformbackrefs .headword> span:first-child:before{
+	content:' ';
+}
+.entry .visiblecomplexformbackrefs .headword> span[lang='dgr']{
 	font-weight:bold;
 }
-.entry .grouping_referencessection .variantformentrybackrefs .headword> span{
+.entry .visiblecomplexformbackrefs .headword> span{
 	font-weight:bold;
 }
-.entry .grouping_referencessection .variantformentrybackrefs .headword> span span[lang='en']{
+.entry .visiblecomplexformbackrefs .headword> span span[lang='en']{
 	font-weight:bold;
 }
-.entry .grouping_referencessection .variantformentrybackrefs .headword> span span[lang='dgr']{
+.entry .visiblecomplexformbackrefs .headword> span span[lang='dgr']{
 	font-weight:bold;
 }
-.entry .grouping_referencessection .variantformentrybackrefs .headword> span span[lang='dgr-Zxxx-x-audio']{
+.entry .visiblecomplexformbackrefs .headword> span span[lang='dgr-Zxxx-x-audio']{
 	font-weight:bold;
 }
-.entry .grouping_referencessection .variantformentrybackrefs > .variantformentrybackref + .variantentrytypes:before{
+.entry .visiblecomplexformbackrefs .definitionorglosses> .definitionorgloss+ .definitionorgloss:before{
+	content:' ';
+}
+.entry .visiblecomplexformbackrefs .definitionorglosses> span:first-child:before{
+	content:' ';
+}
+.entry .visiblecomplexformbackrefs > .visiblecomplexformbackref + .complexformtypes:before{
 	content:', ';
 }
-.entry .grouping_referencessection .variantformentrybackrefs .variantentrytypes .variantentrytype{
-	font-style:italic;
-}
-.entry .grouping_referencessection .variantformentrybackrefs .variantentrytypes .variantentrytype span[lang='en']{
-	font-style:italic;
-}
-.entry .grouping_referencessection .variantformentrybackrefs .variantentrytypes .variantentrytype span[lang='dgr']{
-	font-style:italic;
-}
-.entry .grouping_referencessection .variantformentrybackrefs .variantentrytypes .variantentrytype span[lang='dgr-Zxxx-x-audio']{
-	font-style:italic;
-}
-.entry .grouping_referencessection .variantformentrybackrefs .variantentrytypes .abbreviation> .abbreviatio+ .abbreviatio:before{
+.entry .visiblecomplexformbackrefs .complexformtypes .abbreviation-2> .abbreviatio+ .abbreviatio:before{
 	content:' ';
 }

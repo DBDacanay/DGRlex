@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Root-based (complex forms as subentries)" version="26" lastModified="2025-07-21" allPublications="true" isRootBased="true">
+<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Root-based (complex forms as subentries)" version="26" lastModified="2025-08-28" allPublications="true" isRootBased="true">
   <ConfigurationItem name="Main Entry" isEnabled="true" style="Dictionary-Normal" styleType="paragraph" field="LexEntry" cssClassNameOverride="entry">
     <ConfigurationItem name="Headword" isEnabled="true" style="Dictionary-Headword" between=" " after=" " field="MLHeadWord" cssClassNameOverride="mainheadword">
       <WritingSystemOptions writingSystemType="vernacular" displayWSAbreviation="false">
@@ -172,6 +172,7 @@
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Etymology" isEnabled="true" before="(" between=" " after=") " field="EtymologyOS" cssClassNameOverride="etymologies">
       <ConfigurationItem name="Preceding Annotation" isEnabled="true" field="PrecComment">
@@ -244,6 +245,7 @@
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
         <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+        <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
       </ListTypeOptions>
       <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before="" between=" " after=":" field="OwnerType" subField="Abbreviation">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -318,6 +320,7 @@
                 <Option id="en" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
           <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -326,6 +329,7 @@
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
     </ConfigurationItem>
     <ConfigurationItem name="Summary Definition" isEnabled="false" before=" " between=" " after=" " field="SummaryDefinition">
@@ -504,6 +508,7 @@
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
           <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+          <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before=" " between=" " after=":" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -578,6 +583,7 @@
                   <Option id="en" isEnabled="false" />
                 </WritingSystemOptions>
               </ConfigurationItem>
+              <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
             </ConfigurationItem>
             <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
               <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -586,6 +592,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
       </ConfigurationItem>
       <ConfigurationItem name="Variants of Sense" isEnabled="true" before=" (" between=";" after=")" field="VariantFormEntryBackRefs">
@@ -682,6 +689,7 @@
             <Option id="en" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Anthropology Note" isEnabled="false" before=" " between=" " field="AnthroNote">
         <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
@@ -866,6 +874,7 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -914,7 +923,9 @@
               <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Subentries" isEnabled="true" styleType="character" before="  " field="Subentries">
         <ComplexFormOptions list="complex" displayEachComplexFormInParagraph="false">
@@ -927,6 +938,7 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ReferenceItem>MainEntrySubentries</ReferenceItem>
       </ConfigurationItem>
@@ -1001,6 +1013,7 @@
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
         <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+        <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
       </ComplexFormOptions>
       <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
         <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -1057,7 +1070,9 @@
             <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Pictures" isEnabled="true" style="Dictionary-Pictures" between="  " after=" " field="PicturesOfSenses" cssClassNameOverride="pictures">
       <PictureOptions minimumHeight="0" minimumWidth="0" maximumHeight="1" maximumWidth="0" pictureLocation="right" stackPictures="false" />
@@ -1097,9 +1112,11 @@
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
         <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+        <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
       </ComplexFormOptions>
       <ReferenceItem>MainEntrySubentries</ReferenceItem>
     </ConfigurationItem>
+    <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" before="(" after=")" field="Elements" />
   </ConfigurationItem>
   <ConfigurationItem name="Minor Entry (Complex Forms)" isEnabled="true" style="Dictionary-Minor" styleType="paragraph" field="LexEntry" cssClassNameOverride="minorentrycomplex">
     <ListTypeOptions list="complex">
@@ -1112,6 +1129,7 @@
       <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
       <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
       <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+      <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
     </ListTypeOptions>
     <ConfigurationItem name="Headword" isEnabled="true" style="Dictionary-Headword" between=" " after=" " field="MLHeadWord" cssClassNameOverride="headword">
       <WritingSystemOptions writingSystemType="vernacular" displayWSAbreviation="false">
@@ -1284,6 +1302,7 @@
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Etymology" isEnabled="true" before="(" between=" " after=") " field="EtymologyOS" cssClassNameOverride="etymologies">
       <ConfigurationItem name="Preceding Annotation" isEnabled="true" field="PrecComment">
@@ -1356,6 +1375,7 @@
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
         <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+        <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
       </ListTypeOptions>
       <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before="" between=" " after=":" field="OwnerType" subField="Abbreviation">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1430,6 +1450,7 @@
                 <Option id="en" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
           <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1438,6 +1459,7 @@
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
     </ConfigurationItem>
     <ConfigurationItem name="Variant of" isEnabled="true" hideCustomFields="true" before="" between=", " after=" " field="VisibleVariantEntryRefs">
@@ -1527,6 +1549,7 @@
                 <Option id="en" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
           <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1535,6 +1558,7 @@
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Comment" isEnabled="true" before=" " between=" " field="Summary">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1554,6 +1578,7 @@
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
         <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+        <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
       </ListTypeOptions>
       <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
         <ConfigurationItem name="Reverse Abbreviation" isEnabled="true" between=" " field="ReverseAbbr">
@@ -1612,6 +1637,7 @@
                 <Option id="en" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
           <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1620,6 +1646,7 @@
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Comment" isEnabled="true" before=" " between=" " field="Summary">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1635,6 +1662,7 @@
             <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
     </ConfigurationItem>
     <ConfigurationItem name="Summary Definition" isEnabled="true" before=" " between=" " after=" " field="SummaryDefinition">
@@ -1812,6 +1840,7 @@
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
           <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+          <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before=" " between=" " after=":" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1886,6 +1915,7 @@
                   <Option id="en" isEnabled="false" />
                 </WritingSystemOptions>
               </ConfigurationItem>
+              <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
             </ConfigurationItem>
             <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
               <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -1894,6 +1924,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
       </ConfigurationItem>
       <ConfigurationItem name="Variants of Sense" isEnabled="true" before=" (" between=";" after=")" field="VariantFormEntryBackRefs">
@@ -1990,6 +2021,7 @@
             <Option id="en" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Anthropology Note" isEnabled="false" before=" " between=" " field="AnthroNote">
         <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
@@ -2175,6 +2207,7 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -2223,7 +2256,9 @@
               <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Subsenses" isEnabled="true" before=" " between="  " after=" " field="SensesOS" cssClassNameOverride="senses">
         <SenseOptions numberStyle="Dictionary-SenseNumber" numberBefore="" numberingStyle="%d" parentSenseNumberingStyle="%." numberAfter=") " numberSingleSense="false" showSingleGramInfoFirst="true" displayEachSenseInParagraph="false" displayFirstSenseInline="false" />
@@ -2296,6 +2331,7 @@
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
         <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+        <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
       </ComplexFormOptions>
       <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
         <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -2351,6 +2387,7 @@
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Pictures" isEnabled="true" style="Dictionary-Pictures" between="  " after=" " field="PicturesOfSenses" cssClassNameOverride="pictures">
       <PictureOptions minimumHeight="0" minimumWidth="0" maximumHeight="1" maximumWidth="0" pictureLocation="right" stackPictures="false" />
@@ -2379,6 +2416,7 @@
       <ConfigurationItem name="Creator" isEnabled="true" before=" " after="," field="@extension:SIL.FieldWorks.XWorks.DictConfigModelExt.Creator" cssClassNameOverride="creator" />
       <ConfigurationItem name="Copyright &amp; License" isEnabled="true" before=" " after="" field="@extension:SIL.FieldWorks.XWorks.DictConfigModelExt.CopyrightAndLicense" cssClassNameOverride="license" />
     </ConfigurationItem>
+    <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
   </ConfigurationItem>
   <ConfigurationItem name="Minor Entry (Variants)" isEnabled="true" style="Dictionary-Minor" styleType="paragraph" field="LexEntry" cssClassNameOverride="minorentryvariant">
     <ListTypeOptions list="variant">
@@ -2563,6 +2601,7 @@
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Etymology" isEnabled="true" before="(" between=" " after=") " field="EtymologyOS" cssClassNameOverride="etymologies">
       <ConfigurationItem name="Preceding Annotation" isEnabled="true" field="PrecComment">
@@ -2635,6 +2674,7 @@
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
         <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+        <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
       </ListTypeOptions>
       <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before="" between=" " after=":" field="OwnerType" subField="Abbreviation">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2709,6 +2749,7 @@
                 <Option id="en" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
           <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2717,6 +2758,7 @@
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
     </ConfigurationItem>
     <ConfigurationItem name="Variant of" isEnabled="true" hideCustomFields="true" before="" between=", " after=" " field="VisibleVariantEntryRefs">
@@ -2806,6 +2848,7 @@
                 <Option id="en" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
           <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2814,6 +2857,7 @@
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Comment" isEnabled="true" before=" " between=" " field="Summary">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2833,6 +2877,7 @@
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
         <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+        <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
       </ListTypeOptions>
       <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
         <ConfigurationItem name="Reverse Abbreviation" isEnabled="true" between=" " field="ReverseAbbr">
@@ -2891,6 +2936,7 @@
                 <Option id="en" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
           <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2899,6 +2945,7 @@
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Comment" isEnabled="true" before=" " between=" " field="Summary">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -2914,7 +2961,9 @@
             <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Summary Definition" isEnabled="true" before=" " between=" " after=" " field="SummaryDefinition">
       <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -3091,6 +3140,7 @@
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
           <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+          <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before=" " between=" " after=":" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -3165,6 +3215,7 @@
                   <Option id="en" isEnabled="false" />
                 </WritingSystemOptions>
               </ConfigurationItem>
+              <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
             </ConfigurationItem>
             <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
               <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -3173,6 +3224,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
       </ConfigurationItem>
       <ConfigurationItem name="Variants of Sense" isEnabled="true" before=" (" between=";" after=")" field="VariantFormEntryBackRefs">
@@ -3269,6 +3321,7 @@
             <Option id="en" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Anthropology Note" isEnabled="false" before=" " between=" " field="AnthroNote">
         <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
@@ -3454,6 +3507,7 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -3502,7 +3556,9 @@
               <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Subsenses" isEnabled="true" before=" " between="  " after=" " field="SensesOS" cssClassNameOverride="senses">
         <SenseOptions numberStyle="Dictionary-SenseNumber" numberBefore="" numberingStyle="%d" parentSenseNumberingStyle="%." numberAfter=") " numberSingleSense="false" showSingleGramInfoFirst="true" displayEachSenseInParagraph="false" displayFirstSenseInline="false" />
@@ -3575,6 +3631,7 @@
         <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
         <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
         <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+        <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
       </ComplexFormOptions>
       <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
         <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -3623,6 +3680,7 @@
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Pictures" isEnabled="true" style="Dictionary-Pictures" between="  " after=" " field="PicturesOfSenses" cssClassNameOverride="pictures">
       <PictureOptions minimumHeight="0" minimumWidth="0" maximumHeight="1" maximumWidth="0" pictureLocation="right" stackPictures="false" />
@@ -3651,6 +3709,7 @@
       <ConfigurationItem name="Creator" isEnabled="true" before=" " after="," field="@extension:SIL.FieldWorks.XWorks.DictConfigModelExt.Creator" cssClassNameOverride="creator" />
       <ConfigurationItem name="Copyright &amp; License" isEnabled="true" before=" " after="" field="@extension:SIL.FieldWorks.XWorks.DictConfigModelExt.CopyrightAndLicense" cssClassNameOverride="license" />
     </ConfigurationItem>
+    <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
   </ConfigurationItem>
   <SharedItems>
     <ConfigurationItem name="MainEntrySubsenses" isEnabled="true" field="SensesOS" cssClassNameOverride="mainentrysubsenses">
@@ -3815,6 +3874,7 @@
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
           <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+          <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before=" " between=" " after=":" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -3889,6 +3949,7 @@
                   <Option id="en" isEnabled="false" />
                 </WritingSystemOptions>
               </ConfigurationItem>
+              <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
             </ConfigurationItem>
             <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
               <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -3897,6 +3958,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
       </ConfigurationItem>
       <ConfigurationItem name="Variants of Sense" isEnabled="true" before=" (" between=";" after=")" field="VariantFormEntryBackRefs">
@@ -3993,6 +4055,7 @@
             <Option id="en" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Anthropology Note" isEnabled="false" before=" " between=" " field="AnthroNote">
         <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
@@ -4178,6 +4241,7 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -4226,7 +4290,9 @@
               <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Subentries" isEnabled="false" styleType="character" before="  " field="Subentries">
         <ComplexFormOptions list="complex" displayEachComplexFormInParagraph="false">
@@ -4239,6 +4305,7 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ReferenceItem>MainEntrySubentries</ReferenceItem>
       </ConfigurationItem>
@@ -4433,6 +4500,7 @@
             <Option id="en" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Etymology" isEnabled="true" before=" (" between=" " after=") " field="EtymologyOS" cssClassNameOverride="etymologies">
         <ConfigurationItem name="Preceding Annotation" isEnabled="true" field="PrecComment">
@@ -4505,6 +4573,7 @@
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
           <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
           <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+          <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
         </ListTypeOptions>
         <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before="" between=" " after=":" field="OwnerType" subField="Abbreviation">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4579,6 +4648,7 @@
                   <Option id="en" isEnabled="false" />
                 </WritingSystemOptions>
               </ConfigurationItem>
+              <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
             </ConfigurationItem>
             <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
               <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4587,6 +4657,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
       </ConfigurationItem>
       <ConfigurationItem name="Variant of" isEnabled="true" hideCustomFields="true" between=", " after=" " field="VisibleVariantEntryRefs">
@@ -4676,6 +4747,7 @@
                   <Option id="en" isEnabled="false" />
                 </WritingSystemOptions>
               </ConfigurationItem>
+              <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
             </ConfigurationItem>
             <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
               <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4684,6 +4756,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
         <ConfigurationItem name="Comment" isEnabled="true" before=" " between=" " field="Summary">
           <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4867,6 +4940,7 @@
             <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="true" />
             <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
             <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+            <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
           </ListTypeOptions>
           <ConfigurationItem name="Relation Abbreviation" isEnabled="true" style="Dictionary-Contrasting" before=" " between=" " after=":" field="OwnerType" subField="Abbreviation">
             <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4941,6 +5015,7 @@
                     <Option id="en" isEnabled="false" />
                   </WritingSystemOptions>
                 </ConfigurationItem>
+                <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
               </ConfigurationItem>
               <ConfigurationItem name="Comment" isEnabled="false" before=" " between=" " field="Summary">
                 <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -4949,6 +5024,7 @@
                 </WritingSystemOptions>
               </ConfigurationItem>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
         </ConfigurationItem>
         <ConfigurationItem name="Variants of Sense" isEnabled="true" before=" (" between=";" after=")" field="VariantFormEntryBackRefs">
@@ -5045,6 +5121,7 @@
               <Option id="en" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
         </ConfigurationItem>
         <ConfigurationItem name="Anthropology Note" isEnabled="false" before=" " between=" " field="AnthroNote">
           <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
@@ -5230,6 +5307,7 @@
             <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
             <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
             <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+            <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
           </ComplexFormOptions>
           <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
             <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -5278,7 +5356,9 @@
                 <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
+            <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
         </ConfigurationItem>
         <ConfigurationItem name="Subsenses" isEnabled="true" before=" " between="  " after=" " field="SensesOS" cssClassNameOverride="senses">
           <SenseOptions numberStyle="Dictionary-SenseNumber" numberBefore="" numberingStyle="%d" parentSenseNumberingStyle="%." numberAfter=") " numberSingleSense="true" showSingleGramInfoFirst="true" displayEachSenseInParagraph="false" displayFirstSenseInline="false" />
@@ -5351,6 +5431,7 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ConfigurationItem name="Complex Form Type" isEnabled="true" between=", " after="" field="ComplexEntryTypesRS" cssClassNameOverride="complexformtypes">
           <ConfigurationItem name="Abbreviation" isEnabled="true" between=" " field="Abbreviation">
@@ -5399,7 +5480,9 @@
               <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
+          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
+        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Pictures" isEnabled="true" style="Dictionary-Pictures" between="  " after=" " field="PicturesOfSenses" cssClassNameOverride="pictures">
         <PictureOptions minimumHeight="0" minimumWidth="0" maximumHeight="1" maximumWidth="0" pictureLocation="right" stackPictures="false" />
@@ -5439,9 +5522,11 @@
           <Option id="9466d126-246e-400b-8bba-0703e09bc567" isEnabled="true" />
           <Option id="fec038ed-6a8c-4fa5-bc96-a4f515a98c50" isEnabled="true" />
           <Option id="95569b07-a22e-4ccb-aced-af77dd7e071f" isEnabled="true" />
+          <Option id="98248f60-d1af-4bc0-931c-234a27013c4f" isEnabled="true" />
         </ComplexFormOptions>
         <ReferenceItem>MainEntrySubentries</ReferenceItem>
       </ConfigurationItem>
+      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
     </ConfigurationItem>
   </SharedItems>
   <Publications>

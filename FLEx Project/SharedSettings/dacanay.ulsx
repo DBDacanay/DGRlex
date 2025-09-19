@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserLexiconSettings>
+  <WritingSystems>
+    <WritingSystem id="dgr">
+      <LocalKeyboard>en_xkb:us::eng</LocalKeyboard>
+      <KnownKeyboards>
+        <KnownKeyboard>fv_tlicho_yatii</KnownKeyboard>
+        <KnownKeyboard>indigenous_nt</KnownKeyboard>
+        <KnownKeyboard>en_xkb:us::eng</KnownKeyboard>
+      </KnownKeyboards>
+      <DefaultFontName>Charis SIL</DefaultFontName>
+    </WritingSystem>
+    <WritingSystem id="en">
+      <LocalKeyboard>en_xkb:us::eng</LocalKeyboard>
+      <KnownKeyboards>
+        <KnownKeyboard>basic_kbddv</KnownKeyboard>
+        <KnownKeyboard>basic_kbduk</KnownKeyboard>
+        <KnownKeyboard>basic_kbdus</KnownKeyboard>
+        <KnownKeyboard>basic_kbdusa</KnownKeyboard>
+        <KnownKeyboard>en_xkb:us::eng</KnownKeyboard>
+      </KnownKeyboards>
+      <DefaultFontName>Charis SIL</DefaultFontName>
+    </WritingSystem>
+  </WritingSystems>
+</UserLexiconSettings>

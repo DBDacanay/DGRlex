@@ -362,7 +362,7 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--IndexOfRecord</name>
-    <value xsi:type="xsd:int">61</value>
+    <value xsi:type="xsd:int">0</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -488,7 +488,7 @@
   </Property>
   <Property>
     <name>db$local$entries-Index</name>
-    <value xsi:type="xsd:int">11411</value>
+    <value xsi:type="xsd:int">8100</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1035,7 +1035,7 @@
   </Property>
   <Property>
     <name>db$local$ConcordanceText</name>
-    <value xsi:type="xsd:string">load</value>
+    <value xsi:type="xsd:string">100</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1829,7 +1829,7 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--CharBeginOffset</name>
-    <value xsi:type="xsd:int">12</value>
+    <value xsi:type="xsd:int">0</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -1963,7 +1963,7 @@
   </Property>
   <Property>
     <name>db$local$ToolForAreaNamed_textsWords</name>
-    <value xsi:type="xsd:string">concordance</value>
+    <value xsi:type="xsd:string">corpusStatistics</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2043,13 +2043,13 @@
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSlicePartName</name>
-    <value xsi:type="xsd:string" />
+    <value xsi:type="xsd:string">LexSense-Detail-GlossAllA</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$lexicon$lexiconEdit$CurrentSliceObjectGuid</name>
-    <value xmlns:q33="http://microsoft.com/wsdl/types/" xsi:type="q33:guid">09b76013-2b55-4bad-83d0-d0a6234e7299</value>
+    <value xmlns:q33="http://microsoft.com/wsdl/types/" xsi:type="q33:guid">03236fe6-5eb9-41d2-8eba-1dda460809a6</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2315,7 +2315,7 @@
   </Property>
   <Property>
     <name>db$local$interlinearTexts-Index</name>
-    <value xsi:type="xsd:int">61</value>
+    <value xsi:type="xsd:int">0</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2373,7 +2373,7 @@
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--CharEndOffset</name>
-    <value xsi:type="xsd:int">17</value>
+    <value xsi:type="xsd:int">0</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
@@ -2719,13 +2719,13 @@
   </Property>
   <Property>
     <name>db$local$OccurrencesOfSelectedUnit-Index</name>
-    <value xsi:type="xsd:int">0</value>
+    <value xsi:type="xsd:int">3</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>
   <Property>
     <name>db$local$ITexts-Bookmark--IndexOfParagraph</name>
-    <value xsi:type="xsd:int">1121</value>
+    <value xsi:type="xsd:int">0</value>
     <doPersist>true</doPersist>
     <doDispose>false</doDispose>
   </Property>

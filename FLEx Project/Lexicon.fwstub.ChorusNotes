@@ -981,4 +981,89 @@ Andrew Gon</message>
 			date="2025-09-03T16:46:09-06:00"
 			guid="7d4e83b2-7c00-4590-83b5-7bdde5c3910d">Frederick Simpson's grandmother's brother</message>
 	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=969fe3bf-7a9f-4df5-b11f-e02f2c0b70bf&amp;tag=&amp;id=969fe3bf-7a9f-4df5-b11f-e02f2c0b70bf&amp;label=Gotł'ı̨waàbı̀"
+		guid="e2f6dabe-9d54-44a6-acb5-64df3a63908a">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-09-22T15:27:16-06:00"
+			guid="340e6e89-22b7-456f-afd6-b51c97716158">Pierre Quitte, husband of Marie Williah</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=6e3531ce-f1af-485e-a495-24df8c581a7c&amp;tag=&amp;id=6e3531ce-f1af-485e-a495-24df8c581a7c&amp;label=Yamàadıı"
+		guid="886eb4a3-0040-469d-b647-783a0f354eaf">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-09-29T17:38:27-06:00"
+			guid="07121176-de7a-47d6-a3ad-b717a09da53b">Joe Black, son of Annie Black</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=3e90d72f-e4a2-4b12-94b8-5c8a2972618c&amp;tag=&amp;id=3e90d72f-e4a2-4b12-94b8-5c8a2972618c&amp;label=Edzaàgwòò"
+		guid="ad21b6c4-dba3-4ca3-a482-3988d479901c">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-09-29T19:45:37-06:00"
+			guid="415fb654-d68d-4c7e-92bd-51190da96a2a">Father of Pierre Judas, from Wekweètı̀</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=8ad559a6-d46b-4e6f-b7c4-36e7da31d685&amp;tag=&amp;id=8ad559a6-d46b-4e6f-b7c4-36e7da31d685&amp;label=Homı̨̀"
+		guid="05d7ef91-3da1-4c39-82b0-b9d10a48c2bf">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-09-30T13:42:22-06:00"
+			guid="701ec27a-e6f3-4ffe-9420-8a27fc327a14">Laiza Koyina's father</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=9b260037-d126-46da-8031-f27a085a08f2&amp;tag=&amp;id=9b260037-d126-46da-8031-f27a085a08f2&amp;label=Bahgòa"
+		guid="35b57a5d-dd6d-4a15-9ca4-f12e19b59095">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-03T12:42:28-06:00"
+			guid="c3a05906-113b-4de2-9f3e-0a25a145b245">Johnny Smith's grandfather, who lived near Lac La Martre</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=75a196c6-6a3f-44d4-943d-275b48519331&amp;tag=&amp;id=75a196c6-6a3f-44d4-943d-275b48519331&amp;label=Bı̀ı Kwıı̀t'ı̀"
+		guid="83d054e5-a379-4e90-a903-6f55e0bc7de3">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-03T12:46:00-06:00"
+			guid="94886e67-0149-47be-846a-6a1122502ed3">Husband of Gedlıèwàa, who lived near Lac La Martre</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=4f4b571e-c619-43f1-a1c1-c06633781967&amp;tag=&amp;id=4f4b571e-c619-43f1-a1c1-c06633781967&amp;label=Dzą̀dzıı̀"
+		guid="65c3c114-7af5-4db9-b3f9-3849d0d759ec">
+		<message
+			author="dacanay"
+			status="closed"
+			date="2025-10-07T11:48:58-06:00"
+			guid="350303cf-287b-4b4d-b6bb-4f7bdfe1a792">r</message>
+		<message
+			author="dacanay"
+			status="closed"
+			date="2025-10-07T11:49:30-06:00"
+			guid="82af5602-7906-4fdb-a01d-e5159925a29b">John Drygeese, father of Mary Rose Sundberg</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=fac5aba3-bba6-47af-b14a-4c82e7a45a1e&amp;tag=&amp;id=fac5aba3-bba6-47af-b14a-4c82e7a45a1e&amp;label=Kw'ı̨̀ą"
+		guid="aa72ca6e-c517-4c4f-8e5b-733fedccddad">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-07T11:52:03-06:00"
+			guid="003e6833-8d5b-4604-a12b-076076114dbd">Mary Louise Drygeese, mother of Mary Rose Sundberg</message>
+	</annotation>
 </notes>

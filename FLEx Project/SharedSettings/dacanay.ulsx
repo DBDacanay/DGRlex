@@ -6,7 +6,6 @@
       <KnownKeyboards>
         <KnownKeyboard>fv_tlicho_yatii</KnownKeyboard>
         <KnownKeyboard>indigenous_nt</KnownKeyboard>
-        <KnownKeyboard>en_xkb:us::eng</KnownKeyboard>
       </KnownKeyboards>
       <DefaultFontName>Charis SIL</DefaultFontName>
     </WritingSystem>

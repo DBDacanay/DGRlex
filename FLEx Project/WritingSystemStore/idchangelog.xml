@@ -50,5 +50,23 @@
 			TimeStamp="2025-10-07T05:43:00Z">
 			<Id>dgr</Id>
 		</Add>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.0.17 (apparent build date: 01-Jan-1970)"
+			TimeStamp="2025-11-12T21:32:29Z">
+			<Id>dgr</Id>
+		</Add>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.0.17 (apparent build date: 01-Jan-1970)"
+			TimeStamp="2025-11-17T19:26:28Z">
+			<Id>dgr</Id>
+		</Add>
+		<Add
+			Producer="FieldWorks"
+			ProducerVersion="Version 9.1.25 (apparent build date: 29-Feb-2024)"
+			TimeStamp="2025-11-17T21:45:46Z">
+			<Id>dgr</Id>
+		</Add>
 	</Changes>
 </WritingSystemChangeLog>

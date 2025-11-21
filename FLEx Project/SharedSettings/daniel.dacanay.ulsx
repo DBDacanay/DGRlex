@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UserLexiconSettings>
+  <WritingSystems>
+    <WritingSystem id="dgr">
+      <LocalKeyboard>en-US_US_US</LocalKeyboard>
+      <KnownKeyboards>
+        <KnownKeyboard>en-US_US_US</KnownKeyboard>
+      </KnownKeyboards>
+      <DefaultFontName>Charis SIL</DefaultFontName>
+    </WritingSystem>
+    <WritingSystem id="en">
+      <LocalKeyboard>en-CA_US_US</LocalKeyboard>
+      <KnownKeyboards>
+        <KnownKeyboard>basic_kbddv</KnownKeyboard>
+        <KnownKeyboard>basic_kbduk</KnownKeyboard>
+        <KnownKeyboard>basic_kbdus</KnownKeyboard>
+        <KnownKeyboard>basic_kbdusa</KnownKeyboard>
+      </KnownKeyboards>
+      <DefaultFontName>Charis SIL</DefaultFontName>
+    </WritingSystem>
+  </WritingSystems>
+</UserLexiconSettings>

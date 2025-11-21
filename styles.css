@@ -241,6 +241,17 @@
   cursor:pointer;
 }
 
+.tickBoxPOS {
+  width: 20px;
+  height:20px;
+  border-color: lightgrey;
+  border-radius: 4px;
+  background-image: none;
+  background-color: rgba(211, 211, 211, 0.205);
+  cursor: pointer;
+  margin-left: 5px;
+}
+
 .semanticSearch {
   display: block;
   width: 400px;
@@ -385,7 +396,7 @@
   height: 40px;
   width: 400px;
   border-radius: 14px;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;

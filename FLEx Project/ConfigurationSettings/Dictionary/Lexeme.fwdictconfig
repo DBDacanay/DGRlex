@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Lexeme-based (complex forms as main entries)" version="26" lastModified="2025-08-28" allPublications="true" isRootBased="false">
+<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Lexeme-based (complex forms as main entries)" version="26" lastModified="2025-11-17" allPublications="true" isRootBased="false">
   <ConfigurationItem name="Main Entry" isEnabled="true" style="Dictionary-Normal" styleType="paragraph" field="LexEntry" cssClassNameOverride="entry">
     <ListTypeOptions list="complex">
       <Option id="a0000000-dd15-4a03-9032-b40faaa9a754" isEnabled="true" />
@@ -40,16 +40,16 @@
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="best vernoranal" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
       <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="best vernoranal" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
     </ConfigurationItem>
@@ -67,16 +67,16 @@
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="analysis" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Name" isEnabled="true" between=" " field="Name">
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="analysis" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Alias" isEnabled="true" before=" " between=" " field="Alias">
@@ -128,16 +128,16 @@
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
       </ConfigurationItem>
@@ -155,16 +155,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="analysis" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="analysis" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -217,8 +217,8 @@
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="best vernoranal" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
       <ConfigurationItem name="Gloss" isEnabled="true" before=" " between=" " after="" field="Gloss">
@@ -245,6 +245,19 @@
         <Option id="b79ba420-ea5e-11de-8f71-0013722f8dec" isEnabled="false" />
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:f" isEnabled="false" />
         <Option id="e95927eb-7a50-42d5-a6f3-6cc992c66cc9:r" isEnabled="true" />
+        <Option id="b764ce50-ea5e-11de-864f-0013722f8dec:f" isEnabled="true" />
+        <Option id="b764ce50-ea5e-11de-864f-0013722f8dec:r" isEnabled="true" />
+        <Option id="b770ba08-ea5e-11de-9ca9-0013722f8dec:f" isEnabled="true" />
+        <Option id="b770ba08-ea5e-11de-9ca9-0013722f8dec:r" isEnabled="true" />
+        <Option id="b77a435c-ea5e-11de-9a66-0013722f8dec" isEnabled="true" />
+        <Option id="b7862f14-ea5e-11de-8d47-0013722f8dec" isEnabled="true" />
+        <Option id="b7921ac2-ea5e-11de-880d-0013722f8dec" isEnabled="true" />
+        <Option id="b7a78fd8-ea5e-11de-9ef2-0013722f8dec:f" isEnabled="true" />
+        <Option id="b7a78fd8-ea5e-11de-9ef2-0013722f8dec:r" isEnabled="true" />
+        <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:f" isEnabled="true" />
+        <Option id="119384a0-6bf3-4492-8ef6-ad3848e8de1b:r" isEnabled="true" />
+        <Option id="e6d74517-54a6-469b-91ba-8b07cc7e3bd0" isEnabled="true" />
+        <Option id="8210e854-f10f-47a1-ab11-7178a7f1ca87" isEnabled="true" />
       </ListTypeOptions>
       <ConfigurationItem name="Relation Abbreviation" isEnabled="false" style="Dictionary-Contrasting" before="" between=" " after=":" field="OwnerType" subField="Abbreviation">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
@@ -271,16 +284,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -458,16 +471,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -624,16 +637,16 @@
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
       </ConfigurationItem>
@@ -726,16 +739,16 @@
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="best vernoranal" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
             <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="best vernoranal" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
@@ -824,16 +837,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -851,16 +864,16 @@
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="analysis" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
             <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="analysis" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
@@ -1238,8 +1251,8 @@
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="vernacular" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
       <ConfigurationItem name="Headword" isEnabled="false" style="Dictionary-Headword" between=" " after="" field="Owner" subField="OwnerOutlineName" cssClassNameOverride="headword">
@@ -1299,16 +1312,16 @@
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="best vernoranal" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
       <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="best vernoranal" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
     </ConfigurationItem>
@@ -1326,16 +1339,16 @@
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="analysis" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Name" isEnabled="true" between=" " field="Name">
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="analysis" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Alias" isEnabled="true" before=" " between=" " field="Alias">
@@ -1387,16 +1400,16 @@
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
       </ConfigurationItem>
@@ -1414,16 +1427,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="analysis" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="analysis" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -1476,8 +1489,8 @@
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="best vernoranal" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
       <ConfigurationItem name="Gloss" isEnabled="true" before=" " between=" " after="" field="Gloss">
@@ -1543,16 +1556,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -1642,16 +1655,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -1720,7 +1733,7 @@
         <Option id="en" isEnabled="false" />
       </WritingSystemOptions>
     </ConfigurationItem>
-    <ConfigurationItem name="Senses" isEnabled="false" before=" " between="  " after=" " field="SensesOS" cssClassNameOverride="senses">
+    <ConfigurationItem name="Senses" isEnabled="true" styleType="character" before=" " between="  " after=" " field="SensesOS" cssClassNameOverride="senses">
       <SenseOptions numberStyle="Dictionary-SenseNumber" numberBefore="" numberingStyle="%d" numberAfter=") " numberSingleSense="false" showSingleGramInfoFirst="true" displayEachSenseInParagraph="false" displayFirstSenseInline="false" />
       <ConfigurationItem name="Grammatical Info." isEnabled="true" style="Dictionary-Contrasting" after="  " field="MorphoSyntaxAnalysisRA" cssClassNameOverride="morphosyntaxanalysis">
         <ConfigurationItem name="Gram Info (Name)" isEnabled="false" between=" " after="" field="InterlinearNameTSS" cssClassNameOverride="graminfoname" />
@@ -1797,9 +1810,9 @@
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
-      <ConfigurationItem name="Gloss" isEnabled="false" between=" " after="" field="Gloss">
+      <ConfigurationItem name="Gloss" isEnabled="false" style="Added Text" between=" " after="" field="Gloss">
         <WritingSystemOptions writingSystemType="analysis" displayWSAbreviation="false">
-          <Option id="all analysis" isEnabled="true" />
+          <Option id="analysis" isEnabled="true" />
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
@@ -1808,16 +1821,16 @@
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
       </ConfigurationItem>
@@ -1910,16 +1923,16 @@
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="best vernoranal" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
             <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="best vernoranal" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
@@ -2008,16 +2021,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -2035,16 +2048,16 @@
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="analysis" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
             <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="analysis" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
@@ -2161,7 +2174,7 @@
           <ConfigurationItem name="Reference" isEnabled="false" before=" " field="Reference" />
         </ConfigurationItem>
       </ConfigurationItem>
-      <ConfigurationItem name="General Note" isEnabled="false" before=" " between=" " field="GeneralNote">
+      <ConfigurationItem name="General Note" isEnabled="false" styleType="character" before=" " between=" " field="GeneralNote">
         <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
           <Option id="all analysis" isEnabled="true" />
           <Option id="en" isEnabled="false" />
@@ -2422,8 +2435,8 @@
         <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
           <Option id="vernacular" isEnabled="true" />
           <Option id="dgr" isEnabled="false" />
-          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           <Option id="en" isEnabled="false" />
+          <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
       <ConfigurationItem name="Headword" isEnabled="true" style="Dictionary-Headword" between=" " after="" field="Owner" subField="OwnerOutlineName" cssClassNameOverride="headword">
@@ -2532,16 +2545,16 @@
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
         <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
           <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
             <Option id="best vernoranal" isEnabled="true" />
             <Option id="dgr" isEnabled="false" />
-            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             <Option id="en" isEnabled="false" />
+            <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
       </ConfigurationItem>
@@ -2634,16 +2647,16 @@
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="best vernoranal" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
             <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="best vernoranal" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
@@ -2732,16 +2745,16 @@
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
           <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
             <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
               <Option id="best vernoranal" isEnabled="true" />
               <Option id="dgr" isEnabled="false" />
-              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               <Option id="en" isEnabled="false" />
+              <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
             </WritingSystemOptions>
           </ConfigurationItem>
         </ConfigurationItem>
@@ -2759,16 +2772,16 @@
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="analysis" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
             <ConfigurationItem name="Name" isEnabled="false" between=" " field="Name">
               <WritingSystemOptions writingSystemType="both" displayWSAbreviation="false">
                 <Option id="analysis" isEnabled="true" />
                 <Option id="dgr" isEnabled="false" />
-                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
                 <Option id="en" isEnabled="false" />
+                <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
@@ -3021,5 +3034,4 @@
     <Publication>Main Dictionary</Publication>
   </Publications>
   <HomographConfiguration showHwNumInReversalCrossRef="true" showHwNumInCrossRef="true" showHwNumber="true" showSenseNumberReversal="true" showSenseNumber="true" homographNumberBefore="false" customHomographNumbers="" homographWritingSystem="" />
-  <Pictures alignment="right" width="1" height="1" />
 </DictionaryConfiguration>

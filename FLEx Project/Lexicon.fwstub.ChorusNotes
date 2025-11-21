@@ -1066,4 +1066,64 @@ Andrew Gon</message>
 			date="2025-10-07T11:52:03-06:00"
 			guid="003e6833-8d5b-4604-a12b-076076114dbd">Mary Louise Drygeese, mother of Mary Rose Sundberg</message>
 	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=20eddbe3-bb44-4667-8986-2d5c0e1a868e&amp;tag=&amp;id=20eddbe3-bb44-4667-8986-2d5c0e1a868e&amp;label=Yatàzoò"
+		guid="db36602e-f425-4110-a6dc-1dca604c0280">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-08T13:32:28-06:00"
+			guid="023a45fc-f689-4354-80e3-2c8a9e41b02b">Grandfather of Edı̀wazhı̨̀a Blackduck</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=9869acfe-2403-4db2-9de4-5e97a3d0979c&amp;tag=&amp;id=9869acfe-2403-4db2-9de4-5e97a3d0979c&amp;label=Ts'eewhı̨̀ą"
+		guid="2d5c8b1e-56f4-4795-b7fb-e82aae38c218">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-08T22:46:17-06:00"
+			guid="986d385b-cbc9-48d1-b6e5-0e0ac005722f">Laiza Koyina's maternal grandmother</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=1b38499c-e590-429a-8920-7e60b79db849&amp;tag=&amp;id=1b38499c-e590-429a-8920-7e60b79db849&amp;label=Kw'ahtıjımı̀a"
+		guid="f84bde34-1af4-4b77-a149-4626c7ba85be">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-08T22:51:59-06:00"
+			guid="da268a2f-bc6e-4c56-bab3-02e75f219536">Jimmy Lacorne</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=15074c6a-e7d6-40fc-8961-f527e1a939b2&amp;tag=&amp;id=15074c6a-e7d6-40fc-8961-f527e1a939b2&amp;label=Wełàht'ee"
+		guid="8ac9260a-0273-41d2-8745-fd1fe0356242">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-09T22:32:35-06:00"
+			guid="682e6686-1401-4670-b6bc-3f469fc4185e">Father of Moise Martin</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=fab19e47-da2e-4039-87b0-5fdbe35631c4&amp;tag=&amp;id=fab19e47-da2e-4039-87b0-5fdbe35631c4&amp;label=K'òkw'ı̨̀ą"
+		guid="67fed531-5c76-4041-a480-b2ca1db178ec">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-10-09T22:53:25-06:00"
+			guid="dc2fc4bb-8f30-4443-89c1-bb5d5f46110e">Melanie Lafferty's child</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=bc3ebee1-2998-4575-be03-58e7761e030e&amp;tag=&amp;id=bc3ebee1-2998-4575-be03-58e7761e030e&amp;label=Daedlı̨̀ą"
+		guid="1d33f754-77db-420b-9cbb-c7712d09894c">
+		<message
+			author="daniel.dacanay"
+			status=""
+			date="2025-11-19T16:07:40-07:00"
+			guid="4db71317-de41-4ad7-9010-7ca25bcc0540">Phillip Tatzia</message>
+	</annotation>
 </notes>

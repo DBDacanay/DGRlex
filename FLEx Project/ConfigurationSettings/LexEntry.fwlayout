@@ -19,6 +19,7 @@
     <part ref="CurrentLexReferences" visibility="ifdata" />
     <!-- Special part to indicate where custom fields should be inserted at.  Handled in Common.Framework.DetailControls.DataTree -->
     <part ref="_CustomFieldPlaceholder" customFields="here" />
+    <part ref="Custom" param="Elements" />
     <part ref="ImportResidue" label="Import Residue" visibility="ifdata" />
     <part ref="DateCreatedAllA" visibility="never" />
     <part ref="DateModifiedAllA" visibility="never" />
@@ -31,6 +32,7 @@
           <part ref="SemanticDomains" visibility="always" />
           <part ref="Status" visibility="always" />
           <part ref="ReversalEntries" visibility="always" />
+          <part ref="Exemplar" visibility="ifdata" />
         </indent>
       </part>
     </part>

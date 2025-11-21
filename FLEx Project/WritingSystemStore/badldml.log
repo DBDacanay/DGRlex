@@ -7,4 +7,13 @@ Exception: Root element is missing.
 Moved /home/dacanay/.local/share/fieldworks/Projects/Tłı̨chǫ FLEx Dictionary/WritingSystemStore/dgr.ldml to dgr.ldml.b(10/6/2025 8:53:03 PM UTC)
 Encountered a bad LDML file in a writing system repository.
 Exception: Root element is missing.
-Moved /home/dacanay/.local/share/fieldworks/Projects/Tłı̨chǫ FLEx Dictionary/WritingSystemStore/dgr.ldml to dgr.ldml.b
+Moved /home/dacanay/.local/share/fieldworks/Projects/Tłı̨chǫ FLEx Dictionary/WritingSystemStore/dgr.ldml to dgr.ldml.b(11/12/2025 9:31:42 PM UTC)
+Encountered a bad LDML file in a writing system repository.
+Exception: Root element is missing.
+Moved /home/dacanay/.local/share/fieldworks/Projects/Tłı̨chǫ FLEx Dictionary/WritingSystemStore/dgr.ldml to dgr.ldml.b(11/17/2025 7:25:48 PM UTC)
+Encountered a bad LDML file in a writing system repository.
+Exception: Root element is missing.
+Moved /home/dacanay/.local/share/fieldworks/Projects/Tłı̨chǫ FLEx Dictionary/WritingSystemStore/dgr.ldml to dgr.ldml.b(2025-11-17 9:45:44 PM UTC)
+Encountered a bad LDML file in a writing system repository.
+Exception: Unexpected end of file has occurred. The following elements are not closed: sil:url, sil:kbd, sil:external-resources, special, ldml. Line 880850, position 78.
+Moved D:\Tłı̨chǫ FLEx Dictionary\WritingSystemStore\dgr.ldml to dgr.ldml.bad

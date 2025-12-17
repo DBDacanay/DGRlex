@@ -572,6 +572,18 @@
     background-color: rgba(255, 255, 255, 0);
 }
 
+#downloadAudioButton{
+  font-size:20px; 
+  vertical-align:middle;
+  color: grey;  
+  text-decoration:none;
+}
+
+#downloadAudioButton:hover{
+  color: black;  
+  cursor: pointer;
+}
+
 audio::-webkit-media-controls-panel {
     background-color: rgb(255, 255, 255);
 }

@@ -15,6 +15,7 @@
         <KnownKeyboard>basic_kbduk</KnownKeyboard>
         <KnownKeyboard>basic_kbdus</KnownKeyboard>
         <KnownKeyboard>basic_kbdusa</KnownKeyboard>
+        <KnownKeyboard>en-CA_US_US</KnownKeyboard>
       </KnownKeyboards>
       <DefaultFontName>Charis SIL</DefaultFontName>
     </WritingSystem>

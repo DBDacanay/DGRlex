@@ -1,0 +1,409 @@
+﻿.letHead{
+		-moz-column-count:1;
+		-webkit-column-count:1;
+		column-count:1;
+		clear:both;
+		width:100%;
+		text-align:center;
+		text-indent:-12pt;
+		margin-left:21pt;
+		flex-line-height:12pt;
+		line-height:12pt;
+		padding-bottom:3pt;
+		padding-top:12pt;
+	}
+body{
+		font-size:10pt;
+	}
+span[lang|="en"]{
+		font-family:'Charis SIL',serif;
+	}
+span[lang|="dgr"]{
+		font-family:'Charis SIL',serif;
+	}
+span[lang|="dgr-Zxxx-x-audio"]{
+		font-family:'Charis SIL',serif;
+	}
+div.entry{
+		text-indent:-12pt;
+		margin-left:21pt;
+		flex-line-height:12pt;
+		line-height:12pt;
+		padding-bottom:2pt;
+		padding-top:1pt;
+	}
+div.entry span[lang|="en"]{
+	}
+div.entry span[lang|="dgr"]{
+	}
+div.entry span[lang|="dgr-Zxxx-x-audio"]{
+	}
+.letter[lang|="en"]{
+		font-size:14pt;
+		font-weight:bold;
+	}
+.letter[lang|="dgr"]{
+		font-size:14pt;
+		font-weight:bold;
+	}
+.letter[lang|="dgr-Zxxx-x-audio"]{
+		font-size:14pt;
+		font-weight:bold;
+	}
+a{
+		text-decoration:inherit;
+		color:inherit;
+	}
+*[dir='ltr'], *[dir='rtl']{
+		unicode-bidi:isolate;
+		unicode-bidi:-ms-isolate;
+		unicode-bidi:-moz-isolate;
+	}
+a.dgr-Zxxx-x-audio:after{
+		content:'🔊';
+	}
+a.dgr-Zxxx-x-audio{
+		text-decoration:none;
+	}
+.reversalindexentry span[lang|="en"]{
+	}
+.reversalindexentry span[lang|="dgr"]{
+	}
+.reversalindexentry span[lang|="dgr-Zxxx-x-audio"]{
+	}
+.reversalindexentry{
+		clear:both;
+		white-space:pre-wrap;
+	}
+.reversalindexentry{
+		text-indent:-12pt;
+		margin-left:21pt;
+		flex-line-height:12pt;
+		line-height:12pt;
+		padding-bottom:2pt;
+		padding-top:1pt;
+	}
+.reversalindexentry> .reversalform> span[lang|="en"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .reversalform> span span[lang|="en"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .reversalform> span span[lang|="dgr"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .reversalform> span span[lang|="dgr-Zxxx-x-audio"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .reversalform> .reversalfor+ .reversalfor:before{
+		content:' ';
+	}
+.reversalindexentry> .reversalform> span:last-child:after{
+		content:' ';
+	}
+.reversalindexentry> .reversalform> span{
+		font-weight:bold;
+	}
+.reversalindexentry> .partofspeech:after{
+		content:' ';
+	}
+.reversalindexentry> .partofspeech> .abbreviation> .abbreviatio+ .abbreviatio:before{
+		content:',';
+	}
+.reversalindexentry> .sensesrs > .sensecontent .sensenumber{
+		font-weight:bold;
+	}
+.reversalindexentry> .sensesrs > .sensecontent .sensenumber:after{
+		content:') ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent{
+		text-indent:-12pt;
+		margin-left:12pt;
+		flex-line-height:12pt;
+		line-height:12pt;
+		padding-bottom:2pt;
+		padding-top:0pt;
+		display:block;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .headword[lang|="dgr"]{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .headword span[lang|="en"]{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .headword span[lang|="dgr"]{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .headword span[lang|="dgr-Zxxx-x-audio"]{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .headword> .headwor+ .headwor:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .headword{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry> .dialectlabelssenseorentr+ .dialectlabelssenseorentr:before{
+		content:', ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry:before{
+		content:' [';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry:after{
+		content:']';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry .dialectlabelssenseorentr> .abbreviation> .abbreviatio+ .abbreviatio:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs> .mainentryref+ .mainentryref:before{
+		content:', ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs:before{
+		content:'  (';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs:after{
+		content:')';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs> .mainentryref+.entrytypes:before{
+		content:',';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs> .entrytypes .entrytype> .reverseabbr> .reverseabb+ .reverseabb:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries> .referencedentry+ .referencedentry:before{
+		content:', ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span[lang|="dgr"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span span[lang|="en"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span span[lang|="dgr"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span span[lang|="dgr-Zxxx-x-audio"]{
+		font-weight:bold;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span{
+		font-weight:bold;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs> .dialectlabelsr+ .dialectlabelsr:before{
+		content:', ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs:before{
+		content:' [';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs:after{
+		content:']';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs .dialectlabelsr> .abbreviation> .abbreviatio+ .abbreviatio:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .glossorsummary> .glossorsummar+ .glossorsummar:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .glossorsummary> span:first-child:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .gloss> .glos+ .glos:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .gloss> span:first-child:before{
+		content:' (';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .gloss> span:last-child:after{
+		content:')';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .restrictions> .restriction+ .restriction:before{
+		content:' ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .restrictions> span:first-child:before{
+		content:' Restrictions: ';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .restrictions> span:last-child:after{
+		content:'.';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .scientificname span[lang|="en"]{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .scientificname span[lang|="dgr"]{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .scientificname span[lang|="dgr-Zxxx-x-audio"]{
+		font-style:italic;
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .scientificname:before{
+		content:' (';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .scientificname:after{
+		content:')';
+	}
+.reversalindexentry> .sensesrs > .sensecontent > .sensesr> .scientificname{
+		font-style:italic;
+	}
+.reversalindexentry> .subentries .subentry span[lang|="en"]{
+	}
+.reversalindexentry> .subentries .subentry span[lang|="dgr"]{
+	}
+.reversalindexentry> .subentries .subentry span[lang|="dgr-Zxxx-x-audio"]{
+	}
+.reversalindexentry> .subentries .subentry{
+		text-indent:0pt;
+		margin-left:0pt;
+		padding-bottom:2pt;
+		padding-top:0pt;
+		display:block;
+	}
+.reversalindexentry> .subentries .subentry{
+		text-indent:0pt;
+		margin-left:0pt;
+		padding-bottom:2pt;
+		padding-top:0pt;
+		display:block;
+	}
+.allreversalsubentries .allreversalsubentry{
+		clear:both;
+		white-space:pre-wrap;
+	}
+.allreversalsubentries .allreversalsubentry> .reversalform> span[lang|="en"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .reversalform> span span[lang|="en"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .reversalform> span span[lang|="dgr"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .reversalform> span span[lang|="dgr-Zxxx-x-audio"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .reversalform> .reversalfor+ .reversalfor:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .reversalform> span:last-child:after{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .reversalform> span{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .partofspeech:after{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .partofspeech> .abbreviation> .abbreviatio+ .abbreviatio:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs> span+ span:before{
+		content:'; ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent .sensenumber{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .headword[lang|="dgr"]{
+		font-style:italic;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .headword span[lang|="en"]{
+		font-style:italic;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .headword span[lang|="dgr"]{
+		font-style:italic;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .headword span[lang|="dgr-Zxxx-x-audio"]{
+		font-style:italic;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .headword> .headwor+ .headwor:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .headword:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .headword{
+		font-style:italic;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry> .dialectlabelssenseorentr+ .dialectlabelssenseorentr:before{
+		content:', ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry:before{
+		content:' [';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry:after{
+		content:']';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .dialectlabelssenseorentry .dialectlabelssenseorentr> .abbreviation> .abbreviatio+ .abbreviatio:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs> .mainentryref+ .mainentryref:before{
+		content:', ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs:before{
+		content:'  (';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs:after{
+		content:')';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs> .mainentryref+.entrytypes:before{
+		content:',';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs> .entrytypes .entrytype> .reverseabbr> .reverseabb+ .reverseabb:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries> .referencedentry+ .referencedentry:before{
+		content:', ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span[lang|="dgr"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span span[lang|="en"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span span[lang|="dgr"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span span[lang|="dgr-Zxxx-x-audio"]{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> .headwor+ .headwor:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .headword> span{
+		font-weight:bold;
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs> .dialectlabelsr+ .dialectlabelsr:before{
+		content:', ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs:before{
+		content:' [';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs:after{
+		content:']';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .dialectlabelsrs .dialectlabelsr> .abbreviation> .abbreviatio+ .abbreviatio:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .glossorsummary> .glossorsummar+ .glossorsummar:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .mainentryrefs .mainentryref> .referencedentries .referencedentry> .glossorsummary> span:first-child:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .restrictions> .restriction+ .restriction:before{
+		content:' ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .restrictions> span:first-child:before{
+		content:' Restrictions: ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .restrictions> span:last-child:after{
+		content:'. ';
+	}
+.allreversalsubentries .allreversalsubentry> .sensesrs > .sensecontent > .sensesr> .scientificname:before{
+		content:' ';
+	}

@@ -4,6 +4,7 @@
     <WritingSystem id="dgr">
       <LocalKeyboard>en_xkb:us::eng</LocalKeyboard>
       <KnownKeyboards>
+        <KnownKeyboard>en_xkb:us::eng</KnownKeyboard>
         <KnownKeyboard>fv_tlicho_yatii</KnownKeyboard>
         <KnownKeyboard>indigenous_nt</KnownKeyboard>
       </KnownKeyboards>

@@ -24,3 +24,8 @@ Migrating Reversal configuration 'English' from version 25 to 26.
     Unable to migrate Reversal Entry: no migration instructions for version 25
     Unable to migrate AllReversalSubentries: no migration instructions for version 25
     Migrated to version 26
+Version: 9.2.10.1862   2025-07-01  (64 bit): Configuration was found in need of migration. - 2025 Dec 15 11:15:53
+Migrating Reversal configuration 'All Reversal Indexes' from version 25 to 26.
+    Unable to migrate Reversal Entry: no migration instructions for version 25
+    Unable to migrate AllReversalSubentries: no migration instructions for version 25
+    Migrated to version 26

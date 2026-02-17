@@ -1126,4 +1126,209 @@ Andrew Gon</message>
 			date="2025-11-19T16:07:40-07:00"
 			guid="4db71317-de41-4ad7-9010-7ca25bcc0540">Phillip Tatzia</message>
 	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=9e922b58-451f-43d1-9a69-3731c30535f6&amp;tag=&amp;id=9e922b58-451f-43d1-9a69-3731c30535f6&amp;label=Łèts'eɂaà"
+		guid="7c2d48ef-c3b2-4a91-b682-b907fdadd615">
+		<message
+			author="daniel.dacanay"
+			status=""
+			date="2025-11-25T10:59:43-07:00"
+			guid="8f83d789-e465-4a29-8c0d-896c98b23dd2">Margaret Blackduck, Behchokǫ̀</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=55c424e9-2d8b-45b9-b42b-b566a3a91d45&amp;tag=&amp;id=55c424e9-2d8b-45b9-b42b-b566a3a91d45&amp;label=Alıwhǫ̀cho"
+		guid="ad809cf9-9aaa-43ec-be98-d801ce2425b9">
+		<message
+			author="dacanay"
+			status=""
+			date="2025-12-16T13:07:00-07:00"
+			guid="9bbb8c19-cf8d-4b05-bcd9-89f261d993c1">Alphonse Lamouelle, Rex Lamouelle's grandfather</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=4ff21a07-d65f-416a-aa9d-3e299c6cc57a&amp;tag=&amp;id=4ff21a07-d65f-416a-aa9d-3e299c6cc57a&amp;label=Ɂahyı̨̀ą"
+		guid="74913c0f-b1d5-4e9f-b415-2ec21cc08aaf">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-19T16:21:50-07:00"
+			guid="476aea53-7825-4fe3-a594-b6e64dcc4232">Harry Apple, brother of Charlie Apple</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=e89f2abb-be6b-4065-9b2f-75ac0bd90de5&amp;tag=&amp;id=e89f2abb-be6b-4065-9b2f-75ac0bd90de5&amp;label=Waàk'ǫ̀ątseèke"
+		guid="f450186c-ba41-4904-9935-14c0529c347e">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-19T16:27:31-07:00"
+			guid="fff67a01-48cd-4852-96fd-f8a11e07eeae">Helen Rabesca</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=a51aa9d5-9ab4-43a9-b544-efbbf84dff86&amp;tag=&amp;id=a51aa9d5-9ab4-43a9-b544-efbbf84dff86&amp;label=Gahdǫ̀ą"
+		guid="e9fe2483-801e-45bc-be77-0d47cccb9614">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-19T16:38:45-07:00"
+			guid="a727153b-cb0e-4d69-a397-1fed28f47263">Katherine Moosenose, of Whati</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=566fa90a-9123-4eca-a76e-8218c65d47a1&amp;tag=&amp;id=566fa90a-9123-4eca-a76e-8218c65d47a1&amp;label=Gòlawòbı̀"
+		guid="5700b8ac-ce47-41c8-873e-8d8ba392b747">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-19T16:42:01-07:00"
+			guid="9f17386c-7f0b-47ea-bfe5-2b98d720f23f">An elderly man from the Quitte family</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=a8908c51-d102-49f7-86cd-7c9f862cd793&amp;tag=&amp;id=a8908c51-d102-49f7-86cd-7c9f862cd793&amp;label=Wıdòa"
+		guid="1acce0b6-3124-4197-863e-92712cdad8e9">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-19T16:45:55-07:00"
+			guid="502403be-9001-487f-bbea-b42412ee6bf5">Victor Laboline, of Wekweètı̀</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=50511571-e69c-4a5d-92cf-3029d2469489&amp;tag=&amp;id=50511571-e69c-4a5d-92cf-3029d2469489&amp;label=Dǫmazıa"
+		guid="3a49560c-e7b8-463a-b6ce-4461abf25422">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T13:37:14-07:00"
+			guid="bbde675b-8575-4084-af09-920d58cfc20d">The name of several people named 'John'</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=a5dd7900-1126-4d2c-be96-8e7a8d4c636f&amp;tag=&amp;id=a5dd7900-1126-4d2c-be96-8e7a8d4c636f&amp;label=Dènı̨̀ą"
+		guid="b44a4a38-f0c0-49a3-8087-713012d5ad62">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T13:41:32-07:00"
+			guid="3ab8356b-66b7-48b1-a6ae-0ce4a9c4168a">Denise Judas</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=9cfeae94-c90a-4e52-8898-f77c9030431c&amp;tag=&amp;id=9cfeae94-c90a-4e52-8898-f77c9030431c&amp;label=Denenı̨zhı̀a"
+		guid="75f4d138-4529-4364-a34c-0e2195ff59b0">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T13:46:07-07:00"
+			guid="a21249a1-1a05-4409-81eb-e3d357116b0a">Denise Judas</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=9f2338b2-5301-4e32-b924-4b556339f5c7&amp;tag=&amp;id=9f2338b2-5301-4e32-b924-4b556339f5c7&amp;label=Izıdoò"
+		guid="b568177e-01f6-4f83-82ac-be74378c604f">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T14:30:59-07:00"
+			guid="041641f0-a9df-4fa8-b64a-f16e1ce65317">Isidore Nitsiza</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=ac632f4b-2e66-4593-94db-2d71b386c8c2&amp;tag=&amp;id=ac632f4b-2e66-4593-94db-2d71b386c8c2&amp;label=Jı̨hjı̨̀a"
+		guid="3ceb713f-bd6c-4e67-b83a-456c006062aa">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T14:31:18-07:00"
+			guid="4b6e7dbc-4ed6-43bf-89e8-c22c9fe2d465">Joe Romie</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=260975c5-2cd6-4fc5-b36f-24527ca4322d&amp;tag=&amp;id=260975c5-2cd6-4fc5-b36f-24527ca4322d&amp;label=Getètı̨̀ą"
+		guid="8aa41f65-8d13-4f40-ae8d-8781c135e925">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T14:47:05-07:00"
+			guid="14b4a51d-8c84-4e6a-bc87-2396eac1a98e">Madeline Beaverhoe</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=260975c5-2cd6-4fc5-b36f-24527ca4322d&amp;tag=&amp;id=260975c5-2cd6-4fc5-b36f-24527ca4322d&amp;label=Getètı̨̀ą"
+		guid="745d9e5e-157b-4073-aec2-21f4b3bdb8f0">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T14:47:56-07:00"
+			guid="ee2042e6-13f6-4cda-86b0-ffff999d58b7">Madeline Beaverhoe; apparently, something to do with movement (Marie Lafferty 2025)</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=239746cf-f324-470e-85f5-bf3ba9f228da&amp;tag=&amp;id=239746cf-f324-470e-85f5-bf3ba9f228da&amp;label=Hadı̨̀ą"
+		guid="5da7b965-9969-4cac-9127-73186bd88975">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T14:51:11-07:00"
+			guid="6be93691-b721-4aa7-a097-23e68538cb58">Henry Dryneck, son of Jimmy and Elizabeth Kodzin</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=80cd9c64-3c8b-4b7e-a9e8-9d1713e99812&amp;tag=&amp;id=80cd9c64-3c8b-4b7e-a9e8-9d1713e99812&amp;label=Malòa"
+		guid="5749b8a5-f48f-4bea-86a1-fb20f8179612">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T15:18:14-07:00"
+			guid="7a837646-32f8-4e7b-80c3-b4fb52c09605">Mary Rose Dryneck</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=97529ecc-abeb-468e-b5fe-4c6e4a9764d7&amp;tag=&amp;id=97529ecc-abeb-468e-b5fe-4c6e4a9764d7&amp;label=Metł'ı̀a"
+		guid="b090242e-4e2e-4a08-8234-3ba2fa83087e">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-26T15:51:53-07:00"
+			guid="540f7a40-12ae-4b58-af10-38df8e108271">Mary Wedawin, of Behchokǫ̀</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=12038c42-cd8c-4502-9a81-b4ee58920bd1&amp;tag=&amp;id=12038c42-cd8c-4502-9a81-b4ee58920bd1&amp;label=Mayı̨̀ą"
+		guid="2690e74d-4ab2-4b9d-a30e-f8dfab88b593">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-27T18:39:37-07:00"
+			guid="739dbb8d-140b-4217-837e-b24efb6b4dd7">LO</message>
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-27T18:39:59-07:00"
+			guid="ffc176dd-78ea-4d91-a4df-56ecc51157ed">Mother of Louisa Beaverhoe, of Whati</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=88779d28-0972-41a2-afcf-fe36ec30532a&amp;tag=&amp;id=88779d28-0972-41a2-afcf-fe36ec30532a&amp;label=Dzatsòa"
+		guid="3f0791b4-2e38-4ee3-ae54-65f8890bcab8">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-28T16:08:35-07:00"
+			guid="f6cafdbd-1d96-4b2b-8bc3-fd6b45997695">Joseph Football from Wekweètı̀</message>
+	</annotation>
+	<annotation
+		class="question"
+		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=9c11cfdb-d52b-4743-bc7f-09dc86d0ed74&amp;tag=&amp;id=9c11cfdb-d52b-4743-bc7f-09dc86d0ed74&amp;label=Waalı̀"
+		guid="17b5a291-5ac2-43d6-8cf6-f7c95d6137c8">
+		<message
+			author="dacanay"
+			status=""
+			date="2026-01-28T18:53:39-07:00"
+			guid="1ea7e265-3d87-4c23-bfea-e05841d94e8d">Rosalie Wetrade, Rosalie Drybones</message>
+	</annotation>
 </notes>

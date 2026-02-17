@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Root-based (complex forms as subentries)" version="26" lastModified="2025-11-17" allPublications="true" isRootBased="true">
+<DictionaryConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Root-based (complex forms as subentries)" version="26" lastModified="2025-12-08" allPublications="true" isRootBased="true">
   <ConfigurationItem name="Main Entry" isEnabled="true" style="Dictionary-Normal" styleType="paragraph" field="LexEntry" cssClassNameOverride="entry">
     <ConfigurationItem name="Headword" isEnabled="true" style="Dictionary-Headword" between=" " after=" " field="MLHeadWord" cssClassNameOverride="mainheadword">
       <WritingSystemOptions writingSystemType="vernacular" displayWSAbreviation="false">
@@ -172,7 +172,7 @@
           <Option id="en" isEnabled="false" />
         </WritingSystemOptions>
       </ConfigurationItem>
-      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
+      <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before="(" after=")" field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Etymology" isEnabled="true" before="(" between=" " after=") " field="EtymologyOS" cssClassNameOverride="etymologies">
       <ConfigurationItem name="Preceding Annotation" isEnabled="true" field="PrecComment">
@@ -344,7 +344,7 @@
         <Option id="en" isEnabled="false" />
       </WritingSystemOptions>
     </ConfigurationItem>
-    <ConfigurationItem name="Senses" isEnabled="true" before=" " between="  " after="  " field="SensesOS" cssClassNameOverride="senses">
+    <ConfigurationItem name="Senses" isEnabled="true" styleType="character" before=" " between="  " after="  " field="SensesOS" cssClassNameOverride="senses">
       <SenseOptions numberStyle="Dictionary-SenseNumber" numberBefore="" numberingStyle="%d" numberAfter=") " numberSingleSense="false" showSingleGramInfoFirst="true" displayEachSenseInParagraph="false" displayFirstSenseInline="false" />
       <ConfigurationItem name="Grammatical Info." isEnabled="true" style="Dictionary-POS" after="  " field="MorphoSyntaxAnalysisRA" cssClassNameOverride="morphosyntaxanalysis">
         <ConfigurationItem name="Gram Info (Name)" isEnabled="false" between=" " after="" field="InterlinearNameTSS" cssClassNameOverride="graminfoname" />
@@ -592,7 +592,7 @@
               </WritingSystemOptions>
             </ConfigurationItem>
           </ConfigurationItem>
-          <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
+          <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" before="[" after="]" field="Elements" />
         </ConfigurationItem>
       </ConfigurationItem>
       <ConfigurationItem name="Variants of Sense" isEnabled="true" before=" (" between=";" after=")" field="VariantFormEntryBackRefs">
@@ -689,7 +689,7 @@
             <Option id="en" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
-        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
+        <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Anthropology Note" isEnabled="false" before=" " between=" " field="AnthroNote">
         <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
@@ -925,7 +925,7 @@
           </ConfigurationItem>
           <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
-        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
+        <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Subentries" isEnabled="true" styleType="character" before="  " field="Subentries">
         <ComplexFormOptions list="complex" displayEachComplexFormInParagraph="false">
@@ -1070,9 +1070,9 @@
             <Option id="dgr-Zxxx-x-audio" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
-        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
+        <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before=" " field="Elements" />
       </ConfigurationItem>
-      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
+      <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before="[" after="]" field="OwningEntry" subField="Elements" />
     </ConfigurationItem>
     <ConfigurationItem name="Pictures" isEnabled="true" style="Dictionary-Pictures" between="  " after=" " field="PicturesOfSenses" cssClassNameOverride="pictures">
       <PictureOptions minimumHeight="0" minimumWidth="0" maximumHeight="1" maximumWidth="0" pictureLocation="right" stackPictures="false" />
@@ -4055,7 +4055,7 @@
             <Option id="en" isEnabled="false" />
           </WritingSystemOptions>
         </ConfigurationItem>
-        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
+        <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Anthropology Note" isEnabled="false" before=" " between=" " field="AnthroNote">
         <WritingSystemAndParaOptions writingSystemType="analysis" displayWSAbreviation="false" displayInParagraph="false">
@@ -4292,7 +4292,7 @@
           </ConfigurationItem>
           <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
         </ConfigurationItem>
-        <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="OwningEntry" subField="Elements" />
+        <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before=" " field="OwningEntry" subField="Elements" />
       </ConfigurationItem>
       <ConfigurationItem name="Subentries" isEnabled="false" styleType="character" before="  " field="Subentries">
         <ComplexFormOptions list="complex" displayEachComplexFormInParagraph="false">
@@ -5526,7 +5526,7 @@
         </ComplexFormOptions>
         <ReferenceItem>MainEntrySubentries</ReferenceItem>
       </ConfigurationItem>
-      <ConfigurationItem name="Elements" isEnabled="false" isCustomField="true" before=" " field="Elements" />
+      <ConfigurationItem name="Elements" isEnabled="true" isCustomField="true" style="Disabled Text" before=" " field="Elements" />
     </ConfigurationItem>
   </SharedItems>
   <Publications>

@@ -44,27 +44,30 @@
         <div class = "box" id = "welcomeBox" style = 'margin-top:80px;margin-bottom:80px;max-width:900px'>
             <p class = "welcomeHeader"> Demo Inflectional Model</p> 
             <p class = "conjugatorLabel">Disjunct</p>
-            <textarea id = "romanInput" style = "height:60px;margin-bottom:10px" placeholder = "Enter full disjunct"></textarea>
-            <p class = "conjugatorLabel">Stem</p>
-            <textarea id = "outputBox" style = "height:60px;margin-bottom:10px" placeholder = "Enter stem"></textarea>
-            
+            <textarea id = "romanInput" style = "height:28px;margin-bottom:10px" placeholder = "Enter full disjunct"></textarea>
+            <p class = "conjugatorLabel">Imperfective Stem</p>
+            <textarea id = "outputBox" style = "height:28px;margin-bottom:10px" placeholder = "Enter imperfective stem"></textarea>
+            <p class = "conjugatorLabel">Perfective Stem</p>
+            <textarea id = "outputBox2" style = "height:28px;margin-bottom:10px" placeholder = "Enter perfective stem"></textarea>
+
             <p class = "conjugatorLabel">Stem Number</p>
-            <div style = "width:100%;overflow:auto">
-                <input type="checkbox" id="singularNumber" value="singular" checked>
+            <div style = "width:100%;overflow:auto;display:flex;align-items:center">
+                <input type="checkbox" id="singularNumber" style = "width:15px" value="singular" checked>
                 <label for="vehicle1"> Singular</label><br>
-                <input type="checkbox" id="dualNumber" value="dual" checked>
+                <input type="checkbox" id="dualNumber" style = "width:15px;margin-left:20px" value="dual" checked>
                 <label for="vehicle2"> Dual</label><br>
-                <input type="checkbox" id="pluralNumber" value="plural" checked>
+                <input type="checkbox" id="pluralNumber" style = "width:15px;margin-left:20px" value="plural" checked>
                 <label for="vehicle3"> Plural</label><br><br>
             </div>
 
 
-            <p class = "conjugatorLabel">Conjugation Class</p>
+            <p class = "conjugatorLabel">Imperfective Conjugation Class</p>
             <select id = "classMenu">Conjugation Class
                 <option value = "1.1">1.1</option>
                 <option value = "1.21">1.21</option>
                 <option value = "1.22">1.22</option>
                 <option value = "1.23">1.23</option>
+                <option value = "1.24">1.24</option>
                 <option value = "1.31">1.31</option>
                 <option value = "1.32">1.32</option>
                 <option value = "1.4">1.4</option>
@@ -72,8 +75,29 @@
                 <option value = "1.52">1.52</option>
                 <option value = "1.61">1.61</option>
                 <option value = "1.62">1.62</option>
+                <option value = "None">None</option>
             </select>
-            <button class = "submit" onclick = conjugate(classMenu.value)>Convert</button>
+            <p class = "conjugatorLabel">Perfective Conjugation Class</p>
+            <select id = "classMenu2">Conjugation Class
+                <option value = "2.1">2.1</option>
+                <option value = "2.21">2.21</option>
+                <option value = "2.22">2.22</option>
+                <option value = "2.3">2.3</option>
+                <option value = "2.4">2.4</option>
+                <option value = "2.51">2.51</option>
+                <option value = "2.52">2.52</option>
+                <option value = "2.53">2.53</option>
+                <option value = "2.6">2.6</option>
+                <option value = "2.71">2.71</option>
+                <option value = "2.72">2.72</option>
+                <option value = "2.73">2.73</option>
+                <option value = "2.74">2.74</option>
+                <option value = "None">None</option>
+
+            </select>
+            <button class = "submit" onclick = "conjugate(classMenu.value, classMenu2.value)">Convert</button>
+            <br>
+            <p class = "conjugatorLabel">Imperfective Paradigm</p>
             <table class = "paradigm">
                 <tr class = "xaxis">
                     <th></th>
@@ -83,21 +107,49 @@
                 </tr>
                 <tr>
                     <th>1</th>
-                    <td id = "1Sg"></td>
-                    <td id = "1Dl"></td>
-                    <td id = "1Pl"></td>
+                    <td class = "paradigmCell" id = "1Sg"></td>
+                    <td class = "paradigmCell" id = "1Dl"></td>
+                    <td class = "paradigmCell" id = "1Pl"></td>
                 </tr>
                 <tr>
                     <th>2</th>
-                    <td id= "2Sg"></td>
-                    <td id = "2Dl"></td>
-                    <td id = "2Pl"></td>
+                    <td class = "paradigmCell" id= "2Sg"></td>
+                    <td class = "paradigmCell" id = "2Dl"></td>
+                    <td class = "paradigmCell" id = "2Pl"></td>
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td id = "3Sg"></td>
-                    <td id = "3Dl"></td>
-                    <td id = "3Pl"></td>
+                    <td class = "paradigmCell" id = "3Sg"></td>
+                    <td class = "paradigmCell" id = "3Dl"></td>
+                    <td class = "paradigmCell" id = "3Pl"></td>
+                </tr>
+            </table>
+            <br>
+            <p class = "conjugatorLabel">Perfective Paradigm</p>
+            <table class = "paradigm">
+                <tr class = "xaxis">
+                    <th></th>
+                    <th>Singular</th>
+                    <th>Dual</th>
+                    <th>Plural</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td class = "paradigmCell" id = "1Sg.Perf"></td>
+                    <td class = "paradigmCell" id = "1Dl.Perf"></td>
+                    <td class = "paradigmCell" id = "1Pl.Perf"></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td class = "paradigmCell" id = "2Sg.Perf"></td>
+                    <td class = "paradigmCell" id = "2Dl.Perf"></td>
+                    <td class = "paradigmCell" id = "2Pl.Perf"></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td class = "paradigmCell" id = "3Sg.Perf"></td>
+                    <td class = "paradigmCell" id = "3Dl.Perf"></td>
+                    <td class = "paradigmCell" id = "3Pl.Perf"></td>
                 </tr>
             </table>
         </div>
@@ -121,7 +173,7 @@
         }
     }
     
-    function conjugate(classNumber){
+    function conjugate(classNumberImp, classNumberPerf){
         console.log(document.getElementById("singularNumber").checked)
         console.log(document.getElementById("dualNumber").checked)
         console.log(document.getElementById("pluralNumber").checked)
@@ -130,138 +182,334 @@
 
         disjunct = document.getElementById('romanInput').value
         stem = document.getElementById('outputBox').value
+        stemPerf = document.getElementById('outputBox2').value
 
-        if (classNumber == "1.1") { //DONE
-            document.getElementById('1Sg').innerHTML = `${disjunct}eh${stem}`
-            document.getElementById('2Sg').innerHTML = `${disjunct}ne${stem}`
-            document.getElementById('3Sg').innerHTML = `${disjunct}e${stem}`
-            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀${stem}<br>${disjunct}wı̀${stem}`
-            document.getElementById('2Dl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Dl').innerHTML = `${disjunct}ge${stem}`
-            document.getElementById('1Pl').innerHTML = `${disjunct}ts'e${stem}`
-            document.getElementById('2Pl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Pl').innerHTML = `${disjunct}ge${stem}`
-        }  else if (classNumber == "1.21") { // DONE
-            document.getElementById('1Sg').innerHTML = `${disjunct}eh${stem}`
-            document.getElementById('2Sg').innerHTML = `${disjunct}ı̨${stem}`
-            document.getElementById('3Sg').innerHTML = `${disjunct}e${stem}`
-            document.getElementById('1Dl').innerHTML = `${disjunct}ı̀${stem}<br>${disjunct}dıı̀${stem}`
-            document.getElementById('2Dl').innerHTML = `${disjunct}ah${stem}<br>${disjunct}eah${stem}`
-            document.getElementById('3Dl').innerHTML = `${disjunct}gee${stem}`
-            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ee${stem}`
-            document.getElementById('2Pl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Pl').innerHTML = `${disjunct}gee${stem}`
-        } else if (classNumber == "1.22") { //DONE
-            document.getElementById('1Sg').innerHTML = `${disjunct}eh${stem}`
-            document.getElementById('2Sg').innerHTML = `${disjunct}ne${stem}`
-            document.getElementById('3Sg').innerHTML = `${disjunct}e${stem}`
-            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀${stem}<br>${disjunct}wı̀${stem}`
-            document.getElementById('2Dl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Dl').innerHTML = `${disjunct}ge${stem}`
-            document.getElementById('1Pl').innerHTML = `${disjunct}ts'e${stem}`
-            document.getElementById('2Pl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Pl').innerHTML = `${disjunct}ge${stem}`
-        } else if (classNumber == "1.23") {
-            document.getElementById('1Sg').innerHTML = `${disjunct}eh${stem}`
-            document.getElementById('2Sg').innerHTML = `${disjunct}ne${stem}`
-            document.getElementById('3Sg').innerHTML = `${disjunct}e${stem}`
-            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀${stem}<br>${disjunct}wı̀${stem}`
-            document.getElementById('2Dl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Dl').innerHTML = `${disjunct}gı̨ı̨${stem}`
-            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ı̨ı̨${stem}`
-            document.getElementById('2Pl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Pl').innerHTML = `${disjunct}gı̨ı̨${stem}`
-        } else if (classNumber == "1.31") { //DONE
-            document.getElementById('1Sg').innerHTML = `${disjunct}h${stem}`
-            document.getElementById('2Sg').innerHTML = `${disjunct}̨${stem}<br>${disjunct}ne${stem}`
-            document.getElementById('3Sg').innerHTML = `${disjunct}${stem}`
-            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀${stem}<br>${disjunct}wı̀${stem}`
-            document.getElementById('2Dl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Dl').innerHTML = `${disjunct}ge${stem}`
-            document.getElementById('1Pl').innerHTML = `${disjunct}ts'e${stem}`
-            document.getElementById('2Pl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Pl').innerHTML = `${disjunct}ge${stem}`
-        }  else if (classNumber == "1.32") { //DONE
-            document.getElementById('1Sg').innerHTML = `${disjunct}h${stem}`
-            document.getElementById('2Sg').innerHTML = `${disjunct}̨${stem}<br>${disjunct}ne${stem}`
-            document.getElementById('3Sg').innerHTML = `${disjunct}${stem}`
-            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀${stem}<br>${disjunct}wı̀${stem}`
-            document.getElementById('2Dl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Dl').innerHTML = `${disjunct}gı̨ı̨${stem}`
-            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ı̨ı̨${stem}`
-            document.getElementById('2Pl').innerHTML = `${disjunct}ah${stem}`
-            document.getElementById('3Pl').innerHTML = `${disjunct}gı̨ı̨${stem}`
-        }  else if (classNumber == "1.4") { //DONE
-            document.getElementById('1Sg').innerHTML = `${disjunct}ı̀h${stem}`
-            document.getElementById('2Sg').innerHTML = `${disjunct}ı̨̀${stem}`
-            document.getElementById('3Sg').innerHTML = `${disjunct}ı̀${stem}`
-            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀${stem}<br>${disjunct}ı̀${stem}`
-            document.getElementById('2Dl').innerHTML = `${disjunct}àh${stem}`
-            document.getElementById('3Dl').innerHTML = `${disjunct}gıı̀${stem}`
-            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ıı̀${stem}`
-            document.getElementById('2Pl').innerHTML = `${disjunct}àh${stem}`
-            document.getElementById('3Pl').innerHTML = `${disjunct}gıı̀${stem}`
-        }  else if (classNumber == "1.51") { //DONE
-            document.getElementById('1Sg').innerHTML = `wheh${disjunct}${stem}`
-            document.getElementById('2Sg').innerHTML = `wheneh${disjunct}${stem}`
-            document.getElementById('3Sg').innerHTML = `whe${disjunct}${stem}`
-            document.getElementById('1Dl').innerHTML = `whı̀${disjunct}${stem}`
-            document.getElementById('2Dl').innerHTML = `whah${disjunct}${stem}`
-            document.getElementById('3Dl').innerHTML = `ge${disjunct}${stem}`
-            document.getElementById('1Pl').innerHTML = `ts'e${disjunct}${stem}`
-            document.getElementById('2Pl').innerHTML = `whah${disjunct}${stem}`
-            document.getElementById('3Pl').innerHTML = `ge${disjunct}${stem}`
-        }  else if (classNumber == "1.52") { //DONE
-            document.getElementById('1Sg').innerHTML = `whıh${disjunct}${stem}`
-            document.getElementById('2Sg').innerHTML = `whene${disjunct}${stem}`
-            document.getElementById('3Sg').innerHTML = `whe${disjunct}${stem}`
-            document.getElementById('1Dl').innerHTML = `whı̀${disjunct}${stem}`
-            document.getElementById('2Dl').innerHTML = `whah${disjunct}${stem}`
-            document.getElementById('3Dl').innerHTML = `geèh${disjunct}${stem}`
-            document.getElementById('1Pl').innerHTML = `ts'eèh${disjunct}${stem}`
-            document.getElementById('2Pl').innerHTML = `whah${disjunct}${stem}`
-            document.getElementById('3Pl').innerHTML = `geèh${disjunct}${stem}`
-        }  else if (classNumber == "1.61") { //DONE
-            document.getElementById('1Sg').innerHTML = `se${disjunct}${stem}`
-            document.getElementById('2Sg').innerHTML = `ne${disjunct}${stem}`
-            document.getElementById('3Sg').innerHTML = `we${disjunct}${stem}`
-            document.getElementById('1Dl').innerHTML = `naxı${disjunct}${stem}`
-            document.getElementById('2Dl').innerHTML = `naxı${disjunct}${stem}`
-            document.getElementById('3Dl').innerHTML = `gı${disjunct}${stem}`
-            document.getElementById('1Pl').innerHTML = `go${disjunct}${stem}`
-            document.getElementById('2Pl').innerHTML = `naxı${disjunct}${stem}`
-            document.getElementById('3Pl').innerHTML = `gı${disjunct}${stem}`
-        }  else if (classNumber == "1.62") { //DONE
-            document.getElementById('1Sg').innerHTML = `sè${disjunct}${stem}`
-            document.getElementById('2Sg').innerHTML = `nè${disjunct}${stem}`
-            document.getElementById('3Sg').innerHTML = `wè${disjunct}${stem}`
-            document.getElementById('1Dl').innerHTML = `naxı̀${disjunct}${stem}`
-            document.getElementById('2Dl').innerHTML = `naxı̀${disjunct}${stem}`
-            document.getElementById('3Dl').innerHTML = `gı̀${disjunct}${stem}`
-            document.getElementById('1Pl').innerHTML = `gò${disjunct}${stem}`
-            document.getElementById('2Pl').innerHTML = `naxı̀${disjunct}${stem}`
-            document.getElementById('3Pl').innerHTML = `gı̀${disjunct}${stem}`
+        if (classNumberImp == "1.1") { //DONE
+            document.getElementById('1Sg').innerHTML = `${disjunct}eèh+${stem}`
+            document.getElementById('2Sg').innerHTML = `${disjunct}ı̨ı̨̀+${stem}`
+            document.getElementById('3Sg').innerHTML = `${disjunct}eè+${stem}`
+            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀+${stem}<br>${disjunct}ıı̀+${stem}`
+            document.getElementById('2Dl').innerHTML = `${disjunct}àh+${stem}`
+            document.getElementById('3Dl').innerHTML = `${disjunct}gıı̀+${stem}`
+            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ıı̀+${stem}`
+            document.getElementById('2Pl').innerHTML = `${disjunct}àh+${stem}`
+            document.getElementById('3Pl').innerHTML = `${disjunct}gıı̀+${stem}`
+        }  else if (classNumberImp == "1.21") { // DONE
+            document.getElementById('1Sg').innerHTML = `${disjunct}eh+${stem}`
+            document.getElementById('2Sg').innerHTML = `${disjunct}ı̨+${stem}`
+            document.getElementById('3Sg').innerHTML = `${disjunct}e+${stem}`
+            document.getElementById('1Dl').innerHTML = `${disjunct}ı̀+${stem}<br>${disjunct}dıı̀+${stem}`
+            document.getElementById('2Dl').innerHTML = `${disjunct}ah+${stem}` //<br>${disjunct}eah+${stem}
+            document.getElementById('3Dl').innerHTML = `${disjunct}gee+${stem}`
+            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ee+${stem}`
+            document.getElementById('2Pl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Pl').innerHTML = `${disjunct}gee+${stem}`
+        } else if (classNumberImp == "1.22") { //DONE
+            document.getElementById('1Sg').innerHTML = `${disjunct}eh+${stem}`
+            document.getElementById('2Sg').innerHTML = `${disjunct}ne+${stem}`
+            document.getElementById('3Sg').innerHTML = `${disjunct}e+${stem}`
+            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀+${stem}<br>${disjunct}wı̀+${stem}`
+            document.getElementById('2Dl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Dl').innerHTML = `${disjunct}ge+${stem}`
+            document.getElementById('1Pl').innerHTML = `${disjunct}ts'e+${stem}`
+            document.getElementById('2Pl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Pl').innerHTML = `${disjunct}ge+${stem}`
+        } else if (classNumberImp == "1.24") {
+            document.getElementById('1Sg').innerHTML = `${disjunct}eh+${stem}`
+            document.getElementById('2Sg').innerHTML = `${disjunct}neh+${stem}`
+            document.getElementById('3Sg').innerHTML = `${disjunct}eh+${stem}`
+            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀h+${stem}<br>${disjunct}wı̀h+${stem}`
+            document.getElementById('2Dl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Dl').innerHTML = `${disjunct}geh+${stem}`
+            document.getElementById('1Pl').innerHTML = `${disjunct}ts'eh+${stem}`
+            document.getElementById('2Pl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Pl').innerHTML = `${disjunct}geh+${stem}`
+            // I think that a class 1.24 is necessary for h-classifier verbs
+        } else if (classNumberImp == "1.31") { //DONE
+            document.getElementById('1Sg').innerHTML = `${disjunct}h+${stem}`
+            document.getElementById('2Sg').innerHTML = `${disjunct}N̨+${stem}<br>${disjunct}ne+${stem}`
+            document.getElementById('3Sg').innerHTML = `${disjunct}+${stem}`
+            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀+${stem}<br>${disjunct}wı̀+${stem}`
+            document.getElementById('2Dl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Dl').innerHTML = `${disjunct}ge+${stem}`
+            document.getElementById('1Pl').innerHTML = `${disjunct}ts'e+${stem}`
+            document.getElementById('2Pl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Pl').innerHTML = `${disjunct}ge+${stem}`
+        }  else if (classNumberImp == "1.32") { //DONE
+            document.getElementById('1Sg').innerHTML = `${disjunct}h+${stem}`
+            document.getElementById('2Sg').innerHTML = `${disjunct}N̨+${stem}<br>${disjunct}ne+${stem}`
+            document.getElementById('3Sg').innerHTML = `${disjunct}+${stem}`
+            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀+${stem}<br>${disjunct}wı̀+${stem}`
+            document.getElementById('2Dl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Dl').innerHTML = `${disjunct}gı̨ı̨+${stem}`
+            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ı̨ı̨+${stem}`
+            document.getElementById('2Pl').innerHTML = `${disjunct}ah+${stem}`
+            document.getElementById('3Pl').innerHTML = `${disjunct}gı̨ı̨+${stem}`
+        }  else if (classNumberImp == "1.4") { //DONE
+            document.getElementById('1Sg').innerHTML = `${disjunct}ı̀h+${stem}`
+            document.getElementById('2Sg').innerHTML = `${disjunct}ı̨̀+${stem}`
+            document.getElementById('3Sg').innerHTML = `${disjunct}ı̀+${stem}`
+            document.getElementById('1Dl').innerHTML = `${disjunct}dıı̀+${stem}<br>${disjunct}ı̀+${stem}`
+            document.getElementById('2Dl').innerHTML = `${disjunct}àh+${stem}`
+            document.getElementById('3Dl').innerHTML = `${disjunct}gıı̀+${stem}`
+            document.getElementById('1Pl').innerHTML = `${disjunct}ts'ıı̀+${stem}`
+            document.getElementById('2Pl').innerHTML = `${disjunct}àh+${stem}`
+            document.getElementById('3Pl').innerHTML = `${disjunct}gıı̀+${stem}`
+        }  else if (classNumberImp == "1.51") { //DONE
+            document.getElementById('1Sg').innerHTML = `wheh${disjunct}+${stem}`
+            document.getElementById('2Sg').innerHTML = `wheneh${disjunct}+${stem}`
+            document.getElementById('3Sg').innerHTML = `whe${disjunct}+${stem}`
+            document.getElementById('1Dl').innerHTML = `whı̀${disjunct}+${stem}`
+            document.getElementById('2Dl').innerHTML = `whah${disjunct}+${stem}`
+            document.getElementById('3Dl').innerHTML = `ge${disjunct}+${stem}`
+            document.getElementById('1Pl').innerHTML = `ts'e${disjunct}+${stem}`
+            document.getElementById('2Pl').innerHTML = `whah${disjunct}+${stem}`
+            document.getElementById('3Pl').innerHTML = `ge${disjunct}+${stem}`
+        }  else if (classNumberImp == "1.52") { //DONE
+            document.getElementById('1Sg').innerHTML = `whıh${disjunct}+${stem}`
+            document.getElementById('2Sg').innerHTML = `whene${disjunct}+${stem}`
+            document.getElementById('3Sg').innerHTML = `whe${disjunct}+${stem}`
+            document.getElementById('1Dl').innerHTML = `whı̀${disjunct}+${stem}`
+            document.getElementById('2Dl').innerHTML = `whah${disjunct}+${stem}`
+            document.getElementById('3Dl').innerHTML = `geèh${disjunct}+${stem}`
+            document.getElementById('1Pl').innerHTML = `ts'eèh${disjunct}+${stem}`
+            document.getElementById('2Pl').innerHTML = `whah${disjunct}+${stem}`
+            document.getElementById('3Pl').innerHTML = `geèh${disjunct}+${stem}`
+        }  else if (classNumberImp == "1.61") { //DONE
+            document.getElementById('1Sg').innerHTML = `se${disjunct}+${stem}`
+            document.getElementById('2Sg').innerHTML = `ne${disjunct}+${stem}`
+            document.getElementById('3Sg').innerHTML = `we${disjunct}+${stem}`
+            document.getElementById('1Dl').innerHTML = `naxı${disjunct}+${stem}`
+            document.getElementById('2Dl').innerHTML = `naxı${disjunct}+${stem}`
+            document.getElementById('3Dl').innerHTML = `gı${disjunct}+${stem}`
+            document.getElementById('1Pl').innerHTML = `go${disjunct}+${stem}`
+            document.getElementById('2Pl').innerHTML = `naxı${disjunct}+${stem}`
+            document.getElementById('3Pl').innerHTML = `gı${disjunct}+${stem}`
+        }  else if (classNumberImp == "1.62") { //DONE
+            document.getElementById('1Sg').innerHTML = `sè${disjunct}+${stem}`
+            document.getElementById('2Sg').innerHTML = `nè${disjunct}+${stem}`
+            document.getElementById('3Sg').innerHTML = `wè${disjunct}+${stem}`
+            document.getElementById('1Dl').innerHTML = `naxı̀${disjunct}+${stem}`
+            document.getElementById('2Dl').innerHTML = `naxı̀${disjunct}+${stem}`
+            document.getElementById('3Dl').innerHTML = `gı̀${disjunct}+${stem}`
+            document.getElementById('1Pl').innerHTML = `gò${disjunct}+${stem}`
+            document.getElementById('2Pl').innerHTML = `naxı̀${disjunct}+${stem}`
+            document.getElementById('3Pl').innerHTML = `gı̀${disjunct}+${stem}`
+        }  else if (classNumberImp == "None") { //DONE
+            document.getElementById('1Sg').innerHTML = `-`
+            document.getElementById('2Sg').innerHTML = `-`
+            document.getElementById('3Sg').innerHTML = `-`
+            document.getElementById('1Dl').innerHTML = `-`
+            document.getElementById('2Dl').innerHTML = `-`
+            document.getElementById('3Dl').innerHTML = `-`
+            document.getElementById('1Pl').innerHTML = `-`
+            document.getElementById('2Pl').innerHTML = `-`
+            document.getElementById('3Pl').innerHTML = `-`
+        }  
+
+        if (classNumberPerf == "2.1") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}eèh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}ı̨ı̨̀+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}eè+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}ıı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}aàh+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}geè+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'eè+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}aàh+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}geè+${stemPerf}`
+        } else if (classNumberPerf == "2.21") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}eh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}ı̨+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}e+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}dıı̀${stemPerf}<br>${disjunct}ı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}geaa+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'eaa+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}geaa+${stemPerf}`
+        } else if (classNumberPerf == "2.22") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}eh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}nee+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}ı̨+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}dıı̀${stemPerf}<br>${disjunct}ı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}gı̨ı̨+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'ı̨ı̨+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}gı̨ı̨+${stemPerf}`
+        } else if (classNumberPerf == "2.3") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}h+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}ne+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}dıı̀+${stemPerf}<br>${disjunct}wı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}ge+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'e+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}ge+${stemPerf}`
+        } else if (classNumberPerf == "2.4") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}ı+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}nee+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}ı̨+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}dıı̀+${stemPerf}<br>${disjunct}ı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}gı̨ı̨+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'ı̨ı̨+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}gı̨ı̨+${stemPerf}`
+        } else if (classNumberPerf == "2.51") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}ıh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}nee+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}ı̨+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}dıı̀+${stemPerf}<br>${disjunct}ı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}gı̨ı̨+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'ı̨ı̨+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}gı̨ı̨+${stemPerf}`
+        } else if (classNumberPerf == "2.52") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}ıh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}nee+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}ı̨+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}ı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}geaa+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'eaa+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}geaa+${stemPerf}`
+        } else if (classNumberPerf == "2.53") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}ı̀h+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}nee+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}ı̨̀+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}dıı̀+${stemPerf}<br>${disjunct}ı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}ah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}gı̨ı̨̀+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'ı̨ı̨̀+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}àh+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}gı̨ı̨̀+${stemPerf}`
+        } else if (classNumberPerf == "2.6") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}ıı̀h+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}nee+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}ı̨ı̨̀+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}dıı̀+${stemPerf}<br>${disjunct}ıı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}aàh+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}egı̨ı̨̀+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ets'ı̨ı̨̀+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}aàh+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}egı̨ı̨̀+${stemPerf}`
+        } else if (classNumberPerf == "2.71") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}whıh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}wheneh+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}wheh+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}whı̀h+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}geèh+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'eèh+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}geèh+${stemPerf}`
+        } else if (classNumberPerf == "2.72") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}whıh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}whene+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}h+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}whı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}geh+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'eh+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}geh+${stemPerf}`
+        } else if (classNumberPerf == "2.73") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}whıh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}whene+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}whe+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}whı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}geh+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'eh+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}geh+${stemPerf}`
+        } else if (classNumberPerf == "2.74") {
+            document.getElementById('1Sg.Perf').innerHTML = `${disjunct}whıh+${stemPerf}`
+            document.getElementById('2Sg.Perf').innerHTML = `${disjunct}wheneh+${stemPerf}`
+            document.getElementById('3Sg.Perf').innerHTML = `${disjunct}whe+${stemPerf}`
+            document.getElementById('1Dl.Perf').innerHTML = `${disjunct}whı̀+${stemPerf}`
+            document.getElementById('2Dl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Dl.Perf').innerHTML = `${disjunct}gèh+${stemPerf}`
+            document.getElementById('1Pl.Perf').innerHTML = `${disjunct}ts'èh+${stemPerf}`
+            document.getElementById('2Pl.Perf').innerHTML = `${disjunct}whah+${stemPerf}`
+            document.getElementById('3Pl.Perf').innerHTML = `${disjunct}gèh+${stemPerf}`
+        } else if (classNumberPerf == "None") { //DONE
+            document.getElementById('1Sg.Perf').innerHTML = `-`
+            document.getElementById('2Sg.Perf').innerHTML = `-`
+            document.getElementById('3Sg.Perf').innerHTML = `-`
+            document.getElementById('1Dl.Perf').innerHTML = `-`
+            document.getElementById('2Dl.Perf').innerHTML = `-`
+            document.getElementById('3Dl.Perf').innerHTML = `-`
+            document.getElementById('1Pl.Perf').innerHTML = `-`
+            document.getElementById('2Pl.Perf').innerHTML = `-`
+            document.getElementById('3Pl.Perf').innerHTML = `-`
         }  
 
         if (!document.getElementById("singularNumber").checked) {
             document.getElementById('1Sg').innerHTML = `-`
             document.getElementById('2Sg').innerHTML = `-`
             document.getElementById('3Sg').innerHTML = `-`
+            document.getElementById('1Sg.Perf').innerHTML = `-`
+            document.getElementById('2Sg.Perf').innerHTML = `-`
+            document.getElementById('3Sg.Perf').innerHTML = `-`
         }
         if (!document.getElementById("dualNumber").checked) {
             document.getElementById('1Dl').innerHTML = `-`
             document.getElementById('2Dl').innerHTML = `-`
             document.getElementById('3Dl').innerHTML = `-`
+            document.getElementById('1Dl.Perf').innerHTML = `-`
+            document.getElementById('2Dl.Perf').innerHTML = `-`
+            document.getElementById('3Dl.Perf').innerHTML = `-`
         }
         if (!document.getElementById("pluralNumber").checked) {
             document.getElementById('1Pl').innerHTML = `-`
             document.getElementById('2Pl').innerHTML = `-`
             document.getElementById('3Pl').innerHTML = `-`
+            document.getElementById('1Pl.Perf').innerHTML = `-`
+            document.getElementById('2Pl.Perf').innerHTML = `-`
+            document.getElementById('3Pl.Perf').innerHTML = `-`
         }
 
-        //PHONOLOGICAL RULES
-        //compensatory lengthening
-        //stem devoicing
-        //
+        var paradigmCells = document.getElementsByClassName('paradigmCell');
+        for (cell in paradigmCells) {
+            if (paradigmCells[cell].innerHTML.includes("h+")) {
+                if (paradigmCells[cell].innerHTML.includes("h+w")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = `${paradigmCells[cell].innerHTML.replace("h+w", "hwh")}<br><i>(${paradigmCells[cell].innerHTML})</i>`
+                } else if (paradigmCells[cell].innerHTML.includes("h+l")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = `${paradigmCells[cell].innerHTML.replace("h+l", "hł")}<br><i>(${paradigmCells[cell].innerHTML})</i>`
+                }  else if (paradigmCells[cell].innerHTML.includes("h+gh")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = `${paradigmCells[cell].innerHTML.replace("h+gh", "hx")}<br><i>(${paradigmCells[cell].innerHTML})</i>`
+                }  else if (paradigmCells[cell].innerHTML.includes("h+z")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = `${paradigmCells[cell].innerHTML.replace("h+z", "hs")}<br><i>(${paradigmCells[cell].innerHTML})</i>`
+                }  else if (paradigmCells[cell].innerHTML.includes("h+zh")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = `${paradigmCells[cell].innerHTML.replace("h+zh", "hshe")}<br><i>(${paradigmCells[cell].innerHTML})</i>`
+                }
+            } 
+
+            if (paradigmCells[cell].innerHTML.includes("N̨+")) {
+                if (paradigmCells[cell].innerHTML.includes("aN̨+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("aN̨+", "ąą")
+                } else if (paradigmCells[cell].innerHTML.includes("àN̨+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("àN̨+", "ą̀ą̀")
+                } else if (paradigmCells[cell].innerHTML.includes("eN̨+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("eN̨+", "ęę")
+                } else if (paradigmCells[cell].innerHTML.includes("ıN̨+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("ıN̨+", "ı̨ı̨")
+                } else if (paradigmCells[cell].innerHTML.includes("ı̀N̨+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("ı̀N̨+", "ı̨̀ı̨̀")
+                } else if (paradigmCells[cell].innerHTML.includes("oN̨+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("oN̨+", "ǫǫ")
+                } else if (paradigmCells[cell].innerHTML.includes("òN̨+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("òN̨+", "ǫ̀ǫ̀")
+                } 
+            }
+            if (paradigmCells[cell].innerHTML.includes("+")) {
+                    document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("+", "")
+                }
+        }
     }
 </script>

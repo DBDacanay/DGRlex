@@ -178,12 +178,71 @@
         console.log(document.getElementById("dualNumber").checked)
         console.log(document.getElementById("pluralNumber").checked)
 
-
+        const suppletiveThemes = [
+            
+            {
+                theme: "at'e",
+                TSg: "hǫt'e",
+            },
+            {
+                theme: "tè",
+                FSg: "dehtè",
+                SSg: "nı̨tè",
+                TSg: "detè",
+            },
+            {
+                theme: "jı̨",
+                FSg: "ehjı̨<br>nehjı̨",
+                SSg: "ı̨jı̨<br>nı̨ı̨jı̨",
+                TSg: "ejı̨<br>nejı̨", 
+                SDl: "nahjı̨",
+                SPl: "nahjı̨",          
+            },
+            {
+                theme: "wǫ",
+                FSg: "dehwhǫ<br>nehwhǫ",
+                SSg: "newǫ",
+                TSg: "nı̨wǫ", 
+                FDl: "dıı̀wǫ<br>nı̀gwǫ", 
+                SDl: "dahwhǫ",
+                SPl: "dahwhǫ",          
+            },
+            {
+                theme: "awǫ",
+                FSg: "dehwhǫ<br>nehwhǫ",
+                SSg: "newǫ",
+                TSg: "nı̨wǫ", 
+                FDl: "dıı̀wǫ<br>nı̀gwǫ", 
+                SDl: "dahwhǫ",
+                SPl: "dahwhǫ",          
+            },
+            {
+                theme: "adı",
+                FSg: "aehsı̨",    
+            },
+            {
+                theme: "hadı",
+                FSg: "haehsı̨",    
+            },
+            {
+                theme: "datło",
+                FDl: "dałedıı̀tło<br>dałıı̀tło",
+                SDl: "dałaahtło",
+                TDl: "dałegetło",    
+            },
+            {
+                theme: "dawo",
+                FPl: "dagots'ewo",
+                SPl: "dagoahwho",
+                TPl: "dagogewo",    
+            },
+        ]
 
         disjunct = document.getElementById('romanInput').value
         stem = document.getElementById('outputBox').value
         stemPerf = document.getElementById('outputBox2').value
 
+        //IMPERFECTIVE
         if (classNumberImp == "1.1") { //DONE
             document.getElementById('1Sg').innerHTML = `${disjunct}eèh+${stem}`
             document.getElementById('2Sg').innerHTML = `${disjunct}ı̨ı̨̀+${stem}`
@@ -307,6 +366,7 @@
             document.getElementById('3Pl').innerHTML = `-`
         }  
 
+        //PERFECTIVE
         if (classNumberPerf == "2.1") {
             document.getElementById('1Sg.Perf').innerHTML = `${disjunct}eèh+${stemPerf}`
             document.getElementById('2Sg.Perf').innerHTML = `${disjunct}ı̨ı̨̀+${stemPerf}`
@@ -474,6 +534,7 @@
             document.getElementById('3Pl.Perf').innerHTML = `-`
         }
 
+        // PHONOLOGICAL REWRITE RULES
         var paradigmCells = document.getElementsByClassName('paradigmCell');
         for (cell in paradigmCells) {
             if (paradigmCells[cell].innerHTML.includes("h+")) {
@@ -507,9 +568,44 @@
                     document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("òN̨+", "ǫ̀ǫ̀")
                 } 
             }
+            //REMOVE MORPHEME BOUNDARIES
             if (paradigmCells[cell].innerHTML.includes("+")) {
                     document.getElementsByClassName('paradigmCell')[cell].innerHTML = paradigmCells[cell].innerHTML.replaceAll("+", "")
                 }
+
+            // SUPPLETIVE
+            for (i in suppletiveThemes) {
+                if (suppletiveThemes[i].theme == `${disjunct}${stem}`) {
+                    if (typeof suppletiveThemes[i].FSg !== 'undefined') {
+                    document.getElementById('1Sg').innerHTML = `${suppletiveThemes[i].FSg}`
+                    }
+                    if (typeof suppletiveThemes[i].SSg !== 'undefined') {
+                        document.getElementById('2Sg').innerHTML = `${suppletiveThemes[i].SSg}`
+                    }
+                    if (typeof suppletiveThemes[i].TSg !== 'undefined') {
+                        document.getElementById('3Sg').innerHTML = `${suppletiveThemes[i].TSg}`
+                    }
+                    if (typeof suppletiveThemes[i].FDl !== 'undefined') {
+                        document.getElementById('1Dl').innerHTML = `${suppletiveThemes[i].FDl}`
+                    }
+                    if (typeof suppletiveThemes[i].SDl !== 'undefined') {
+                        document.getElementById('2Dl').innerHTML = `${suppletiveThemes[i].SDl}`
+                    }
+                    if (typeof suppletiveThemes[i].TDl !== 'undefined') {
+                        document.getElementById('3Dl').innerHTML = `${suppletiveThemes[i].TDl}`
+                    }
+                    if (typeof suppletiveThemes[i].FPl !== 'undefined') {
+                        document.getElementById('1Pl').innerHTML = `${suppletiveThemes[i].FPl}`
+                    }
+                    if (typeof suppletiveThemes[i].SPl !== 'undefined') {
+                        document.getElementById('2Pl').innerHTML = `${suppletiveThemes[i].SPl}`
+                    }
+                    if (typeof suppletiveThemes[i].TPl !== 'undefined') {
+                        document.getElementById('3Pl').innerHTML = `${suppletiveThemes[i].TPl}`
+                    }
+                }
+
+            }
         }
     }
 </script>

@@ -565,11 +565,74 @@
     cursor: pointer;
 }
 
+#playButton:hover {
+    color: darkgrey;  
+    cursor: pointer;
+}
+
+.tooltip1text {
+  visibility: hidden;
+  width: 82px;
+  font-size: 15px;
+  color:grey;
+  background-color: rgb(240, 240, 240);
+  background-image: none;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 4px 4px 4px;
+  margin-top:20px;
+  position: absolute;
+  z-index: 1;
+}
+
+#playButton:hover .tooltip1text {
+  visibility: visible;
+  transition-delay:0.35s;
+}
+
 #playButtonEmpty {
     color: grey;  
     font-size: 30px;
     opacity: 50%;
     background-color: rgba(255, 255, 255, 0);
+}
+
+#linkButton {
+    color: grey;  
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#linkButton:hover {
+    color: darkgrey;  
+    cursor: pointer;
+}
+
+#linkButtonEmpty {
+    color: grey;  
+    font-size: 30px;
+    opacity: 50%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  font-size: 15px;
+  color:grey;
+  background-color: rgb(240, 240, 240);
+  background-image: none;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 4px 4px 4px;
+  margin-top:20px;
+  position: absolute;
+  z-index: 12;
+}
+
+#linkButton:hover .tooltiptext {
+  visibility: visible;
+  transition-delay:0.35s;
 }
 
 #downloadAudioButton{

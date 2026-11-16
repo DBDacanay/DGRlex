@@ -994,6 +994,23 @@ audio::-webkit-media-controls-volume-slider {
   font-size: 20rem;
 }
 
+.paradigmGloss {
+  display:flex;
+  font-size: 13px;
+  text-align: center;
+  margin: auto;
+
+}
+
+.paradigmGlossCell {
+  font-size: 12px;
+  place-items:center;
+  background-color:white;
+}
+
+.paradigmForm {
+    text-align: center;
+}
 .betweener {
   background-color: white;
   text-align: center;
